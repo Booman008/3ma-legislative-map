@@ -153,7 +153,7 @@
     <div class="inner">
       <h1>3MA Mississippi Legislative Map</h1>
       <p class="subtitle">Updated MVP status and production roadmap for a WordPress-hosted interactive map focused on Mississippi counties, state legislative districts, elected officials, and medical cannabis program indicators.</p>
-      <p class="small">Updated May 13, 2026. Public data should be revalidated before launch.</p>
+      <p class="small">Updated May 14, 2026. Public data should be revalidated before launch.</p>
     </div>
   </header>
 
@@ -164,6 +164,24 @@
         <p><strong>The MVP is now a public-facing civic intelligence map for 3MA.</strong> It lets users inspect Mississippi counties, MS House districts, and MS Senate districts; see relevant elected officials; view priority medical cannabis votes; and compare county-level MMCP patient, practitioner, dispensary, and license counts.</p>
       </div>
       <p>The current build is intentionally narrower than the original concept. It no longer includes a U.S. House boundary option in the live controls, and it does not yet include judicial districts, internal notes, CRM workflows, or private advocacy data.</p>
+
+      <div class="callout">
+        <p><strong>Progress since May 13, 2026.</strong> The app is now deployed publicly at
+        <a href="https://booman008.github.io/3ma-legislative-map/">booman008.github.io/3ma-legislative-map</a>
+        from the GitHub repo
+        <a href="https://github.com/Booman008/3ma-legislative-map">Booman008/3ma-legislative-map</a> via GitHub Pages.
+        Closed since the prior revision of this plan:</p>
+        <ul>
+          <li><strong>5.A.4</strong> &mdash; Visible "Last updated" date in the left layer panel, sourced from <code>generatedAt</code> in the regenerated data exports.</li>
+          <li><strong>Sources section removed</strong> from the detail sidebar (source attribution remains in README.md and this plan file).</li>
+          <li><strong>County FIPS line removed</strong> from the county detail subtitle.</li>
+          <li><strong>Right-sidebar scroll layout</strong> &mdash; on desktop, the map stays fixed at full viewport height while the right detail panel scrolls independently; mobile keeps natural document scrolling.</li>
+          <li><strong>Address search now resolves to a specific House/Senate district.</strong> Picking an address shows the one House member and one Senate member representing that point, alongside the address's county metrics.</li>
+          <li><strong>5.B.2 Mobile side-panel readability</strong> &mdash; the search/boundaries/legend card no longer covers the map on phone viewports; it now stacks under the map as an in-flow card. iOS Safari auto-zoom on input focus eliminated (search input bumped to 16&nbsp;px). After any search pick the page now auto-scrolls to the detail panel and dismisses the iOS keyboard.</li>
+          <li><strong>Legislator scorecard re-imported</strong> from the May 14 tracksheet with new rubric weights. Three import CSVs relocated under <code>CSV Imports/</code> and <code>scripts/import-data.js</code> updated to read from that folder.</li>
+        </ul>
+        <p class="small">Open items to pick up: 5.B.3 (color contrast review), 5.B.4 (city-label crowding at default zoom), 5.B.5 (loading/error UI for slow networks &mdash; <code>app.js</code> currently only logs to console on data-load failure), and Section 5.C WordPress hosting decisions.</p>
+      </div>
     </section>
 
     <section>
@@ -225,7 +243,7 @@
           <tr>
             <td>Search</td>
             <td><span class="status done">Built</span></td>
-            <td>Searches counties, House/Senate districts, legislators, license/business records, and Mississippi addresses. Selecting an address zooms to the point, places a marker, switches to Counties mode, and opens the containing county.</td>
+            <td>Searches counties, House/Senate districts, legislators, license/business records, and Mississippi addresses. Selecting an address zooms to the point, drops a marker, and shows that address's specific House member, Senate member, and containing county. On mobile, the page auto-scrolls down to the detail panel after any search pick.</td>
           </tr>
           <tr>
             <td>Boundary controls</td>
@@ -240,7 +258,7 @@
           <tr>
             <td>County detail panel</td>
             <td><span class="status done">Built</span></td>
-            <td>Displays county FIPS, Patients, Practitioners, Dispensaries, Licensed Businesses, overlapping House/Senate districts, elected officials, and business counts.</td>
+            <td>Displays Patients, Practitioners, Dispensaries, Licensed Businesses, overlapping House/Senate districts, elected officials, and business counts. (County FIPS line removed May 14.)</td>
           </tr>
           <tr>
             <td>District detail panel</td>
@@ -253,9 +271,14 @@
             <td>Shows available votes for SB 2095 (2022), HB 1158 (2023), HB 895 (2026), and HB 1152 (2026).</td>
           </tr>
           <tr>
+            <td>Public deployment</td>
+            <td><span class="status done">Live</span></td>
+            <td>Static build deployed via GitHub Pages at <a href="https://booman008.github.io/3ma-legislative-map/">booman008.github.io/3ma-legislative-map</a>. Suitable for iframe embedding into a WordPress page. Production cache headers and CSP work still pending (Section 5.C).</td>
+          </tr>
+          <tr>
             <td>WordPress embed</td>
             <td><span class="status todo">Next</span></td>
-            <td>Static build is ready for iframe-style testing, but production hosting, cache strategy, and mobile QA still need to be finalized.</td>
+            <td>Decide whether to iframe the Pages URL or rehost under a WordPress-accessible directory; finalize cache strategy and CSP allowances.</td>
           </tr>
         </tbody>
       </table>
@@ -290,7 +313,7 @@
           <tr>
             <td><code>data/legislators.json</code></td>
             <td>House/Senate member names, party, scores, grades, and vote records.</td>
-            <td>Generated from the 3MA Mississippi Legislature Tracksheet CSV.</td>
+            <td>Generated from <code>CSV Imports/3MA Mississippi Legislature Tracksheet - Scorecard_Public (1).csv</code>. Last regenerated May 14, 2026 with new rubric weights.</td>
           </tr>
           <tr>
             <td><code>Legislator Headshots/</code></td>
@@ -300,12 +323,12 @@
           <tr>
             <td><code>data/licenses.json</code></td>
             <td>Active license counts, license types, and dispensary records.</td>
-            <td>Generated from the MSDH business-search export.</td>
+            <td>Generated from <code>CSV Imports/Business Search  MedCann (72).csv</code> (MSDH business-search export).</td>
           </tr>
           <tr>
             <td><code>data/county_metrics.json</code></td>
             <td>Patients, practitioners, workers, caregivers, and related county program totals.</td>
-            <td>Patients metric uses only <code>num_patients</code>; workers are not included in Patients.</td>
+            <td>Generated from <code>CSV Imports/5.13.26 County Summary Dataset.csv</code>. Patients metric uses only <code>num_patients</code>; workers are not included in Patients.</td>
           </tr>
         </tbody>
       </table>
@@ -317,25 +340,26 @@
       <h3>A. Data Quality and Refresh Workflow</h3>
       <ol>
         <li>Confirm every county name in source CSVs maps cleanly to the county GeoJSON names.</li>
-        <li>Confirm the legislative tracksheet uses final public-facing scores, grades, and vote values.</li>
-        <li>Maintain the repeatable <code>npm run import:data</code> workflow for the tracksheet, license export, county summary CSV, and headshot matching.</li>
-        <li>Add a visible "Last updated" date sourced from the current data exports.</li>
+        <li>Confirm the legislative tracksheet uses final public-facing scores, grades, and vote values. <span class="status done">Refreshed May 14</span></li>
+        <li>Maintain the repeatable <code>npm run import:data</code> workflow for the tracksheet, license export, county summary CSV, and headshot matching. Inputs now live under <code>CSV Imports/</code>.</li>
+        <li>Add a visible "Last updated" date sourced from the current data exports. <span class="status done">Done</span></li>
         <li>Document that MMCP tally cards are exact county-level values and are not estimated for House or Senate district views.</li>
       </ol>
 
       <h3>B. UX and Visual QA</h3>
       <ol>
-        <li>Test desktop, tablet, and mobile layouts inside the target WordPress page template.</li>
-        <li>Confirm the side panel remains readable and usable on smaller screens.</li>
-        <li>Review color contrast for party fills, selected boundaries, vote tags, and text.</li>
-        <li>Confirm city labels do not crowd important district geometry at default zoom.</li>
-        <li>Add loading and error states for slow networks or missing data files.</li>
+        <li>Test desktop, tablet, and mobile layouts inside the target WordPress page template. <span class="status todo">Mobile in progress</span></li>
+        <li>Confirm the side panel remains readable and usable on smaller screens. <span class="status done">Done</span></li>
+        <li>Review color contrast for party fills, selected boundaries, vote tags, and text. <span class="status todo">Next</span></li>
+        <li>Confirm city labels do not crowd important district geometry at default zoom. <span class="status todo">Next</span></li>
+        <li>Add loading and error states for slow networks or missing data files. <span class="status todo">Pending</span> &mdash; <code>app.js</code> currently only logs to console on data-load failure.</li>
       </ol>
 
       <h3>C. WordPress Hosting</h3>
+      <p class="small">Interim staging URL is already live at <a href="https://booman008.github.io/3ma-legislative-map/">booman008.github.io/3ma-legislative-map</a> via GitHub Pages, suitable for iframe-embedding into a private WordPress test page today.</p>
       <ol>
         <li>Decide whether to host the map as a static mini-app embedded by iframe or as a custom WordPress plugin/block.</li>
-        <li>For fastest launch, deploy static files to a stable static host or WordPress-accessible directory and iframe the page.</li>
+        <li>For fastest launch, iframe the GitHub Pages URL (or rehost the same static files in a WordPress-accessible directory).</li>
         <li>Set cache headers carefully so data updates can be published without users seeing stale files for too long.</li>
         <li>Confirm Content Security Policy compatibility for Leaflet, OpenStreetMap tiles, Nominatim address search, local images, and JSON data files.</li>
         <li>Compress GeoJSON and image assets for production load time.</li>
