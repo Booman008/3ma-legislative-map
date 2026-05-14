@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>3MA Mississippi Legislative Map: MVP Status and Production Roadmap</title>
+  <style>
+    :root {
+      --navy: #071f40;
+      --navy-tint: #0d2d5c;
+      --gold: #ebab22;
+      --red: #c21f32;
+      --ink: #1f2937;
+      --muted: #667085;
+      --line: #d8dee8;
+      --panel: #f4f5f7;
+      --surface: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--surface);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+    }
+
+    .page {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 42px 28px 64px;
+    }
+
+    header {
+      border-bottom: 5px solid var(--gold);
+      padding: 28px 0 24px;
+      margin-bottom: 30px;
+      background: var(--navy);
+      color: #fff;
+    }
+
+    header .inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 28px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 34px;
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      max-width: 900px;
+      margin: 0;
+      color: rgba(255, 255, 255, 0.82);
+      font-size: 17px;
+    }
+
+    h2 {
+      margin: 34px 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+      color: var(--navy);
+      font-size: 24px;
+    }
+
+    h3 {
+      margin: 24px 0 8px;
+      color: var(--navy-tint);
+      font-size: 18px;
+    }
+
+    p { margin: 10px 0; }
+    ul, ol { margin-top: 8px; }
+    li { margin: 7px 0; }
+    code { font-family: Consolas, Monaco, "Courier New", monospace; font-size: 13px; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 14px 0 24px;
+      font-size: 14px;
+    }
+
+    th,
+    td {
+      border: 1px solid var(--line);
+      padding: 10px 11px;
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--panel);
+      color: var(--navy);
+      text-align: left;
+    }
+
+    .callout {
+      margin: 18px 0;
+      padding: 15px 17px;
+      border-left: 5px solid var(--gold);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px 16px;
+      background: #fff;
+    }
+
+    .status {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 3px 8px;
+      font-weight: 700;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    .done { background: rgba(13, 45, 92, 0.12); color: var(--navy); }
+    .todo { background: rgba(235, 171, 34, 0.18); color: #7a520f; }
+    .later { background: rgba(102, 112, 133, 0.14); color: var(--muted); }
+
+    .small {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: 1fr; }
+      .page,
+      header .inner { padding-left: 16px; padding-right: 16px; }
+      h1 { font-size: 27px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <h1>3MA Mississippi Legislative Map</h1>
+      <p class="subtitle">Updated MVP status and production roadmap for a WordPress-hosted interactive map focused on Mississippi counties, state legislative districts, elected officials, and medical cannabis program indicators.</p>
+      <p class="small">Updated May 13, 2026. Public data should be revalidated before launch.</p>
+    </div>
+  </header>
+
+  <main class="page">
+    <section>
+      <h2>1. Current Product Direction</h2>
+      <div class="callout">
+        <p><strong>The MVP is now a public-facing civic intelligence map for 3MA.</strong> It lets users inspect Mississippi counties, MS House districts, and MS Senate districts; see relevant elected officials; view priority medical cannabis votes; and compare county-level MMCP patient, practitioner, dispensary, and license counts.</p>
+      </div>
+      <p>The current build is intentionally narrower than the original concept. It no longer includes a U.S. House boundary option in the live controls, and it does not yet include judicial districts, internal notes, CRM workflows, or private advocacy data.</p>
+    </section>
+
+    <section>
+      <h2>2. What Has Already Been Built</h2>
+      <div class="grid">
+        <div class="card">
+          <h3><span class="status done">Built</span> Interactive Map Shell</h3>
+          <ul>
+            <li>Leaflet-based map in <code>index.html</code>, <code>styles.css</code>, and <code>app.js</code>.</li>
+            <li>OpenStreetMap basemap restored behind Mississippi layers.</li>
+            <li>Responsive left search/filter panel and right detail panel.</li>
+            <li>3MA-branded header using the logo from the Media folder.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3><span class="status done">Built</span> Boundary Layers</h3>
+          <ul>
+            <li>County boundaries are available as a selectable map mode and remain the base geography.</li>
+            <li>MS House districts from the court-approved May 7, 2025 MARIS layer.</li>
+            <li>MS Senate districts from the court-approved May 7, 2025 MARIS layer.</li>
+            <li>Only one boundary mode is active at a time: Counties, MS House, or MS Senate.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3><span class="status done">Built</span> Elected Officials</h3>
+          <ul>
+            <li>House and Senate member data imported from the 3MA Mississippi Legislature Tracksheet.</li>
+            <li>Legislator headshots are displayed when matching files are available.</li>
+            <li>Districts are color-coded by party: Republican red, Democrat navy, Independent white.</li>
+            <li>County selections include a House/Senate dropdown so the user can view one chamber at a time.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3><span class="status done">Built</span> MMCP Data</h3>
+          <ul>
+            <li>Patients metric uses only <code>num_patients</code> from <code>5.13.26 County Summary Dataset.csv</code>.</li>
+            <li>Practitioners and other county program totals are imported from the same county summary file.</li>
+            <li>Active license counts and dispensary records are imported from the MSDH business-search CSV.</li>
+            <li>Patient, practitioner, dispensary, and licensed business tallies display only for county selections.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>3. Current MVP Feature Set</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Status</th>
+            <th>Current Behavior</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Search</td>
+            <td><span class="status done">Built</span></td>
+            <td>Searches counties, House/Senate districts, legislators, license/business records, and Mississippi addresses. Selecting an address zooms to the point, places a marker, switches to Counties mode, and opens the containing county.</td>
+          </tr>
+          <tr>
+            <td>Boundary controls</td>
+            <td><span class="status done">Built</span></td>
+            <td>Single-select radio controls for Counties, MS House, and MS Senate. U.S. House boundaries are deferred.</td>
+          </tr>
+          <tr>
+            <td>City labels</td>
+            <td><span class="status done">Built</span></td>
+            <td>Major Mississippi city labels remain static across boundary modes. Highway/dotted route lines have been removed.</td>
+          </tr>
+          <tr>
+            <td>County detail panel</td>
+            <td><span class="status done">Built</span></td>
+            <td>Displays county FIPS, Patients, Practitioners, Dispensaries, Licensed Businesses, overlapping House/Senate districts, elected officials, and business counts.</td>
+          </tr>
+          <tr>
+            <td>District detail panel</td>
+            <td><span class="status done">Built</span></td>
+            <td>Displays district title, elected officials, score, grade, and priority vote tags. MMCP tally cards are hidden for district views.</td>
+          </tr>
+          <tr>
+            <td>Priority votes</td>
+            <td><span class="status done">Built</span></td>
+            <td>Shows available votes for SB 2095 (2022), HB 1158 (2023), HB 895 (2026), and HB 1152 (2026).</td>
+          </tr>
+          <tr>
+            <td>WordPress embed</td>
+            <td><span class="status todo">Next</span></td>
+            <td>Static build is ready for iframe-style testing, but production hosting, cache strategy, and mobile QA still need to be finalized.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>4. Current Data Inventory</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Data File</th>
+            <th>Purpose</th>
+            <th>Production Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>data/counties.geojson</code></td>
+            <td>County boundary layer and county click targets.</td>
+            <td>Keep FIPS and county name fields stable for joins.</td>
+          </tr>
+          <tr>
+            <td><code>data/house.geojson</code></td>
+            <td>MS House district boundary layer.</td>
+            <td>Generated from MARIS court-approved May 7, 2025 data.</td>
+          </tr>
+          <tr>
+            <td><code>data/senate.geojson</code></td>
+            <td>MS Senate district boundary layer.</td>
+            <td>Generated from MARIS court-approved May 7, 2025 data.</td>
+          </tr>
+          <tr>
+            <td><code>data/legislators.json</code></td>
+            <td>House/Senate member names, party, scores, grades, and vote records.</td>
+            <td>Generated from the 3MA Mississippi Legislature Tracksheet CSV.</td>
+          </tr>
+          <tr>
+            <td><code>Legislator Headshots/</code></td>
+            <td>Headshots for official cards.</td>
+            <td>File naming should be standardized before production updates become routine.</td>
+          </tr>
+          <tr>
+            <td><code>data/licenses.json</code></td>
+            <td>Active license counts, license types, and dispensary records.</td>
+            <td>Generated from the MSDH business-search export.</td>
+          </tr>
+          <tr>
+            <td><code>data/county_metrics.json</code></td>
+            <td>Patients, practitioners, workers, caregivers, and related county program totals.</td>
+            <td>Patients metric uses only <code>num_patients</code>; workers are not included in Patients.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>5. Remaining Work for a Production-Ready WordPress Map</h2>
+
+      <h3>A. Data Quality and Refresh Workflow</h3>
+      <ol>
+        <li>Confirm every county name in source CSVs maps cleanly to the county GeoJSON names.</li>
+        <li>Confirm the legislative tracksheet uses final public-facing scores, grades, and vote values.</li>
+        <li>Maintain the repeatable <code>npm run import:data</code> workflow for the tracksheet, license export, county summary CSV, and headshot matching.</li>
+        <li>Add a visible "Last updated" date sourced from the current data exports.</li>
+        <li>Document that MMCP tally cards are exact county-level values and are not estimated for House or Senate district views.</li>
+      </ol>
+
+      <h3>B. UX and Visual QA</h3>
+      <ol>
+        <li>Test desktop, tablet, and mobile layouts inside the target WordPress page template.</li>
+        <li>Confirm the side panel remains readable and usable on smaller screens.</li>
+        <li>Review color contrast for party fills, selected boundaries, vote tags, and text.</li>
+        <li>Confirm city labels do not crowd important district geometry at default zoom.</li>
+        <li>Add loading and error states for slow networks or missing data files.</li>
+      </ol>
+
+      <h3>C. WordPress Hosting</h3>
+      <ol>
+        <li>Decide whether to host the map as a static mini-app embedded by iframe or as a custom WordPress plugin/block.</li>
+        <li>For fastest launch, deploy static files to a stable static host or WordPress-accessible directory and iframe the page.</li>
+        <li>Set cache headers carefully so data updates can be published without users seeing stale files for too long.</li>
+        <li>Confirm Content Security Policy compatibility for Leaflet, OpenStreetMap tiles, Nominatim address search, local images, and JSON data files.</li>
+        <li>Compress GeoJSON and image assets for production load time.</li>
+      </ol>
+
+      <h3>D. Accessibility and Public Readiness</h3>
+      <ol>
+        <li>Continue improving keyboard-friendly focus handling for search results, boundary controls, and map selections.</li>
+        <li>Review alternative text and fallback behavior for missing legislator headshots.</li>
+        <li>Add clear source notes explaining that MMCP tally cards are county-level values shown only in Counties mode.</li>
+        <li>Confirm that no private member notes, internal relationship notes, or non-public contact data are included in the public build.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>6. Deferred Features</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Status</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>U.S. House boundaries and members</td>
+            <td><span class="status later">Deferred</span></td>
+            <td>The data file may remain available locally, but the live MVP no longer exposes this boundary option.</td>
+          </tr>
+          <tr>
+            <td>Judicial districts</td>
+            <td><span class="status later">Deferred</span></td>
+            <td>Requires sourcing or building district geometries from county lists or official GIS layers.</td>
+          </tr>
+          <tr>
+            <td>Internal CRM/admin mode</td>
+            <td><span class="status later">Deferred</span></td>
+            <td>Would require authentication, private data handling, and a separate public/private data model.</td>
+          </tr>
+          <tr>
+            <td>Address-level access analysis</td>
+            <td><span class="status later">Deferred</span></td>
+            <td>Current public data supports county-level calculations for most license types. Address-level analysis should be limited to sources that provide addresses.</td>
+          </tr>
+          <tr>
+            <td>Automated data dashboard</td>
+            <td><span class="status later">Deferred</span></td>
+            <td>Future phase could include a backend import process, admin review queue, and scheduled data refresh.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>7. Recommended Launch Path</h2>
+      <ol>
+        <li>Freeze the current MVP feature set: Counties, MS House, MS Senate, search, official cards, priority votes, and MMCP county metrics.</li>
+        <li>Run a data audit against the tracksheet, county summary dataset, license export, and headshot directory.</li>
+        <li>Perform visual QA in the actual WordPress page layout on desktop and mobile.</li>
+        <li>Deploy the static app to a staging URL and embed it in a private WordPress test page.</li>
+        <li>Collect internal feedback from 3MA, then make only launch-critical revisions before public release.</li>
+      </ol>
+      <div class="callout">
+        <p><strong>Practical recommendation:</strong> launch the first public version as a static embedded map. Move to a custom WordPress plugin or authenticated admin version only after the public data model and update workflow are stable.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

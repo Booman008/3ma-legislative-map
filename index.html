@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>3MA Mississippi Legislative Map MVP</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <section class="map-stage" aria-label="Interactive Mississippi map">
+      <header class="topbar">
+        <div class="brand">
+          <img class="brand-logo" src="Media/New3MALogo_With_Lettering%20(3).png" alt="Mississippi Medical Marijuana Association logo" />
+          <div>
+            <h1>3MA Mississippi Legislative Map</h1>
+          </div>
+        </div>
+      </header>
+
+      <div id="map" role="application" aria-label="Mississippi district map"></div>
+
+      <aside class="layer-panel" aria-label="Map layer controls">
+        <div class="search-box">
+          <label for="search-input">Search</label>
+          <div class="search-row">
+            <input id="search-input" type="search" placeholder="County, district, business, legislator, or Mississippi address" autocomplete="off" />
+            <button id="search-button" type="button">Find</button>
+          </div>
+          <div id="search-results" class="search-results" aria-live="polite" role="listbox"></div>
+        </div>
+
+        <fieldset>
+          <legend>Boundaries</legend>
+          <label><input type="radio" name="boundary-layer" data-boundary-layer="counties" /> Counties</label>
+          <label><input type="radio" name="boundary-layer" data-boundary-layer="house" checked /> MS House</label>
+          <label><input type="radio" name="boundary-layer" data-boundary-layer="senate" /> MS Senate</label>
+        </fieldset>
+
+        <div class="party-legend" aria-label="District party legend">
+          <strong>Party control</strong>
+          <span><i class="legend-swatch republican"></i> Republican</span>
+          <span><i class="legend-swatch democrat"></i> Democrat</span>
+          <span><i class="legend-swatch independent"></i> Independent</span>
+        </div>
+
+        <p id="last-updated" class="last-updated" aria-live="polite"></p>
+      </aside>
+    </section>
+
+    <aside class="detail-panel" aria-label="Selected geography details">
+      <div class="panel-header">
+        <p class="eyeline">Selected Area</p>
+        <h2 id="selection-title">Mississippi</h2>
+        <p id="selection-subtitle">Select a county or district to view legislative and MMCP details.</p>
+      </div>
+
+      <section id="metric-grid" class="metric-grid" aria-label="MMCP county metrics">
+        <div>
+          <span id="metric-cardholders">--</span>
+          <small>Patients</small>
+        </div>
+        <div>
+          <span id="metric-practitioners">--</span>
+          <small>Practitioners</small>
+        </div>
+        <div>
+          <span id="metric-dispensaries">--</span>
+          <small>Dispensaries</small>
+        </div>
+        <div>
+          <span id="metric-access">--</span>
+          <small>Licensed businesses</small>
+        </div>
+      </section>
+
+      <section class="info-section">
+        <h3>Political Districts</h3>
+        <dl id="district-list" class="detail-list">
+          <div><dt>House</dt><dd>Click a county to calculate overlap.</dd></div>
+        </dl>
+      </section>
+
+      <section class="info-section">
+        <h3>Elected Officials</h3>
+        <div id="official-list" class="official-list">
+          <p class="empty-state">Select a county or district to view elected officials, license counts, and medical cannabis program indicators.</p>
+        </div>
+      </section>
+
+      <section class="info-section">
+        <h3>MMCP Business Counts</h3>
+        <dl id="business-list" class="detail-list"></dl>
+      </section>
+
+    </aside>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7/turf.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

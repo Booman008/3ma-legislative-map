@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+
+# Raw GIS inputs — regenerable via scripts/import-data.js
+source/
+MS_House_CourtApproved_May72025.zip
+MS_Senate_CourtApproved_May72025.zip
