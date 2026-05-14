@@ -724,8 +724,8 @@ dd {
 }
 
 .vote.support {
-  background: rgba(13, 45, 92, 0.1);
-  color: var(--color-3ma-navy);
+  background: rgba(29, 122, 84, 0.12);
+  color: #1d7a54;
 }
 
 .vote.oppose {
@@ -734,8 +734,8 @@ dd {
 }
 
 .vote.absent {
-  background: rgba(235, 171, 34, 0.16);
-  color: #815817;
+  background: rgba(102, 112, 133, 0.14);
+  color: #667085;
 }
 
 .empty-state,

@@ -386,16 +386,11 @@ function renderOfficialCard(member) {
   const voteRows = PRIORITY_BILLS
     .map(bill => [bill, member.votes?.[bill]])
     .filter(([, value]) => value && value !== "N/A")
-    .map(([bill, vote]) => `<span class="vote ${vote.toLowerCase()}">${escapeHtml(bill)}: ${escapeHtml(vote)}</span>`)
+    .map(([bill, vote]) => `<span class="vote ${voteClassName(vote)}">${escapeHtml(bill)}: ${escapeHtml(vote)}</span>`)
     .join("");
   const portrait = member.headshot
     ? `<img class="official-photo" src="${escapeHtml(imageSrc(member.headshot))}" alt="${escapeHtml(member.name)} headshot" loading="lazy" />`
     : `<div class="official-photo official-photo-fallback" aria-hidden="true">${escapeHtml(initials(member.name))}</div>`;
-  const gradeClass = "grade-" + String(member.grade || "")
-    .toLowerCase()
-    .replace("+", "-plus")
-    .replace(/[^a-z0-9-]/g, "");
-
   return `
     <article class="official">
       <div class="official-topline">
@@ -404,15 +399,20 @@ function renderOfficialCard(member) {
           <strong>${escapeHtml(member.name)}</strong>
           <span>${member.chamber === "house" ? "MS House" : "MS Senate"} District ${escapeHtml(member.district)} · ${escapeHtml(member.party)}</span>
         </div>
-        <div class="grade-badge ${escapeHtml(gradeClass)}">${escapeHtml(member.grade)}</div>
       </div>
       <div class="score-row">
-        <span>${escapeHtml(member.classification)}</span>
+        <span>Score</span>
         <b>${escapeHtml(member.score)}/100</b>
       </div>
       <div class="vote-list">${voteRows}</div>
     </article>
   `;
+}
+
+function voteClassName(vote) {
+  const normalized = String(vote || "").toLowerCase();
+  if (normalized === "yea") return "support";
+  return normalized.replace(/[^a-z0-9-]/g, "");
 }
 
 function renderBusinesses(metric, emptyMessage = "Select a county to view active license counts.") {
