@@ -405,7 +405,7 @@ function renderOfficialCard(member) {
         <b>${escapeHtml(member.score)}/100</b>
       </div>
       <div class="vote-list">${voteRows}</div>
-      ${member.email ? `<a class="contact-link" href="mailto:${escapeHtml(member.email)}">Contact</a>` : ""}
+      ${member.email ? `<div class="contact-row"><span class="contact-email">${escapeHtml(member.email)}</span><button class="contact-copy" data-email="${escapeHtml(member.email)}" type="button">Copy</button></div>` : ""}
     </article>
   `;
 }
@@ -804,6 +804,16 @@ async function init() {
 
   document.querySelectorAll("input[data-boundary-layer]").forEach(input => {
     input.addEventListener("change", event => setBoundaryLayer(event.target.dataset.boundaryLayer));
+  });
+
+  els.officialList.addEventListener("click", event => {
+    const button = event.target.closest(".contact-copy");
+    if (!button) return;
+    const email = button.dataset.email;
+    navigator.clipboard.writeText(email).then(() => {
+      button.textContent = "Copied!";
+      setTimeout(() => { button.textContent = "Copy"; }, 2000);
+    });
   });
 
   els.searchButton.addEventListener("click", () => performSearch());
