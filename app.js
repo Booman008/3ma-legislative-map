@@ -149,6 +149,14 @@ function setSelectionSubtitle(text) {
   els.selectionSubtitle.hidden = !text;
 }
 
+function focusDetailPanel() {
+  if (els.searchInput) els.searchInput.blur();
+  // Defer to next frame so layout/scroll containers are settled.
+  requestAnimationFrame(() => {
+    els.selectionTitle?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+}
+
 function countyMetric(county) {
   const p = county.properties;
   const licenseSummary = getCountyLicenseSummary(p.NAME);
@@ -726,6 +734,7 @@ function selectSearchResult(result) {
   });
   renderSelection(result.feature, result.type);
   els.searchResults.innerHTML = "";
+  focusDetailPanel();
 }
 
 function selectAddressResult(result) {
@@ -767,7 +776,7 @@ function selectAddressResult(result) {
   renderDistricts(districts);
   renderOfficials(districts);
   els.searchResults.innerHTML = "";
-  els.searchInput.focus();
+  focusDetailPanel();
 }
 
 async function init() {
