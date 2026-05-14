@@ -405,6 +405,7 @@ function renderOfficialCard(member) {
         <b>${escapeHtml(member.score)}/100</b>
       </div>
       <div class="vote-list">${voteRows}</div>
+      ${member.email ? `<a class="contact-link" href="mailto:${escapeHtml(member.email)}">Contact</a>` : ""}
     </article>
   `;
 }
