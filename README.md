@@ -14,13 +14,21 @@ Then open `http://localhost:4173`.
 
 ## Refresh Data
 
-Regenerate the app JSON files after updating the tracksheet, MSDH license export, county summary CSV, or legislator headshots:
+Fetch the latest public MMCP county metrics and business license records, regenerate app JSON files, and validate the output:
 
 ```powershell
-npm run import:data
+npm run refresh:data
 ```
 
-The importer writes `data/legislators.json`, `data/licenses.json`, and `data/county_metrics.json`.
+Fetch and import can also be run separately:
+
+```powershell
+npm run fetch:data
+npm run import:data
+npm run validate:data
+```
+
+The fetcher writes live public-data snapshots to `CSV Imports/mmcp_business_licenses_latest.csv` and `CSV Imports/mmcp_county_metrics_latest.csv`. The importer prefers those files when present and falls back to the original manually downloaded CSVs. It writes `data/legislators.json`, `data/licenses.json`, `data/county_metrics.json`, and `data/data_sources.json`.
 
 ## What Is Included
 

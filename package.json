@@ -1,5 +1,8 @@
 {
   "scripts": {
-    "import:data": "node scripts/import-data.js"
+    "fetch:data": "node scripts/fetch-mmcp-data.js",
+    "import:data": "node scripts/import-data.js",
+    "validate:data": "node scripts/validate-data.js",
+    "refresh:data": "npm run fetch:data && npm run import:data && npm run validate:data"
   }
 }

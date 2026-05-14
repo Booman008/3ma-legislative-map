@@ -4,7 +4,8 @@ const DATA_URLS = {
   senate: "data/senate.geojson",
   legislators: "data/legislators.json",
   licenses: "data/licenses.json",
-  countyMetrics: "data/county_metrics.json"
+  countyMetrics: "data/county_metrics.json",
+  dataSources: "data/data_sources.json"
 };
 
 const layerStyles = {
@@ -789,7 +790,7 @@ async function init() {
   state.data = Object.fromEntries(entries);
   state.legislatorIndex = buildLegislatorIndex(state.data.legislators || []);
   Object.keys(DATA_URLS).forEach(key => {
-    if (key === "legislators" || key === "licenses" || key === "countyMetrics") return;
+    if (key === "legislators" || key === "licenses" || key === "countyMetrics" || key === "dataSources") return;
     state.layers[key] = buildLayer(key);
   });
   state.countyFeatureByName = Object.fromEntries(state.data.counties.features.map(feature => [feature.properties.NAME, feature]));
@@ -819,7 +820,15 @@ async function init() {
 
 function renderLastUpdated() {
   if (!els.lastUpdated) return;
+  const sourceTimestamps = [
+    state.data.dataSources?.sources?.countyMetrics?.generatedAt,
+    state.data.dataSources?.sources?.licenses?.generatedAt,
+    state.data.dataSources?.sources?.countyMetrics?.fetchedAt,
+    state.data.dataSources?.sources?.licenses?.fetchedAt,
+    state.data.dataSources?.generatedAt
+  ];
   const timestamps = [
+    ...sourceTimestamps,
     state.data.countyMetrics?.generatedAt,
     state.data.licenses?.generatedAt
   ]
