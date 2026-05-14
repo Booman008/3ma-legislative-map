@@ -648,6 +648,27 @@ dd {
   font-size: 12px;
 }
 
+.contact-link {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  border-radius: 7px;
+  background: var(--color-3ma-gold);
+  color: var(--color-3ma-navy);
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contact-link:hover {
+  background: #d99a17;
+}
+
 .grade-badge {
   display: grid;
   flex: 0 0 34px;

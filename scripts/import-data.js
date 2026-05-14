@@ -16,7 +16,9 @@ const INPUTS = {
     `${CSV_DIR}/mmcp_county_metrics_latest.csv`,
     `${CSV_DIR}/5.13.26 County Summary Dataset.csv`
   ],
-  headshots: "Legislator Headshots"
+  headshots: "Legislator Headshots",
+  emailHouse: `${CSV_DIR}/Legislator Emails 5.14.26 - House.csv`,
+  emailSenate: `${CSV_DIR}/Legislator Emails_Senate - Senate.csv`
 };
 
 const OUTPUTS = {
@@ -233,25 +235,58 @@ function findHeadshot(headshotIndex, chamber, memberName) {
   return candidate?.path || null;
 }
 
+function buildEmailIndex() {
+  const index = { byKey: new Map(), byName: new Map() };
+  const sources = [
+    { file: INPUTS.emailHouse, chamber: "house" },
+    { file: INPUTS.emailSenate, chamber: "senate" }
+  ];
+
+  for (const { file, chamber } of sources) {
+    const fullPath = path.join(ROOT, file);
+    if (!fs.existsSync(fullPath)) continue;
+    const rows = readCsv(file);
+    for (const row of rows) {
+      const email = (row.Email || "").trim();
+      if (!email) continue;
+      const district = toNumber(row.District);
+      if (district) index.byKey.set(`${chamber}:${district}`, email);
+      const name = (row.Name || "").trim();
+      if (name) index.byName.set(`${chamber}:${normalizeName(name)}`, email);
+    }
+  }
+
+  return index;
+}
+
+function findEmail(emailIndex, chamber, district, name) {
+  const byKey = emailIndex.byKey.get(`${chamber}:${district}`);
+  if (byKey) return byKey;
+  return emailIndex.byName.get(`${chamber}:${normalizeName(name)}`) || null;
+}
+
 function importLegislators() {
   const rows = readCsv(INPUTS.tracksheet);
   const headshots = buildHeadshotIndex();
+  const emailIndex = buildEmailIndex();
   const unmatchedHeadshots = [];
 
   const legislators = rows.map(row => {
     const name = row["Legislator Name"];
     const chamber = chamberKey(row.Chamber);
+    const district = toNumber(row.District);
     const votes = Object.fromEntries(VOTE_COLUMNS.map(column => [column, row[column] || "N/A"]));
     const headshot = findHeadshot(headshots, chamber, name);
+    const email = findEmail(emailIndex, chamber, district, name);
 
     if (!headshot && name && chamber) {
-      unmatchedHeadshots.push({ name, chamber, district: toNumber(row.District) });
+      unmatchedHeadshots.push({ name, chamber, district });
     }
 
     return {
       name,
       chamber,
-      district: toNumber(row.District),
+      district,
       party: row.Party,
       score: toNumber(row.Score),
       grade: row.Grade,
@@ -263,7 +298,8 @@ function importLegislators() {
       featured: toBoolean(row["Featured?"]),
       publish: toBoolean(row["Publish?"]),
       votes,
-      ...(headshot ? { headshot } : {})
+      ...(headshot ? { headshot } : {}),
+      ...(email ? { email } : {})
     };
   });
 
