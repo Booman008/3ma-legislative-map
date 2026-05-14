@@ -8,15 +8,22 @@ const CSV_DIR = "CSV Imports";
 
 const INPUTS = {
   tracksheet: `${CSV_DIR}/3MA Mississippi Legislature Tracksheet - Scorecard_Public (1).csv`,
-  licenses: `${CSV_DIR}/Business Search  MedCann (72).csv`,
-  countySummary: `${CSV_DIR}/5.13.26 County Summary Dataset.csv`,
+  licenses: [
+    `${CSV_DIR}/mmcp_business_licenses_latest.csv`,
+    `${CSV_DIR}/Business Search  MedCann (72).csv`
+  ],
+  countySummary: [
+    `${CSV_DIR}/mmcp_county_metrics_latest.csv`,
+    `${CSV_DIR}/5.13.26 County Summary Dataset.csv`
+  ],
   headshots: "Legislator Headshots"
 };
 
 const OUTPUTS = {
   legislators: path.join(DATA_DIR, "legislators.json"),
   licenses: path.join(DATA_DIR, "licenses.json"),
-  countyMetrics: path.join(DATA_DIR, "county_metrics.json")
+  countyMetrics: path.join(DATA_DIR, "county_metrics.json"),
+  dataSources: path.join(DATA_DIR, "data_sources.json")
 };
 
 const VOTE_COLUMNS = [
@@ -46,11 +53,23 @@ const HEADSHOT_ALIASES = {
 };
 
 function readCsv(filename) {
-  const fullPath = path.join(ROOT, filename);
+  const input = resolveInput(filename);
+  const fullPath = path.join(ROOT, input);
   if (!fs.existsSync(fullPath)) {
-    throw new Error(`Missing input file: ${filename}`);
+    throw new Error(`Missing input file: ${input}`);
   }
   return parseCsv(fs.readFileSync(fullPath, "utf8").replace(/^\uFEFF/, ""));
+}
+
+function resolveInput(input) {
+  if (!Array.isArray(input)) return input;
+  const found = input.find(candidate => fs.existsSync(path.join(ROOT, candidate)));
+  if (found) return found;
+  return input[0];
+}
+
+function sourceInput(input) {
+  return resolveInput(input).split(path.sep).join("/");
 }
 
 function parseCsv(text) {
@@ -269,6 +288,7 @@ function importLicenses() {
       mailingAddress: row["Mailing Address"],
       phone: row["Phone Number"],
       email: row["Email Address"],
+      ...(row["Record ID"] ? { recordId: row["Record ID"] } : {}),
       isDispensary: type === "Dispensary"
     };
   });
@@ -295,7 +315,7 @@ function importLicenses() {
   }
 
   const payload = {
-    source: INPUTS.licenses,
+    source: sourceInput(INPUTS.licenses),
     generatedAt: new Date().toISOString(),
     total: licenses.length,
     typeTotals,
@@ -314,6 +334,7 @@ function importCountyMetrics() {
   for (const row of rows) {
     const county = row.county;
     if (!county) continue;
+    if (String(county).trim().toLowerCase() === "out of state") continue;
     countyMetrics[county] = {
       county,
       caregivers: toNumber(row.num_caregivers),
@@ -329,7 +350,7 @@ function importCountyMetrics() {
   }
 
   const payload = {
-    source: INPUTS.countySummary,
+    source: sourceInput(INPUTS.countySummary),
     generatedAt: new Date().toISOString(),
     counties: Object.keys(countyMetrics).length,
     countyMetrics
@@ -344,10 +365,63 @@ function writeJson(filename, payload) {
   fs.writeFileSync(filename, `${JSON.stringify(payload, null, 2)}\n`);
 }
 
+function readJson(filename) {
+  if (!fs.existsSync(filename)) return null;
+  return JSON.parse(fs.readFileSync(filename, "utf8"));
+}
+
+function updateDataSources(licenseResult, countyMetricResult) {
+  const now = new Date().toISOString();
+  const existing = readJson(OUTPUTS.dataSources) || {};
+  const payload = {
+    ...existing,
+    generatedAt: now,
+    sources: {
+      ...(existing.sources || {}),
+      licenses: {
+        ...(existing.sources?.licenses || {}),
+        input: sourceInput(INPUTS.licenses),
+        generatedAt: now,
+        rowCount: licenseResult.total
+      },
+      countyMetrics: {
+        ...(existing.sources?.countyMetrics || {}),
+        input: sourceInput(INPUTS.countySummary),
+        generatedAt: now,
+        rowCount: countyMetricResult.counties
+      },
+      legislators: {
+        ...(existing.sources?.legislators || {}),
+        input: sourceInput(INPUTS.tracksheet),
+        generatedAt: now
+      }
+    },
+    generatedFiles: {
+      legislators: {
+        path: "data/legislators.json",
+        generatedAt: now
+      },
+      licenses: {
+        path: "data/licenses.json",
+        generatedAt: now,
+        rowCount: licenseResult.total
+      },
+      countyMetrics: {
+        path: "data/county_metrics.json",
+        generatedAt: now,
+        rowCount: countyMetricResult.counties
+      }
+    }
+  };
+
+  writeJson(OUTPUTS.dataSources, payload);
+}
+
 function main() {
   const legislatorResult = importLegislators();
   const licenseResult = importLicenses();
   const countyMetricResult = importCountyMetrics();
+  updateDataSources(licenseResult, countyMetricResult);
 
   console.log("Import complete.");
   console.log(`- Legislators: ${legislatorResult.total}`);
