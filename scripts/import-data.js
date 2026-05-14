@@ -4,10 +4,12 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 const DATA_DIR = path.join(ROOT, "data");
 
+const CSV_DIR = "CSV Imports";
+
 const INPUTS = {
-  tracksheet: "3MA Mississippi Legislature Tracksheet - Scorecard_Public (1).csv",
-  licenses: "Business Search  MedCann (72).csv",
-  countySummary: "5.13.26 County Summary Dataset.csv",
+  tracksheet: `${CSV_DIR}/3MA Mississippi Legislature Tracksheet - Scorecard_Public (1).csv`,
+  licenses: `${CSV_DIR}/Business Search  MedCann (72).csv`,
+  countySummary: `${CSV_DIR}/5.13.26 County Summary Dataset.csv`,
   headshots: "Legislator Headshots"
 };
 

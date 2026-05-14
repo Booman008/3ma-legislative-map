@@ -36,10 +36,10 @@ The importer writes `data/legislators.json`, `data/licenses.json`, and `data/cou
 
 - `data/house.geojson` and `data/senate.geojson` were generated from the MARIS court-approved May 7, 2025 ZIP files in this folder.
 - `data/counties.geojson` was generated from U.S. Census 2025 cartographic boundary shapefiles.
-- `data/legislators.json` was generated from `3MA Mississippi Legislature Tracksheet - Scorecard_Public (1).csv`.
+- `data/legislators.json` was generated from `CSV Imports/3MA Mississippi Legislature Tracksheet - Scorecard_Public (1).csv`.
 - Legislator cards use photos from `Legislator Headshots/` when a matching file is available.
-- `data/licenses.json` was generated from `Business Search  MedCann (72).csv`.
-- `data/county_metrics.json` was generated from `5.13.26 County Summary Dataset.csv`. The Patients tally uses only the source CSV's `num_patients` field by county.
+- `data/licenses.json` was generated from `CSV Imports/Business Search  MedCann (72).csv`.
+- `data/county_metrics.json` was generated from `CSV Imports/5.13.26 County Summary Dataset.csv`. The Patients tally uses only the source CSV's `num_patients` field by county.
 - Patient, practitioner, dispensary, and licensed business tallies display only for county selections. District views intentionally do not estimate county-level MMCP totals.
 - U.S. House/congressional boundaries and member details are deferred to a later build.
 - `scripts/import-data.js` is the repeatable importer for tracksheet, license, county summary, and headshot data.
