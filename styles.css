@@ -80,9 +80,7 @@ select {
 .brand {
   display: flex;
   align-items: center;
-  gap: 16px;
-  max-width: 720px;
-  padding: 12px 18px 13px;
+  padding: 10px 18px;
   border-radius: 8px;
   background: var(--color-3ma-navy);
   border-color: rgba(235, 171, 34, 0.42);
@@ -91,11 +89,9 @@ select {
 
 .brand-logo {
   display: block;
-  flex: 0 0 92px;
-  width: 92px;
-  height: 50px;
+  height: 56px;
+  width: auto;
   object-fit: contain;
-  object-position: left center;
 }
 
 h1,
@@ -103,16 +99,6 @@ h2,
 h3,
 p {
   margin: 0;
-}
-
-.brand h1 {
-  color: var(--color-3ma-white);
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 900;
-  line-height: 1.12;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
 }
 
 #map {
@@ -810,12 +796,8 @@ dd {
     top: 12px;
   }
 
-  .brand {
-    max-width: none;
-  }
-
-  .brand h1 {
-    font-size: 17px;
+  .brand-logo {
+    height: 44px;
   }
 
   .status-strip {
