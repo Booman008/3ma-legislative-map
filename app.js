@@ -430,10 +430,6 @@ function renderOfficialCard(member) {
           <span>${member.chamber === "house" ? "MS House" : "MS Senate"} District ${escapeHtml(member.district)} · ${escapeHtml(member.party)}</span>
         </div>
       </div>
-      <div class="score-row">
-        <span>Score</span>
-        <b>${escapeHtml(member.score)}/100</b>
-      </div>
       <div class="vote-list">${voteRows}</div>
       ${member.email ? `<div class="contact-row"><span class="contact-email">${escapeHtml(member.email)}</span><button class="contact-copy" data-email="${escapeHtml(member.email)}" type="button">Copy</button></div>` : ""}
     </article>

@@ -719,25 +719,6 @@ dd {
   background: var(--color-3ma-red);
 }
 
-.score-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  margin-top: 11px;
-  padding-top: 9px;
-  border-top: 1px solid #edf2ef;
-  color: var(--color-3ma-navy);
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 12px;
-  font-weight: 800;
-}
-
-.score-row b {
-  color: var(--ink);
-  font-size: 14px;
-}
-
 .vote-list {
   display: grid;
   gap: 8px;
