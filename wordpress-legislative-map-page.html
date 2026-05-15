@@ -213,22 +213,22 @@
       </div>
 
       <aside class="ma-legislative-summary" aria-label="Map summary">
-        <div class="ma-legislative-stat-grid" aria-label="Included map layers">
+        <div class="ma-legislative-stat-grid" aria-label="MMCP Transparency portal totals">
           <div class="ma-legislative-stat">
-            <strong>122</strong>
-            <span>Mississippi House districts</span>
+            <strong data-mmcp-metric="activeCardholders">68,719</strong>
+            <span>Active Patient Cards</span>
           </div>
           <div class="ma-legislative-stat">
-            <strong>52</strong>
-            <span>Mississippi Senate districts</span>
+            <strong data-mmcp-metric="practitioners">257</strong>
+            <span>Practitioners</span>
           </div>
           <div class="ma-legislative-stat">
-            <strong>82</strong>
-            <span>County boundaries</span>
+            <strong data-mmcp-metric="workers">5,669</strong>
+            <span>Work Permit Holders</span>
           </div>
           <div class="ma-legislative-stat">
-            <strong>MMCP</strong>
-            <span>County and license data</span>
+            <strong data-mmcp-metric="licensedBusinesses">372</strong>
+            <span>Licensed MMCP Businesses</span>
           </div>
         </div>
       </aside>
@@ -249,3 +249,70 @@
     </div>
   </main>
 </section>
+
+<script>
+  (() => {
+    const metricsUrl = "https://booman008.github.io/3ma-legislative-map/data/county_metrics.json";
+    const licensesUrl = "https://booman008.github.io/3ma-legislative-map/data/licenses.json";
+    const fallbackTotals = {
+      activeCardholders: 68719,
+      practitioners: 257,
+      workers: 5669,
+      licensedBusinesses: 372
+    };
+
+    const metricNodes = Object.fromEntries(
+      Array.from(document.querySelectorAll("[data-mmcp-metric]")).map(node => [
+        node.dataset.mmcpMetric,
+        node
+      ])
+    );
+
+    const formatNumber = value => new Intl.NumberFormat("en-US").format(value);
+    const toNumber = value => Number(value) || 0;
+
+    function getStatewideTotals(payload) {
+      const countyMetrics = Object.values(payload?.countyMetrics || {});
+      if (!countyMetrics.length) return fallbackTotals;
+
+      return countyMetrics.reduce((totals, county) => {
+        totals.activeCardholders += toNumber(county.activeCardholders);
+        totals.practitioners += toNumber(county.practitioners);
+        totals.workers += toNumber(county.workers);
+        return totals;
+      }, {
+        activeCardholders: 0,
+        practitioners: 0,
+        workers: 0,
+        licensedBusinesses: fallbackTotals.licensedBusinesses
+      });
+    }
+
+    function renderTotals(totals) {
+      Object.entries(totals).forEach(([key, value]) => {
+        if (metricNodes[key]) metricNodes[key].textContent = formatNumber(value);
+      });
+    }
+
+    renderTotals(fallbackTotals);
+
+    Promise.all([
+      fetch(metricsUrl, { cache: "no-store" }).then(response => {
+        if (!response.ok) throw new Error("Unable to load MMCP county metrics.");
+        return response.json();
+      }),
+      fetch(licensesUrl, { cache: "no-store" }).then(response => {
+        if (!response.ok) throw new Error("Unable to load MMCP business licenses.");
+        return response.json();
+      })
+    ])
+      .then(([metricsPayload, licensesPayload]) => {
+        const totals = getStatewideTotals(metricsPayload);
+        totals.licensedBusinesses = toNumber(licensesPayload?.total) || fallbackTotals.licensedBusinesses;
+        renderTotals(totals);
+      })
+      .catch(() => {
+        renderTotals(fallbackTotals);
+      });
+  })();
+</script>
