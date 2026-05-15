@@ -683,6 +683,11 @@ dd {
   font-size: 10px;
 }
 
+.contact-copy.is-copied {
+  background: var(--color-3ma-navy);
+  color: #fff;
+}
+
 .grade-badge {
   display: grid;
   flex: 0 0 34px;

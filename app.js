@@ -251,6 +251,31 @@ function imageSrc(path) {
   return path ? encodeURI(path).replaceAll("'", "%27") : "";
 }
 
+function copyTextToClipboard(text) {
+  if (navigator.clipboard && window.isSecureContext) {
+    return navigator.clipboard.writeText(text).then(() => true).catch(() => fallbackCopy(text));
+  }
+  return Promise.resolve(fallbackCopy(text));
+}
+
+function fallbackCopy(text) {
+  try {
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.setAttribute("readonly", "");
+    textarea.style.position = "fixed";
+    textarea.style.top = "-1000px";
+    textarea.style.opacity = "0";
+    document.body.appendChild(textarea);
+    textarea.select();
+    const ok = document.execCommand("copy");
+    document.body.removeChild(textarea);
+    return ok;
+  } catch (err) {
+    return false;
+  }
+}
+
 function initials(name) {
   const parts = String(name || "").replace(/[^A-Za-z0-9 ]/g, " ").split(/\s+/).filter(Boolean);
   return parts.slice(0, 2).map(part => part[0]).join("").toUpperCase() || "3M";
@@ -836,9 +861,15 @@ async function init() {
     const button = event.target.closest(".contact-copy");
     if (!button) return;
     const email = button.dataset.email;
-    navigator.clipboard.writeText(email).then(() => {
+    copyTextToClipboard(email).then(success => {
+      if (!success) return;
       button.textContent = "Copied!";
-      setTimeout(() => { button.textContent = "Copy"; }, 2000);
+      button.classList.add("is-copied");
+      clearTimeout(button._copyTimer);
+      button._copyTimer = setTimeout(() => {
+        button.textContent = "Copy";
+        button.classList.remove("is-copied");
+      }, 2000);
     });
   });
 
