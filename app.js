@@ -52,12 +52,31 @@ const PARTY_STYLES = {
   }
 };
 
-const PRIORITY_BILLS = [
-  "SB 2095 (2022)",
-  "HB 1158 (2023)",
-  "HB 895 (2026)",
-  "HB 1152 (2026)"
-];
+const BILL_METADATA = {
+  "SB 2095 (2022)": {
+    description: "The MS Medical Cannabis Act"
+  },
+  "HB 1158 (2023)": {
+    description: "Removal of mandatory drug testing for patient certification"
+  },
+  "SB 2857 (2024)": {
+    description: "Removal of the weekly purchase allotments"
+  },
+  "SB 2748 (2025)": {
+    description: "Expanded access to edible/concentrate products"
+  },
+  "HB 895 (2026)": {
+    description: "Removal of THC Potency caps + expansion of cardholder validity periods"
+  },
+  "HB 1152 (2026)": {
+    description: '"Right to Try"'
+  },
+  "HB 1034 (2026)": {
+    description: '"Ryan\'s Law"'
+  }
+};
+
+const SCORECARD_BILLS = Object.keys(BILL_METADATA);
 
 const BOUNDARY_LAYERS = ["counties", "house", "senate"];
 const DISTRICT_BOUNDARY_LAYERS = ["house", "senate"];
@@ -383,10 +402,21 @@ function membersForDistricts(chamber, districts) {
 }
 
 function renderOfficialCard(member) {
-  const voteRows = PRIORITY_BILLS
+  const voteRows = SCORECARD_BILLS
     .map(bill => [bill, member.votes?.[bill]])
     .filter(([, value]) => value && value !== "N/A")
-    .map(([bill, vote]) => `<span class="vote ${voteClassName(vote)}">${escapeHtml(bill)}: ${escapeHtml(vote)}</span>`)
+    .map(([bill, vote]) => {
+      const description = BILL_METADATA[bill]?.description;
+      return `
+        <div class="vote-item">
+          <div class="vote-item-header">
+            <span class="bill-label">${escapeHtml(bill)}</span>
+            <span class="vote ${voteClassName(vote)}">${escapeHtml(vote)}</span>
+          </div>
+          ${description ? `<p>${escapeHtml(description)}</p>` : ""}
+        </div>
+      `;
+    })
     .join("");
   const portrait = member.headshot
     ? `<img class="official-photo" src="${escapeHtml(imageSrc(member.headshot))}" alt="${escapeHtml(member.name)} headshot" loading="lazy" />`
