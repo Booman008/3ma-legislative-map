@@ -62,4 +62,12 @@ The fetcher writes live public-data snapshots to `CSV Imports/mmcp_business_lice
 
 ## WordPress Hosting Path
 
-For a first public test, deploy these static files to Netlify/Vercel or a WordPress-accessible static directory and embed the page in WordPress with an iframe. Keep private member/contact notes out of this public static build.
+For a first public test, deploy these static files to GitHub Pages, Netlify, Vercel, or another static host and embed the page in WordPress with an iframe. Keep private member/contact notes out of this public static build.
+
+`wordpress-legislative-map-page.html` contains a 3MA-branded WordPress Custom HTML page section for the public website. It currently embeds the GitHub Pages-hosted map:
+
+```text
+https://booman008.github.io/3ma-legislative-map/
+```
+
+If the static app is hosted somewhere else, update the logo path and iframe `src` in that file before publishing.

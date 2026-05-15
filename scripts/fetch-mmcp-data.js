@@ -7,12 +7,12 @@ const DATA_DIR = path.join(ROOT, "data");
 
 const SOURCES = {
   countyMetrics: {
-    url: "https://data.mmcp.ms.gov/resource/7msu-vp6z.json",
+    url: process.env.MMCP_COUNTY_METRICS_URL || "https://data.mmcp.ms.gov/resource/7msu-vp6z.json",
     datasetId: "7msu-vp6z",
     sourcePage: "https://data.mmcp.ms.gov/stories/s/v3y2-vbq4"
   },
   licenses: {
-    url: "https://www.mmcp.ms.gov/search_business"
+    url: process.env.MMCP_LICENSES_URL || "https://www.mmcp.ms.gov/search_business"
   }
 };
 
@@ -21,6 +21,20 @@ const OUTPUTS = {
   licensesCsv: path.join(CSV_DIR, "mmcp_business_licenses_latest.csv"),
   dataSources: path.join(DATA_DIR, "data_sources.json")
 };
+
+const FALLBACKS = {
+  countyMetrics: [
+    OUTPUTS.countyMetricsCsv,
+    path.join(CSV_DIR, "5.13.26 County Summary Dataset.csv")
+  ],
+  licenses: [
+    OUTPUTS.licensesCsv,
+    path.join(CSV_DIR, "Business Search  MedCann (72).csv")
+  ]
+};
+
+const FETCH_TIMEOUT_MS = 30000;
+const FETCH_RETRIES = 2;
 
 const COUNTY_FIELDS = [
   "county",
@@ -51,11 +65,8 @@ const LICENSE_FIELDS = [
 ];
 
 async function fetchJson(url) {
-  const response = await fetch(url, {
-    headers: {
-      Accept: "application/json",
-      "User-Agent": "3MA Legislative Map data refresh"
-    }
+  const response = await fetchWithRetries(url, {
+    headers: requestHeaders("application/json")
   });
   if (!response.ok) {
     throw new Error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
@@ -64,16 +75,47 @@ async function fetchJson(url) {
 }
 
 async function fetchText(url) {
-  const response = await fetch(url, {
-    headers: {
-      Accept: "text/html",
-      "User-Agent": "3MA Legislative Map data refresh"
-    }
+  const response = await fetchWithRetries(url, {
+    headers: requestHeaders("text/html")
   });
   if (!response.ok) {
     throw new Error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
   }
   return response.text();
+}
+
+function requestHeaders(accept) {
+  return {
+    Accept: accept,
+    "User-Agent": "Mozilla/5.0 (compatible; 3MA Legislative Map data refresh; +https://github.com/Booman008/3ma-legislative-map)",
+    "Cache-Control": "no-cache"
+  };
+}
+
+async function fetchWithRetries(url, options) {
+  let lastError = null;
+  for (let attempt = 0; attempt <= FETCH_RETRIES; attempt += 1) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+    try {
+      const response = await fetch(url, {
+        ...options,
+        signal: controller.signal
+      });
+      if (response.ok || (response.status < 500 && response.status !== 429)) return response;
+      lastError = new Error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
+    } catch (error) {
+      lastError = error;
+    } finally {
+      clearTimeout(timeout);
+    }
+
+    if (attempt < FETCH_RETRIES) {
+      await new Promise(resolve => setTimeout(resolve, 1000 * (attempt + 1)));
+    }
+  }
+
+  throw lastError;
 }
 
 async function fetchCountyMetrics() {
@@ -175,6 +217,73 @@ function escapeCsv(value) {
   return `"${text.replace(/"/g, '""')}"`;
 }
 
+function parseCsv(text) {
+  const rows = [];
+  let row = [];
+  let field = "";
+  let inQuotes = false;
+
+  for (let index = 0; index < text.length; index += 1) {
+    const char = text[index];
+    const next = text[index + 1];
+
+    if (inQuotes) {
+      if (char === '"' && next === '"') {
+        field += '"';
+        index += 1;
+      } else if (char === '"') {
+        inQuotes = false;
+      } else {
+        field += char;
+      }
+      continue;
+    }
+
+    if (char === '"') {
+      inQuotes = true;
+    } else if (char === ",") {
+      row.push(field);
+      field = "";
+    } else if (char === "\n") {
+      row.push(field);
+      rows.push(row);
+      row = [];
+      field = "";
+    } else if (char !== "\r") {
+      field += char;
+    }
+  }
+
+  if (field.length || row.length) {
+    row.push(field);
+    rows.push(row);
+  }
+
+  const headers = rows.shift() || [];
+  return rows
+    .filter(values => values.some(value => value.trim()))
+    .map(values => Object.fromEntries(headers.map((header, index) => [header.trim(), (values[index] || "").trim()])));
+}
+
+function readFallbackCsv(sourceName, fields) {
+  const candidates = FALLBACKS[sourceName];
+  const found = candidates.find(candidate => fs.existsSync(candidate));
+  if (!found) {
+    throw new Error(`No fallback CSV is available for ${sourceName}.`);
+  }
+
+  const rows = parseCsv(fs.readFileSync(found, "utf8").replace(/^\uFEFF/, ""));
+  return {
+    path: found,
+    rows: rows.map(row => Object.fromEntries(fields.map(field => [field, row[field] ?? ""])))
+  };
+}
+
+function copyFallbackIfNeeded(sourcePath, outputPath) {
+  if (path.resolve(sourcePath) === path.resolve(outputPath)) return;
+  fs.copyFileSync(sourcePath, outputPath);
+}
+
 function readJson(filename) {
   if (!fs.existsSync(filename)) return null;
   return JSON.parse(fs.readFileSync(filename, "utf8"));
@@ -213,23 +322,35 @@ function writeDataSources(metadata) {
     sources: {
       ...(existing.sources || {}),
       countyMetrics: {
-        ...(existing.sources?.countyMetrics || {}),
+        ...withoutFallbackState(existing.sources?.countyMetrics),
         url: SOURCES.countyMetrics.url,
         sourcePage: SOURCES.countyMetrics.sourcePage,
         datasetId: SOURCES.countyMetrics.datasetId,
         rowCount: metadata.countyMetrics.rowCount,
-        fetchedAt: metadata.fetchedAt
+        fetchedAt: metadata.countyMetrics.fetchedAt || existing.sources?.countyMetrics?.fetchedAt,
+        status: metadata.countyMetrics.status,
+        ...(metadata.countyMetrics.error ? { error: metadata.countyMetrics.error } : {}),
+        ...(metadata.countyMetrics.fallbackInput ? { fallbackInput: metadata.countyMetrics.fallbackInput } : {})
       },
       licenses: {
-        ...(existing.sources?.licenses || {}),
+        ...withoutFallbackState(existing.sources?.licenses),
         url: SOURCES.licenses.url,
         rowCount: metadata.licenses.rowCount,
         reportedTotal: metadata.licenses.reportedTotal,
-        fetchedAt: metadata.fetchedAt
+        fetchedAt: metadata.licenses.fetchedAt || existing.sources?.licenses?.fetchedAt,
+        status: metadata.licenses.status,
+        ...(metadata.licenses.error ? { error: metadata.licenses.error } : {}),
+        ...(metadata.licenses.fallbackInput ? { fallbackInput: metadata.licenses.fallbackInput } : {})
       }
     }
   };
   fs.writeFileSync(OUTPUTS.dataSources, `${JSON.stringify(payload, null, 2)}\n`);
+}
+
+function withoutFallbackState(source) {
+  if (!source) return {};
+  const { error, fallbackInput, status, ...rest } = source;
+  return rest;
 }
 
 async function main() {
@@ -237,21 +358,65 @@ async function main() {
   fs.mkdirSync(DATA_DIR, { recursive: true });
 
   const fetchedAt = new Date().toISOString();
-  const countyRows = await fetchCountyMetrics();
-  const licenseResult = await fetchLicenses();
+  let countyRows;
+  let countyMetadata;
+  try {
+    countyRows = await fetchCountyMetrics();
+    countyMetadata = {
+      rowCount: countyRows.length,
+      fetchedAt,
+      status: "fetched"
+    };
+    fs.writeFileSync(OUTPUTS.countyMetricsCsv, toCsv(countyRows, COUNTY_FIELDS));
+  } catch (error) {
+    const fallback = readFallbackCsv("countyMetrics", COUNTY_FIELDS);
+    copyFallbackIfNeeded(fallback.path, OUTPUTS.countyMetricsCsv);
+    countyRows = fallback.rows.filter(row => String(row.county || "").trim().toLowerCase() !== "out of state");
+    countyMetadata = {
+      rowCount: countyRows.length,
+      status: "fallback",
+      error: error.message,
+      fallbackInput: path.relative(ROOT, fallback.path).split(path.sep).join("/")
+    };
+    console.warn(`Warning: ${error.message}`);
+    console.warn(`Warning: using fallback county metrics CSV: ${countyMetadata.fallbackInput}`);
+  }
+
+  let licenseResult;
+  let licenseMetadata;
+  try {
+    licenseResult = await fetchLicenses();
+    licenseMetadata = {
+      rowCount: licenseResult.rows.length,
+      reportedTotal: licenseResult.reportedTotal,
+      fetchedAt,
+      status: "fetched"
+    };
+    fs.writeFileSync(OUTPUTS.licensesCsv, toCsv(licenseResult.rows, LICENSE_FIELDS));
+  } catch (error) {
+    const fallback = readFallbackCsv("licenses", LICENSE_FIELDS);
+    copyFallbackIfNeeded(fallback.path, OUTPUTS.licensesCsv);
+    licenseResult = {
+      reportedTotal: fallback.rows.length,
+      rows: fallback.rows
+    };
+    licenseMetadata = {
+      rowCount: fallback.rows.length,
+      reportedTotal: fallback.rows.length,
+      status: "fallback",
+      error: error.message,
+      fallbackInput: path.relative(ROOT, fallback.path).split(path.sep).join("/")
+    };
+    console.warn(`Warning: ${error.message}`);
+    console.warn(`Warning: using fallback license CSV: ${licenseMetadata.fallbackInput}`);
+  }
 
   warnOnLargeDeltas(countyRows, licenseResult.rows);
 
-  fs.writeFileSync(OUTPUTS.countyMetricsCsv, toCsv(countyRows, COUNTY_FIELDS));
-  fs.writeFileSync(OUTPUTS.licensesCsv, toCsv(licenseResult.rows, LICENSE_FIELDS));
   writeDataSources({
     generatedAt: fetchedAt,
-    fetchedAt,
-    countyMetrics: { rowCount: countyRows.length },
-    licenses: {
-      rowCount: licenseResult.rows.length,
-      reportedTotal: licenseResult.reportedTotal
-    }
+    countyMetrics: countyMetadata,
+    licenses: licenseMetadata
   });
 
   console.log("MMCP fetch complete.");
