@@ -355,8 +355,18 @@ function renderSelection(feature, layerName) {
   els.selectionTitle.textContent = label + number;
   setSelectionSubtitle("Select Counties boundary mode to view county-level MMCP tallies.");
   showCountyMetrics(false);
-  renderDistricts({ [layerName]: [number] });
-  renderOfficials({ [layerName]: [number] });
+
+  const oppositeLayer = layerName === "house" ? "senate" : "house";
+  const oppositeNumbers = uniqueSorted(
+    intersectingFeatures(feature, oppositeLayer).map(f => getDistrictNumber(f, oppositeLayer))
+  );
+  const districts = {
+    [layerName]: [number],
+    [oppositeLayer]: oppositeNumbers
+  };
+
+  renderDistricts(districts);
+  renderOfficials(districts);
   renderBusinesses(null, "Select a county to view active license counts.");
 }
 
