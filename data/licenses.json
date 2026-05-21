@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-05-20T13:29:38.628Z",
+  "generatedAt": "2026-05-21T13:54:18.283Z",
   "total": 373,
   "typeTotals": {
     "Processing Facility": 42,
@@ -3188,7 +3188,7 @@
       "county": "Clarke",
       "expiration": "05-22-2026",
       "issueDate": "05-20-2025",
-      "ownerName": "Rodney Talley, Rodney Talley",
+      "ownerName": "Rodney Talley",
       "physicalAddress": "",
       "mailingAddress": "",
       "phone": "(425) 345-4431",
