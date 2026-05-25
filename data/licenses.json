@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-05-24T11:57:46.332Z",
+  "generatedAt": "2026-05-25T13:55:09.971Z",
   "total": 373,
   "typeTotals": {
     "Processing Facility": 42,
