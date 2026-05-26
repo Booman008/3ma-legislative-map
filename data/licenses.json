@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-05-25T13:55:09.971Z",
+  "generatedAt": "2026-05-26T13:45:57.705Z",
   "total": 373,
   "typeTotals": {
     "Processing Facility": 42,
@@ -3186,8 +3186,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Clarke",
-      "expiration": "05-22-2026",
-      "issueDate": "05-20-2025",
+      "expiration": "05-22-2027",
+      "issueDate": "05-23-2026",
       "ownerName": "Rodney Talley",
       "physicalAddress": "",
       "mailingAddress": "",
