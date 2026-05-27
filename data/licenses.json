@@ -1,11 +1,11 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-05-26T13:45:57.705Z",
-  "total": 373,
+  "generatedAt": "2026-05-27T14:17:16.407Z",
+  "total": 376,
   "typeTotals": {
-    "Processing Facility": 42,
+    "Processing Facility": 43,
     "Disposal Entity": 6,
-    "Cultivator Facility": 109,
+    "Cultivator Facility": 111,
     "Transportation Entity": 16,
     "Testing Facility": 2,
     "Dispensary": 197,
@@ -4461,6 +4461,22 @@
       "isDispensary": true
     },
     {
+      "id": "MCUL008667",
+      "businessName": "Elevated Craft Farms",
+      "type": "Cultivator Facility",
+      "typeSlug": "cultivator-facility",
+      "county": "Sunflower",
+      "expiration": "05-26-2027",
+      "issueDate": "05-26-2026",
+      "ownerName": "Brendan Hammond",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(901) 233-1960",
+      "email": "brendan.hammond@gmail.com",
+      "recordId": "150757",
+      "isDispensary": false
+    },
+    {
       "id": "DSPY023017",
       "businessName": "Strong River Disp LLC",
       "type": "Dispensary",
@@ -5757,6 +5773,22 @@
       "isDispensary": true
     },
     {
+      "id": "MCUL008533",
+      "businessName": "HUE INNOVATIONS",
+      "type": "Cultivator Facility",
+      "typeSlug": "cultivator-facility",
+      "county": "Jefferson Davis",
+      "expiration": "05-26-2027",
+      "issueDate": "05-26-2026",
+      "ownerName": "MISS TINY ENTERPRISES LLC",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(202) 436-1047",
+      "email": "hue.innovations@gmail.com",
+      "recordId": "407610",
+      "isDispensary": false
+    },
+    {
       "id": "PROC002530",
       "businessName": "The Naturalist Processing LLC",
       "type": "Processing Facility",
@@ -5949,6 +5981,22 @@
       "isDispensary": true
     },
     {
+      "id": "MPRC002425",
+      "businessName": "LFG Technology LLC",
+      "type": "Processing Facility",
+      "typeSlug": "processing-facility",
+      "county": "Hinds",
+      "expiration": "05-26-2027",
+      "issueDate": "05-26-2026",
+      "ownerName": "David FOWLER, Gina Pepe",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(985) 718-6907",
+      "email": "ginampepe@aol.com",
+      "recordId": "465218",
+      "isDispensary": false
+    },
+    {
       "id": "DSPY000244",
       "businessName": "DABBS 2",
       "type": "Dispensary",
@@ -6125,10 +6173,10 @@
     },
     "Hinds": {
       "county": "Hinds",
-      "total": 28,
+      "total": 29,
       "byType": {
         "Cultivator Facility": 7,
-        "Processing Facility": 3,
+        "Processing Facility": 4,
         "Disposal Entity": 1,
         "Dispensary": 16,
         "Transportation Entity": 1
@@ -7322,9 +7370,9 @@
     },
     "Jefferson Davis": {
       "county": "Jefferson Davis",
-      "total": 2,
+      "total": 3,
       "byType": {
-        "Cultivator Facility": 2
+        "Cultivator Facility": 3
       },
       "dispensaries": []
     },
@@ -9230,9 +9278,10 @@
     },
     "Sunflower": {
       "county": "Sunflower",
-      "total": 1,
+      "total": 2,
       "byType": {
-        "Dispensary": 1
+        "Dispensary": 1,
+        "Cultivator Facility": 1
       },
       "dispensaries": [
         {
