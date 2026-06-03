@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-06-02T14:41:26.499Z",
+  "generatedAt": "2026-06-03T15:24:37.088Z",
   "total": 375,
   "typeTotals": {
     "Processing Facility": 43,
@@ -5042,8 +5042,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Simpson",
-      "expiration": "06-06-2026",
-      "issueDate": "06-06-2025",
+      "expiration": "06-02-2027",
+      "issueDate": "06-02-2026",
       "ownerName": "Nathanael Mckenney",
       "physicalAddress": "",
       "mailingAddress": "",
