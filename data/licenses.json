@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-06-05T13:47:09.365Z",
+  "generatedAt": "2026-06-06T12:03:45.357Z",
   "total": 375,
   "typeTotals": {
     "Processing Facility": 43,
@@ -5026,8 +5026,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Prentiss",
-      "expiration": "06-05-2026",
-      "issueDate": "06-06-2025",
+      "expiration": "06-05-2027",
+      "issueDate": "06-05-2026",
       "ownerName": "Mary Amaya, Elizabeth Scott, McKinley Scott",
       "physicalAddress": "",
       "mailingAddress": "",
