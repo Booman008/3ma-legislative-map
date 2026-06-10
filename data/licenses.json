@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-06-09T13:36:06.699Z",
+  "generatedAt": "2026-06-10T14:16:40.059Z",
   "total": 375,
   "typeTotals": {
     "Processing Facility": 43,
@@ -98,8 +98,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Hinds",
-      "expiration": "07-01-2026",
-      "issueDate": "06-23-2025",
+      "expiration": "06-09-2027",
+      "issueDate": "06-09-2026",
       "ownerName": "River Wellness Holdings, LLC",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -938,22 +938,6 @@
       "phone": "(601) 750-3347",
       "email": "davidrula23@gmail.com",
       "recordId": "1352",
-      "isDispensary": true
-    },
-    {
-      "id": "DSPY007723",
-      "businessName": "Diamondhead Root LLC",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Hancock",
-      "expiration": "08-01-2026",
-      "issueDate": "07-31-2025",
-      "ownerName": "Merritt Nicaud, US Canna Mississippi Holdings LLC, Coast Green Investments LLC, Coastal Alabama MC Group, LLC, Cannabliss LLC",
-      "physicalAddress": "4405 E ALOHA DR DIAMONDHEAD, MS 39525",
-      "mailingAddress": "4405 E ALOHA DR AA DIAMONDHEAD, MS 39525",
-      "phone": "(916) 917-4270",
-      "email": "uscannams@gmail.com",
-      "recordId": "1353",
       "isDispensary": true
     },
     {
@@ -5981,6 +5965,22 @@
       "isDispensary": false
     },
     {
+      "id": "DSPY026317",
+      "businessName": "Danzoo Med Inc",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "DeSoto",
+      "expiration": "06-09-2027",
+      "issueDate": "06-09-2026",
+      "ownerName": "Arzoo Bhamani, Saniya Amar Khowaja",
+      "physicalAddress": "55 Highway 51 S, Hernando, MS 38632",
+      "mailingAddress": "1354 Shallow Creek Cv Collierville, TN 38017",
+      "phone": "(929) 278-7792",
+      "email": "danzoomedinc@gmail.com",
+      "recordId": "468336",
+      "isDispensary": true
+    },
+    {
       "id": "DSPY000244",
       "businessName": "DABBS 2",
       "type": "Dispensary",
@@ -7362,9 +7362,9 @@
     },
     "Hancock": {
       "county": "Hancock",
-      "total": 10,
+      "total": 9,
       "byType": {
-        "Dispensary": 10
+        "Dispensary": 9
       },
       "dispensaries": [
         {
@@ -7381,22 +7381,6 @@
           "phone": "(303) 709-2400",
           "email": "provisions5@msprovisions.com",
           "recordId": "1267",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY007723",
-          "businessName": "Diamondhead Root LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Hancock",
-          "expiration": "08-01-2026",
-          "issueDate": "07-31-2025",
-          "ownerName": "Merritt Nicaud, US Canna Mississippi Holdings LLC, Coast Green Investments LLC, Coastal Alabama MC Group, LLC, Cannabliss LLC",
-          "physicalAddress": "4405 E ALOHA DR DIAMONDHEAD, MS 39525",
-          "mailingAddress": "4405 E ALOHA DR AA DIAMONDHEAD, MS 39525",
-          "phone": "(916) 917-4270",
-          "email": "uscannams@gmail.com",
-          "recordId": "1353",
           "isDispensary": true
         },
         {
@@ -8736,9 +8720,9 @@
     },
     "DeSoto": {
       "county": "DeSoto",
-      "total": 13,
+      "total": 14,
       "byType": {
-        "Dispensary": 12,
+        "Dispensary": 13,
         "Processing Facility": 1
       },
       "dispensaries": [
@@ -8932,6 +8916,22 @@
           "phone": "(601) 594-2285",
           "email": "blanebritton@gmail.com",
           "recordId": "420871",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY026317",
+          "businessName": "Danzoo Med Inc",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "DeSoto",
+          "expiration": "06-09-2027",
+          "issueDate": "06-09-2026",
+          "ownerName": "Arzoo Bhamani, Saniya Amar Khowaja",
+          "physicalAddress": "55 Highway 51 S, Hernando, MS 38632",
+          "mailingAddress": "1354 Shallow Creek Cv Collierville, TN 38017",
+          "phone": "(929) 278-7792",
+          "email": "danzoomedinc@gmail.com",
+          "recordId": "468336",
           "isDispensary": true
         }
       ]
