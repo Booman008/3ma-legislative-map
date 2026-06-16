@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-06-15T16:12:11.477Z",
+  "generatedAt": "2026-06-16T15:47:56.486Z",
   "total": 375,
   "typeTotals": {
     "Processing Facility": 43,
@@ -146,12 +146,12 @@
       "type": "Processing Facility",
       "typeSlug": "processing-facility",
       "county": "Hinds",
-      "expiration": "07-11-2026",
-      "issueDate": "07-07-2025",
+      "expiration": "06-15-2027",
+      "issueDate": "06-15-2026",
       "ownerName": "Puff Puff Give LLC",
       "physicalAddress": "",
       "mailingAddress": "",
-      "phone": "(321) 663-2131",
+      "phone": "(601) 582-6031",
       "email": "robert@omegacannabis.com",
       "recordId": "1040",
       "isDispensary": false
@@ -3170,8 +3170,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Jefferson Davis",
-      "expiration": "06-15-2026",
-      "issueDate": "06-20-2025",
+      "expiration": "06-15-2027",
+      "issueDate": "06-15-2026",
       "ownerName": "Larry Wireman, Judy Wireman, Charles Hill, noneconomic interest owners",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -4615,7 +4615,7 @@
       "ownerName": "Dustin Stewart, Chris Crosby, Jeff Camilletti, Joseph Camilletti, Mark Evans, Austin Wheeler, Ryan Cruz, Brandon Seay, Prime Deason, Joseph Brown, Roland Hathcock, Glenstone Holdings, Equitaire Endevors, Barkin Holdings, LLC, Olive Branch Cannabis Company, LLC",
       "physicalAddress": "",
       "mailingAddress": "",
-      "phone": "(850) 524-5221",
+      "phone": "(985) 981-0074",
       "email": "dmitry@flayvur.com",
       "recordId": "173944",
       "isDispensary": false
