@@ -1,14 +1,14 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-06-17T14:22:49.668Z",
-  "total": 375,
+  "generatedAt": "2026-06-18T13:55:59.462Z",
+  "total": 376,
   "typeTotals": {
     "Processing Facility": 43,
     "Disposal Entity": 6,
     "Cultivator Facility": 111,
     "Transportation Entity": 16,
     "Testing Facility": 2,
-    "Dispensary": 196,
+    "Dispensary": 197,
     "Research Facility": 1
   },
   "licenses": [
@@ -4546,8 +4546,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Panola",
-      "expiration": "07-17-2026",
-      "issueDate": "06-23-2025",
+      "expiration": "06-17-2027",
+      "issueDate": "06-17-2026",
       "ownerName": "Glennie Butler, Sharon Bryant",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -5981,6 +5981,22 @@
       "isDispensary": true
     },
     {
+      "id": "DSPY026461",
+      "businessName": "OddFellow Pearl",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Rankin",
+      "expiration": "06-17-2027",
+      "issueDate": "06-17-2026",
+      "ownerName": "Evan Dailey, Ahmad Duais",
+      "physicalAddress": "3021 US-80 EAST Pearl, MS 39208",
+      "mailingAddress": "112 Grandview Cir Brandon, MS 39047",
+      "phone": "(601) 832-6352",
+      "email": "duaisholding@gmail.com",
+      "recordId": "475873",
+      "isDispensary": true
+    },
+    {
       "id": "DSPY000244",
       "businessName": "DABBS 2",
       "type": "Dispensary",
@@ -7074,10 +7090,10 @@
     },
     "Rankin": {
       "county": "Rankin",
-      "total": 16,
+      "total": 17,
       "byType": {
         "Testing Facility": 1,
-        "Dispensary": 10,
+        "Dispensary": 11,
         "Cultivator Facility": 2,
         "Processing Facility": 2,
         "Transportation Entity": 1
@@ -7241,6 +7257,22 @@
           "phone": "(601) 594-2285",
           "email": "blanebritton@gmail.com",
           "recordId": "300469",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY026461",
+          "businessName": "OddFellow Pearl",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Rankin",
+          "expiration": "06-17-2027",
+          "issueDate": "06-17-2026",
+          "ownerName": "Evan Dailey, Ahmad Duais",
+          "physicalAddress": "3021 US-80 EAST Pearl, MS 39208",
+          "mailingAddress": "112 Grandview Cir Brandon, MS 39047",
+          "phone": "(601) 832-6352",
+          "email": "duaisholding@gmail.com",
+          "recordId": "475873",
           "isDispensary": true
         }
       ]
