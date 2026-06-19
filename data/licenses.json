@@ -1,14 +1,14 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-06-18T13:55:59.462Z",
-  "total": 376,
+  "generatedAt": "2026-06-19T13:57:50.321Z",
+  "total": 375,
   "typeTotals": {
     "Processing Facility": 43,
     "Disposal Entity": 6,
     "Cultivator Facility": 111,
     "Transportation Entity": 16,
     "Testing Facility": 2,
-    "Dispensary": 197,
+    "Dispensary": 196,
     "Research Facility": 1
   },
   "licenses": [
@@ -730,22 +730,6 @@
       "phone": "(601) 918-1851",
       "email": "william.chism@riverremedyms.com",
       "recordId": "1333",
-      "isDispensary": true
-    },
-    {
-      "id": "DSPY001741",
-      "businessName": "Bragg Canna of Mississippi, LLC",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Lee",
-      "expiration": "07-25-2026",
-      "issueDate": "07-23-2025",
-      "ownerName": "Rami Hawari, Darden Heritage, Shailaja Karne, Suresh Karne, Phillip Damson, Bruce Park, Lewis Swarts, George Payne, Roy Parker, Dennis Bragg",
-      "physicalAddress": "1167 S GREEN ST TUPELO, MS 38804",
-      "mailingAddress": "1220 GRIMWOOD RD TONEY, AL 35773",
-      "phone": "(256) 278-6403",
-      "email": "nikki@braggcanna.com",
-      "recordId": "1334",
       "isDispensary": true
     },
     {
@@ -3684,7 +3668,7 @@
       "county": "Jackson",
       "expiration": "12-18-2026",
       "issueDate": "12-18-2025",
-      "ownerName": "Angela Duais, Christopher Bond, Gavin Scott, Jacob Byrd, Evan Dailey",
+      "ownerName": "Christopher Bond, Gavin Scott, Jacob Byrd, Evan Dailey, Angela Duais",
       "physicalAddress": "",
       "mailingAddress": "",
       "phone": "(601) 540-6251",
@@ -7884,32 +7868,115 @@
         }
       ]
     },
+    "Bolivar": {
+      "county": "Bolivar",
+      "total": 3,
+      "byType": {
+        "Dispensary": 3
+      },
+      "dispensaries": [
+        {
+          "id": "DSPY006406",
+          "businessName": "Cleveland Cannabis Company LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Bolivar",
+          "expiration": "07-28-2026",
+          "issueDate": "07-02-2025",
+          "ownerName": "Thomas JANOUSH",
+          "physicalAddress": "3620 U.S. Hwy 61N CLEVELAND, MS 38732",
+          "mailingAddress": "3620 U.S. Hwy 61N CLEVELAND, MS 38732",
+          "phone": "(662) 846-1716",
+          "email": "tjanoush@wesjan.com",
+          "recordId": "1336",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY002206",
+          "businessName": "Medical Cannabis of MS, LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Bolivar",
+          "expiration": "07-25-2026",
+          "issueDate": "07-23-2025",
+          "ownerName": "James McClellan, James McClellan",
+          "physicalAddress": "717 N DAVIS AVE CLEVELAND, MS 38732",
+          "mailingAddress": "717 N DAVIS AVE CLEVELAND, MS 38732",
+          "phone": "(662) 545-9333",
+          "email": "medcanms@gmail.com",
+          "recordId": "1379",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY012806",
+          "businessName": "James B. Abraham LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Bolivar",
+          "expiration": "10-12-2026",
+          "issueDate": "10-10-2025",
+          "ownerName": "James Abraham",
+          "physicalAddress": "618 GAINES HWY BOYLE, MS 38730",
+          "mailingAddress": "618 GAINES HWY BOYLE, MS 38730",
+          "phone": "(662) 719-6635",
+          "email": "bartabraham@gmail.com",
+          "recordId": "2444",
+          "isDispensary": true
+        }
+      ]
+    },
+    "Grenada": {
+      "county": "Grenada",
+      "total": 3,
+      "byType": {
+        "Dispensary": 2,
+        "Cultivator Facility": 1
+      },
+      "dispensaries": [
+        {
+          "id": "DSPY005522",
+          "businessName": "The Green Standard Grenada LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Grenada",
+          "expiration": "07-28-2026",
+          "issueDate": "07-01-2025",
+          "ownerName": "Daniel Jones, Anthony Lanzito, George Wilkes, Pietro Cefalu, Madison Blackmon, Daren Schiffman, Chandra Menconi, Antonio Cefalu, Meteroite Holdings LLC",
+          "physicalAddress": "1223 SUNSET DR GRENADA, MS 38901",
+          "mailingAddress": "1223 SUNSET DR GRENADA, MS 38901",
+          "phone": "(708) 415-4087",
+          "email": "daren@mygreenstandard.com",
+          "recordId": "1339",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY013522",
+          "businessName": "Rootdown 2, LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Grenada",
+          "expiration": "10-21-2026",
+          "issueDate": "10-20-2025",
+          "ownerName": "Rootdown, LLC",
+          "physicalAddress": "1329 SUNSET DR STE 311 GRENADA, MS 38901",
+          "mailingAddress": "2906 N STATE ST STE 311 JACKSON, MS 39216",
+          "phone": "(601) 622-6897",
+          "email": "compliance@rootdownms.com",
+          "recordId": "391029",
+          "isDispensary": true
+        }
+      ]
+    },
     "Lee": {
       "county": "Lee",
-      "total": 17,
+      "total": 16,
       "byType": {
-        "Dispensary": 10,
+        "Dispensary": 9,
         "Cultivator Facility": 4,
         "Processing Facility": 2,
         "Transportation Entity": 1
       },
       "dispensaries": [
-        {
-          "id": "DSPY001741",
-          "businessName": "Bragg Canna of Mississippi, LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lee",
-          "expiration": "07-25-2026",
-          "issueDate": "07-23-2025",
-          "ownerName": "Rami Hawari, Darden Heritage, Shailaja Karne, Suresh Karne, Phillip Damson, Bruce Park, Lewis Swarts, George Payne, Roy Parker, Dennis Bragg",
-          "physicalAddress": "1167 S GREEN ST TUPELO, MS 38804",
-          "mailingAddress": "1220 GRIMWOOD RD TONEY, AL 35773",
-          "phone": "(256) 278-6403",
-          "email": "nikki@braggcanna.com",
-          "recordId": "1334",
-          "isDispensary": true
-        },
         {
           "id": "DSPY000641",
           "businessName": "Interstellar Tupelo, LLC",
@@ -8052,105 +8119,6 @@
           "phone": "(601) 622-6897",
           "email": "compliance@rootdownms.com",
           "recordId": "389047",
-          "isDispensary": true
-        }
-      ]
-    },
-    "Bolivar": {
-      "county": "Bolivar",
-      "total": 3,
-      "byType": {
-        "Dispensary": 3
-      },
-      "dispensaries": [
-        {
-          "id": "DSPY006406",
-          "businessName": "Cleveland Cannabis Company LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Bolivar",
-          "expiration": "07-28-2026",
-          "issueDate": "07-02-2025",
-          "ownerName": "Thomas JANOUSH",
-          "physicalAddress": "3620 U.S. Hwy 61N CLEVELAND, MS 38732",
-          "mailingAddress": "3620 U.S. Hwy 61N CLEVELAND, MS 38732",
-          "phone": "(662) 846-1716",
-          "email": "tjanoush@wesjan.com",
-          "recordId": "1336",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY002206",
-          "businessName": "Medical Cannabis of MS, LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Bolivar",
-          "expiration": "07-25-2026",
-          "issueDate": "07-23-2025",
-          "ownerName": "James McClellan, James McClellan",
-          "physicalAddress": "717 N DAVIS AVE CLEVELAND, MS 38732",
-          "mailingAddress": "717 N DAVIS AVE CLEVELAND, MS 38732",
-          "phone": "(662) 545-9333",
-          "email": "medcanms@gmail.com",
-          "recordId": "1379",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY012806",
-          "businessName": "James B. Abraham LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Bolivar",
-          "expiration": "10-12-2026",
-          "issueDate": "10-10-2025",
-          "ownerName": "James Abraham",
-          "physicalAddress": "618 GAINES HWY BOYLE, MS 38730",
-          "mailingAddress": "618 GAINES HWY BOYLE, MS 38730",
-          "phone": "(662) 719-6635",
-          "email": "bartabraham@gmail.com",
-          "recordId": "2444",
-          "isDispensary": true
-        }
-      ]
-    },
-    "Grenada": {
-      "county": "Grenada",
-      "total": 3,
-      "byType": {
-        "Dispensary": 2,
-        "Cultivator Facility": 1
-      },
-      "dispensaries": [
-        {
-          "id": "DSPY005522",
-          "businessName": "The Green Standard Grenada LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Grenada",
-          "expiration": "07-28-2026",
-          "issueDate": "07-01-2025",
-          "ownerName": "Daniel Jones, Anthony Lanzito, George Wilkes, Pietro Cefalu, Madison Blackmon, Daren Schiffman, Chandra Menconi, Antonio Cefalu, Meteroite Holdings LLC",
-          "physicalAddress": "1223 SUNSET DR GRENADA, MS 38901",
-          "mailingAddress": "1223 SUNSET DR GRENADA, MS 38901",
-          "phone": "(708) 415-4087",
-          "email": "daren@mygreenstandard.com",
-          "recordId": "1339",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY013522",
-          "businessName": "Rootdown 2, LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Grenada",
-          "expiration": "10-21-2026",
-          "issueDate": "10-20-2025",
-          "ownerName": "Rootdown, LLC",
-          "physicalAddress": "1329 SUNSET DR STE 311 GRENADA, MS 38901",
-          "mailingAddress": "2906 N STATE ST STE 311 JACKSON, MS 39216",
-          "phone": "(601) 622-6897",
-          "email": "compliance@rootdownms.com",
-          "recordId": "391029",
           "isDispensary": true
         }
       ]
