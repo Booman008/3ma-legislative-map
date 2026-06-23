@@ -1,11 +1,11 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-06-22T15:46:50.418Z",
-  "total": 375,
+  "generatedAt": "2026-06-23T13:35:00.578Z",
+  "total": 376,
   "typeTotals": {
     "Processing Facility": 43,
     "Disposal Entity": 6,
-    "Cultivator Facility": 111,
+    "Cultivator Facility": 112,
     "Transportation Entity": 16,
     "Testing Facility": 2,
     "Dispensary": 196,
@@ -2596,7 +2596,7 @@
       "county": "Adams",
       "expiration": "12-19-2026",
       "issueDate": "12-17-2025",
-      "ownerName": "James McCabe, Mississippi Health Consultants, LLC",
+      "ownerName": "Andrew Williams, Kylie Williams, Baylea Pontius, Demzeva, LLC, Mississippi Health Consultants, LLC, Three Rivers Investments, LLC",
       "physicalAddress": "135 HIGHWAY 61 S NATCHEZ, MS 39120",
       "mailingAddress": "PO BOX 1001 NATCHEZ, MS 39121",
       "phone": "(662) 457-0088",
@@ -3668,7 +3668,7 @@
       "county": "Jackson",
       "expiration": "12-18-2026",
       "issueDate": "12-18-2025",
-      "ownerName": "Christopher Bond, Gavin Scott, Jacob Byrd, Evan Dailey, Angela Duais",
+      "ownerName": "Angela Duais, Christopher Bond, Gavin Scott, Jacob Byrd, Evan Dailey",
       "physicalAddress": "",
       "mailingAddress": "",
       "phone": "(601) 540-6251",
@@ -5931,6 +5931,22 @@
       "email": "kalle@kaldemholdings.com",
       "recordId": "456919",
       "isDispensary": true
+    },
+    {
+      "id": "MCUL008764",
+      "businessName": "Rez Reserve",
+      "type": "Cultivator Facility",
+      "typeSlug": "cultivator-facility",
+      "county": "Simpson",
+      "expiration": "06-22-2027",
+      "issueDate": "06-22-2026",
+      "ownerName": "Justin Jones, Michael Jones, Jason Jones, Chris Jones",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(601) 613-7363",
+      "email": "jrjones24.jj@gmail.com",
+      "recordId": "463017",
+      "isDispensary": false
     },
     {
       "id": "MPRC002425",
@@ -8982,9 +8998,9 @@
     },
     "Simpson": {
       "county": "Simpson",
-      "total": 5,
+      "total": 6,
       "byType": {
-        "Cultivator Facility": 2,
+        "Cultivator Facility": 3,
         "Dispensary": 3
       },
       "dispensaries": [
@@ -9085,7 +9101,7 @@
           "county": "Adams",
           "expiration": "12-19-2026",
           "issueDate": "12-17-2025",
-          "ownerName": "James McCabe, Mississippi Health Consultants, LLC",
+          "ownerName": "Andrew Williams, Kylie Williams, Baylea Pontius, Demzeva, LLC, Mississippi Health Consultants, LLC, Three Rivers Investments, LLC",
           "physicalAddress": "135 HIGHWAY 61 S NATCHEZ, MS 39120",
           "mailingAddress": "PO BOX 1001 NATCHEZ, MS 39121",
           "phone": "(662) 457-0088",
