@@ -218,6 +218,14 @@ function getCountyLicenseSummary(countyName) {
   return state.data.licenses.countySummaries[countyName] || empty;
 }
 
+function getDistrictDispensaries(chamber, district) {
+  const ids = state.data.licenses?.dispensaryDistrictSummaries?.[chamber]?.[String(Number(district))] || [];
+  const idSet = new Set(ids);
+  return (state.data.licenses?.licenses || [])
+    .filter(license => idSet.has(license.id))
+    .sort((a, b) => a.businessName.localeCompare(b.businessName));
+}
+
 function getCountyProgramMetrics(countyName) {
   const empty = {
     caregivers: 0,
@@ -353,21 +361,18 @@ function renderSelection(feature, layerName) {
   const number = getDistrictNumber(feature, layerName);
   const label = layerName === "house" ? "MS House District " : "MS Senate District ";
   els.selectionTitle.textContent = label + number;
-  setSelectionSubtitle("Select Counties boundary mode to view county-level MMCP tallies.");
+  setSelectionSubtitle("Dispensaries with matched physical addresses inside this district.");
   showCountyMetrics(false);
 
-  const oppositeLayer = layerName === "house" ? "senate" : "house";
-  const oppositeNumbers = uniqueSorted(
-    intersectingFeatures(feature, oppositeLayer).map(f => getDistrictNumber(f, oppositeLayer))
-  );
   const districts = {
-    [layerName]: [number],
-    [oppositeLayer]: oppositeNumbers
+    house: layerName === "house" ? [number] : [],
+    senate: layerName === "senate" ? [number] : []
   };
 
+  state.officialChamber = layerName;
   renderDistricts(districts);
-  renderOfficials(districts);
-  renderBusinesses(null, "Select a county to view active license counts.");
+  renderOfficials(districts, { filterByChamber: true });
+  renderDistrictBusinesses(layerName, number);
 }
 
 function showCountyMetrics(isVisible) {
@@ -506,6 +511,29 @@ function renderBusinesses(metric, emptyMessage = "Select a county to view active
   els.businessList.innerHTML = `
     ${typeRows}
     ${metric.dispensaryList.length ? `<div class="license-list-wrap"><dt>Dispensaries</dt><dd><div class="license-list">${dispensaryRows}${moreCount}</div></dd></div>` : ""}
+  `;
+}
+
+function renderDistrictBusinesses(chamber, district) {
+  const dispensaries = getDistrictDispensaries(chamber, district);
+  const cards = dispensaries.map(license => `
+    <article class="license-card">
+      <strong>${escapeHtml(license.businessName)}</strong>
+      <span>${escapeHtml(license.id)} Â· Expires ${escapeHtml(license.expiration || "Not listed")}</span>
+      <p>${escapeHtml(license.physicalAddress)}</p>
+    </article>
+  `).join("");
+
+  els.businessList.innerHTML = `
+    <div><dt>Dispensaries</dt><dd>${formatNumber(dispensaries.length)}</dd></div>
+    <div class="license-list-wrap">
+      <dt>Matched physical addresses</dt>
+      <dd>
+        ${dispensaries.length
+          ? `<div class="license-list">${cards}</div>`
+          : `<p class="empty-state">No dispensaries with matched physical addresses were found in this district.</p>`}
+      </dd>
+    </div>
   `;
 }
 

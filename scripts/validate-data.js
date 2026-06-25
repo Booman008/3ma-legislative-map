@@ -45,6 +45,41 @@ function validateLicenses(licensesPayload, countiesGeojson) {
     fail(`Dispensary count mismatch: ${dispensaryRows} vs ${licensesPayload.typeTotals?.Dispensary}.`);
   }
 
+  const districtFields = ["lat", "lng", "houseDistrict", "senateDistrict"];
+  const nonDispensaryAssignments = licensesPayload.licenses.filter(license =>
+    license.type !== "Dispensary" && districtFields.some(field => license[field] !== undefined)
+  );
+  if (nonDispensaryAssignments.length) {
+    fail(`Found ${nonDispensaryAssignments.length} non-dispensary rows with district placement data.`);
+  }
+
+  const matchedDispensaries = licensesPayload.licenses.filter(license => license.geocodeStatus === "matched");
+  const invalidPlacements = matchedDispensaries.filter(license =>
+    !Number.isFinite(license.lat)
+    || !Number.isFinite(license.lng)
+    || !license.houseDistrict
+    || !license.senateDistrict
+  );
+  if (invalidPlacements.length) {
+    fail(`Found ${invalidPlacements.length} matched dispensaries missing coordinates or district assignments.`);
+  }
+
+  if (licensesPayload.dispensaryGeocoding?.total !== dispensaryRows) {
+    fail("Dispensary geocoding metadata does not match the dispensary row count.");
+  }
+  if (licensesPayload.dispensaryGeocoding?.matched !== matchedDispensaries.length) {
+    fail("Dispensary geocoding matched count does not match license rows.");
+  }
+
+  for (const chamber of ["house", "senate"]) {
+    const summaries = licensesPayload.dispensaryDistrictSummaries?.[chamber] || {};
+    const summaryIds = Object.values(summaries).flat().sort();
+    const expectedIds = matchedDispensaries.map(license => license.id).sort();
+    if (JSON.stringify(summaryIds) !== JSON.stringify(expectedIds)) {
+      fail(`${chamber} dispensary district summaries do not match assigned dispensary rows.`);
+    }
+  }
+
   const countyNames = new Set(countiesGeojson.features.map(feature => normalizeCountyName(feature.properties.NAME)));
   const unmatched = [...new Set(licensesPayload.licenses.map(license => license.county))]
     .filter(county => !countyNames.has(normalizeCountyName(county)));
@@ -104,6 +139,7 @@ function main() {
   console.log("Data validation complete.");
   console.log(`- Licenses: ${licenses.total}`);
   console.log(`- License counties: ${Object.keys(licenses.countySummaries).length}`);
+  console.log(`- District-assigned dispensaries: ${licenses.dispensaryGeocoding.matched}`);
   console.log(`- County metric rows: ${countyMetrics.counties}`);
 }
 
