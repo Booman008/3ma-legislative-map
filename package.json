@@ -2,7 +2,8 @@
   "scripts": {
     "fetch:data": "node scripts/fetch-mmcp-data.js",
     "import:data": "node scripts/import-data.js",
+    "geocode:dispensaries": "node scripts/geocode-dispensary-districts.js",
     "validate:data": "node scripts/validate-data.js",
-    "refresh:data": "npm run fetch:data && npm run import:data && npm run validate:data"
+    "refresh:data": "npm run fetch:data && npm run import:data && npm run geocode:dispensaries && npm run validate:data"
   }
 }

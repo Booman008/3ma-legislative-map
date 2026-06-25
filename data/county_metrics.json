@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_county_metrics_latest.csv",
-  "generatedAt": "2026-05-15T13:11:19.637Z",
+  "generatedAt": "2026-05-21T15:31:18.934Z",
   "counties": 82,
   "countyMetrics": {
     "Adams": {
@@ -909,11 +909,11 @@
       "workers": 29,
       "practitioners": 1,
       "practitionerDensity": 0,
-      "activeCardholders": 356,
-      "patientDensity": 8.373712188926001,
+      "activeCardholders": 362,
+      "patientDensity": 8.514842169638237,
       "dispensaryBusinesses": 1,
-      "relatedBusinesses": 44,
-      "totalProgramRecords": 701
+      "relatedBusinesses": 45,
+      "totalProgramRecords": 707
     },
     "Wayne": {
       "county": "Wayne",
