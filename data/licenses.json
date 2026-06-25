@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-06-24T13:10:22.284Z",
+  "generatedAt": "2026-06-25T13:09:21.202Z",
   "total": 376,
   "typeTotals": {
     "Processing Facility": 43,
@@ -3485,22 +3485,6 @@
       "isDispensary": true
     },
     {
-      "id": "TRAN002421",
-      "businessName": "Thetransporter, LLC",
-      "type": "Transportation Entity",
-      "typeSlug": "transportation-entity",
-      "county": "Greene",
-      "expiration": "09-05-2026",
-      "issueDate": "09-05-2025",
-      "ownerName": "Thetransporter, LLC",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(601) 508-4707",
-      "email": "greenfreeman238@gmail.com",
-      "recordId": "35127",
-      "isDispensary": false
-    },
-    {
       "id": "DSPY018704",
       "businessName": "Mageedp, LLC",
       "type": "Dispensary",
@@ -3668,7 +3652,7 @@
       "county": "Jackson",
       "expiration": "12-18-2026",
       "issueDate": "12-18-2025",
-      "ownerName": "Angela Duais, Christopher Bond, Gavin Scott, Jacob Byrd, Evan Dailey",
+      "ownerName": "Evan Dailey, Angela Duais, Christopher Bond, Gavin Scott, Jacob Byrd",
       "physicalAddress": "",
       "mailingAddress": "",
       "phone": "(601) 540-6251",
@@ -6027,6 +6011,22 @@
       "email": "mmajrad96@gmail.com",
       "recordId": "483377",
       "isDispensary": true
+    },
+    {
+      "id": "TRAN002421",
+      "businessName": "Thetransporter, LLC",
+      "type": "Transportation Entity",
+      "typeSlug": "transportation-entity",
+      "county": "Greene",
+      "expiration": "09-05-2026",
+      "issueDate": "09-05-2025",
+      "ownerName": "Thetransporter, LLC",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(601) 508-4707",
+      "email": "greenfreeman238@gmail.com",
+      "recordId": "511995",
+      "isDispensary": false
     }
   ],
   "countySummaries": {
