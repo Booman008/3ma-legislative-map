@@ -1091,8 +1091,26 @@
     },
     "5891 U S HIGHWAY 49 HATTIESBURG, MS 39402": {
       "status": "unmatched"
+    },
+    "3021 US-80 EAST PEARL, MS 39208": {
+      "status": "matched",
+      "lat": 32.282395743026,
+      "lng": -90.119729250856,
+      "matchedAddress": "3021 US HWY 80, PEARL, MS, 39208"
+    },
+    "6248 OLD CANTON RD JACKSON, MS 39211": {
+      "status": "matched",
+      "lat": 32.39107109299,
+      "lng": -90.112697565643,
+      "matchedAddress": "6248 OLD CANTON RD, JACKSON, MS, 39211"
+    },
+    "55 HIGHWAY 51 S, HERNANDO, MS 38632": {
+      "status": "matched",
+      "lat": 34.85904514975,
+      "lng": -89.995368977146,
+      "matchedAddress": "55 HWY 51 S, HERNANDO, MS, 38632"
     }
   },
-  "generatedAt": "2026-06-25T03:19:43.044Z",
+  "generatedAt": "2026-06-25T13:19:26.798Z",
   "provider": "U.S. Census Geocoder"
 }
