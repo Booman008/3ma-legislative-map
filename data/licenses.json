@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-06-25T13:09:21.202Z",
+  "generatedAt": "2026-06-26T13:01:51.568Z",
   "total": 376,
   "typeTotals": {
     "Processing Facility": 43,
@@ -194,8 +194,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Jones",
-      "expiration": "07-26-2026",
-      "issueDate": "07-23-2025",
+      "expiration": "07-26-2027",
+      "issueDate": "06-25-2026",
       "ownerName": "Stacy Mackmer",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -3767,8 +3767,8 @@
       "type": "Transportation Entity",
       "typeSlug": "transportation-entity",
       "county": "Rankin",
-      "expiration": "07-10-2026",
-      "issueDate": "07-09-2025",
+      "expiration": "07-10-2027",
+      "issueDate": "06-25-2026",
       "ownerName": "Stash House MS, LLC",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -4170,17 +4170,22 @@
       "businessName": "Dabbs Cannabis Dispensary LLC",
       "type": "Dispensary",
       "typeSlug": "dispensary",
-      "county": "Simpson",
+      "county": "Lafayette",
       "expiration": "08-10-2026",
       "issueDate": "08-04-2025",
       "ownerName": "Tony Wallace, Bobby Britton",
-      "physicalAddress": "1667 SIMPSON HIGHWAY 49 MAGEE, MS 39111",
-      "mailingAddress": "PO BOX 777 MENDENHALL, MS 39114",
-      "phone": "(901) 412-9440",
+      "physicalAddress": "2132 Jackson Ave W Oxford, MS 38655",
+      "mailingAddress": "1510 Simpson Highway 149 Mendenhall, MS 39114",
+      "phone": "(601) 594-2285",
       "email": "afbbritton@yahoo.com",
       "recordId": "47246",
       "isDispensary": true,
-      "geocodeStatus": "unmatched"
+      "geocodeStatus": "matched",
+      "lat": 34.363049192605,
+      "lng": -89.559481478523,
+      "geocodeLabel": "2132 JACKSON AVE W, OXFORD, MS, 38655",
+      "houseDistrict": "12",
+      "senateDistrict": "9"
     },
     {
       "id": "DSPY019224",
@@ -7478,10 +7483,10 @@
     },
     "Lafayette": {
       "county": "Lafayette",
-      "total": 11,
+      "total": 12,
       "byType": {
         "Cultivator Facility": 1,
-        "Dispensary": 6,
+        "Dispensary": 7,
         "Processing Facility": 1,
         "Disposal Entity": 1,
         "Transportation Entity": 1,
@@ -7550,6 +7555,22 @@
           "phone": "(662) 457-0088",
           "email": "doug@starbuds.us",
           "recordId": "2292",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY018964",
+          "businessName": "Dabbs Cannabis Dispensary LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lafayette",
+          "expiration": "08-10-2026",
+          "issueDate": "08-04-2025",
+          "ownerName": "Tony Wallace, Bobby Britton",
+          "physicalAddress": "2132 Jackson Ave W Oxford, MS 38655",
+          "mailingAddress": "1510 Simpson Highway 149 Mendenhall, MS 39114",
+          "phone": "(601) 594-2285",
+          "email": "afbbritton@yahoo.com",
+          "recordId": "47246",
           "isDispensary": true
         },
         {
@@ -10034,10 +10055,10 @@
     },
     "Simpson": {
       "county": "Simpson",
-      "total": 6,
+      "total": 5,
       "byType": {
         "Cultivator Facility": 3,
-        "Dispensary": 3
+        "Dispensary": 2
       },
       "dispensaries": [
         {
@@ -10054,22 +10075,6 @@
           "phone": "(601) 278-0511",
           "email": "Houseofbudsss@gmail.com",
           "recordId": "8181",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY018964",
-          "businessName": "Dabbs Cannabis Dispensary LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Simpson",
-          "expiration": "08-10-2026",
-          "issueDate": "08-04-2025",
-          "ownerName": "Tony Wallace, Bobby Britton",
-          "physicalAddress": "1667 SIMPSON HIGHWAY 49 MAGEE, MS 39111",
-          "mailingAddress": "PO BOX 777 MENDENHALL, MS 39114",
-          "phone": "(901) 412-9440",
-          "email": "afbbritton@yahoo.com",
-          "recordId": "47246",
           "isDispensary": true
         },
         {
@@ -10855,6 +10860,7 @@
       "12": [
         "DSPY007236",
         "DSPY007536",
+        "DSPY018964",
         "DSPY025736"
       ],
       "16": [
@@ -11191,6 +11197,7 @@
         "DSPY007536",
         "DSPY011836",
         "DSPY014554",
+        "DSPY018964",
         "DSPY025436",
         "DSPY025736"
       ],
@@ -11419,9 +11426,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-06-25T13:19:26.798Z",
+    "generatedAt": "2026-06-26T13:01:52.706Z",
     "total": 196,
-    "matched": 168,
-    "unmatched": 28
+    "matched": 169,
+    "unmatched": 27
   }
 }

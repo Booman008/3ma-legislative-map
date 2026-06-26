@@ -1109,8 +1109,14 @@
       "lat": 34.85904514975,
       "lng": -89.995368977146,
       "matchedAddress": "55 HWY 51 S, HERNANDO, MS, 38632"
+    },
+    "2132 JACKSON AVE W OXFORD, MS 38655": {
+      "status": "matched",
+      "lat": 34.363049192605,
+      "lng": -89.559481478523,
+      "matchedAddress": "2132 JACKSON AVE W, OXFORD, MS, 38655"
     }
   },
-  "generatedAt": "2026-06-25T13:19:26.798Z",
+  "generatedAt": "2026-06-26T13:01:52.706Z",
   "provider": "U.S. Census Geocoder"
 }
