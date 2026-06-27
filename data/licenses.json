@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-06-26T13:01:51.568Z",
+  "generatedAt": "2026-06-27T12:04:53.515Z",
   "total": 376,
   "typeTotals": {
     "Processing Facility": 43,
@@ -11426,7 +11426,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-06-26T13:01:52.706Z",
+    "generatedAt": "2026-06-27T12:04:53.899Z",
     "total": 196,
     "matched": 169,
     "unmatched": 27
