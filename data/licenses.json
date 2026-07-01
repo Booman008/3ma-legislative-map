@@ -1,33 +1,17 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-06-30T13:02:38.397Z",
-  "total": 376,
+  "generatedAt": "2026-07-01T13:30:33.363Z",
+  "total": 373,
   "typeTotals": {
-    "Processing Facility": 43,
     "Disposal Entity": 6,
-    "Cultivator Facility": 112,
+    "Cultivator Facility": 111,
+    "Processing Facility": 41,
     "Transportation Entity": 16,
     "Testing Facility": 2,
     "Dispensary": 196,
     "Research Facility": 1
   },
   "licenses": [
-    {
-      "id": "PROC000138",
-      "businessName": "Southern Crop Processing, LLC",
-      "type": "Processing Facility",
-      "typeSlug": "processing-facility",
-      "county": "Lauderdale",
-      "expiration": "06-30-2026",
-      "issueDate": "06-30-2025",
-      "ownerName": "Grieshaber Holding Company, LLC, Southern Crop, LLC;",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(601) 938-2730",
-      "email": "compliance@southern-crop.com",
-      "recordId": "1009",
-      "isDispensary": false
-    },
     {
       "id": "CDIS000238",
       "businessName": "Southern Crop Disposal and Destruction, LLC",
@@ -45,22 +29,6 @@
       "isDispensary": false
     },
     {
-      "id": "CULV000225",
-      "businessName": "Mockingbird Cannabis LLC",
-      "type": "Cultivator Facility",
-      "typeSlug": "cultivator-facility",
-      "county": "Hinds",
-      "expiration": "06-30-2026",
-      "issueDate": "06-30-2025",
-      "ownerName": "Placeholder Additional Ownership, Mississippi Mockingbird Investments LLC",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(601) 521-3653",
-      "email": "jaci@mockingbird-holdings.com",
-      "recordId": "1018",
-      "isDispensary": false
-    },
-    {
       "id": "CULV000436",
       "businessName": "Magnolia State Agriculture, LLC",
       "type": "Cultivator Facility",
@@ -74,22 +42,6 @@
       "phone": "(870) 219-3222",
       "email": "mmclaurin@gooddayfarm.com",
       "recordId": "1020",
-      "isDispensary": false
-    },
-    {
-      "id": "PROC000225",
-      "businessName": "Mockingbird Cannabis LLC",
-      "type": "Processing Facility",
-      "typeSlug": "processing-facility",
-      "county": "Hinds",
-      "expiration": "06-30-2026",
-      "issueDate": "06-30-2025",
-      "ownerName": "Placeholder Additional Ownership, Mississippi Mockingbird Investments LLC",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(601) 521-3653",
-      "email": "jaci@mockingbird-holdings.com",
-      "recordId": "1021",
       "isDispensary": false
     },
     {
@@ -4217,7 +4169,7 @@
       "county": "Jackson",
       "expiration": "12-18-2026",
       "issueDate": "12-18-2025",
-      "ownerName": "Evan Dailey, Angela Duais, Christopher Bond, Gavin Scott, Jacob Byrd",
+      "ownerName": "Angela Duais, Christopher Bond, Gavin Scott, Jacob Byrd, Evan Dailey",
       "physicalAddress": "",
       "mailingAddress": "",
       "phone": "(601) 540-6251",
@@ -7073,12 +7025,12 @@
   "countySummaries": {
     "Lauderdale": {
       "county": "Lauderdale",
-      "total": 15,
+      "total": 14,
       "byType": {
-        "Processing Facility": 2,
         "Disposal Entity": 1,
         "Dispensary": 8,
         "Cultivator Facility": 3,
+        "Processing Facility": 1,
         "Transportation Entity": 1
       },
       "dispensaries": [
@@ -7212,13 +7164,139 @@
         }
       ]
     },
+    "Lafayette": {
+      "county": "Lafayette",
+      "total": 12,
+      "byType": {
+        "Cultivator Facility": 1,
+        "Dispensary": 7,
+        "Processing Facility": 1,
+        "Disposal Entity": 1,
+        "Transportation Entity": 1,
+        "Research Facility": 1
+      },
+      "dispensaries": [
+        {
+          "id": "DSPY006336",
+          "businessName": "CannaMiss LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lafayette",
+          "expiration": "07-28-2026",
+          "issueDate": "07-29-2025",
+          "ownerName": "CANNAMISS LLC",
+          "physicalAddress": "1130 N LAMAR BLVD OXFORD, MS 38655",
+          "mailingAddress": "1130 N LAMAR BLVD OXFORD, MS 38655",
+          "phone": "(212) 537-6794",
+          "email": "cyrusn@gmail.com",
+          "recordId": "1262",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY007236",
+          "businessName": "Hybrid LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lafayette",
+          "expiration": "08-01-2026",
+          "issueDate": "07-21-2025",
+          "ownerName": "Antonio Barragan",
+          "physicalAddress": "1801 JACKSON AVE W A OXFORD, MS 38655",
+          "mailingAddress": "1801 JACKSON AVE W SUITE D 112 OXFORD, MS 38655",
+          "phone": "(662) 934-2121",
+          "email": "hemphealthms@gmail.com",
+          "recordId": "1304",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY007536",
+          "businessName": "Magnolia Medical Cannabis Company, LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lafayette",
+          "expiration": "08-01-2026",
+          "issueDate": "07-07-2025",
+          "ownerName": "Jeff Capwell",
+          "physicalAddress": "2570 JACKSON AVE W OXFORD, MS 38655",
+          "mailingAddress": "105 DOUGLAS DR OXFORD, MS 38655",
+          "phone": "(901) 481-9862",
+          "email": "ross@magnolia-cannabis.com",
+          "recordId": "1326",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY011836",
+          "businessName": "SB Oxford",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lafayette",
+          "expiration": "09-21-2026",
+          "issueDate": "09-18-2025",
+          "ownerName": "Jessica Turner, Bridgett Green, Krista Beck, J9 Holdings, LLC, SAT, LLC, SB OXFORD, LLC",
+          "physicalAddress": "1319 N LAMAR BLVD OXFORD, MS 38655",
+          "mailingAddress": "1319 N LAMAR BLVD A OXFORD, MS 38655",
+          "phone": "(662) 457-0088",
+          "email": "doug@starbuds.us",
+          "recordId": "2292",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY018964",
+          "businessName": "Dabbs Cannabis Dispensary LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lafayette",
+          "expiration": "08-10-2026",
+          "issueDate": "08-04-2025",
+          "ownerName": "Tony Wallace, Bobby Britton",
+          "physicalAddress": "2132 Jackson Ave W Oxford, MS 38655",
+          "mailingAddress": "1510 Simpson Highway 149 Mendenhall, MS 39114",
+          "phone": "(601) 594-2285",
+          "email": "afbbritton@yahoo.com",
+          "recordId": "47246",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY025436",
+          "businessName": "Rootdown 3, LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lafayette",
+          "expiration": "09-09-2026",
+          "issueDate": "09-09-2025",
+          "ownerName": "Rootdown LLC",
+          "physicalAddress": "821 N LAMAR BLVD STE 311 OXFORD, MS 38655",
+          "mailingAddress": "2906 N STATE ST STE 311 JACKSON, MS 39216",
+          "phone": "(601) 622-6897",
+          "email": "compliance@rootdownms.com",
+          "recordId": "346329",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY025736",
+          "businessName": "Biosciences of MS LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lafayette",
+          "expiration": "12-16-2026",
+          "issueDate": "12-16-2025",
+          "ownerName": "Jeffrey Schmidtke, Michael Hutchison",
+          "physicalAddress": "101 RICKY D BRITT SR BLVD OXFORD, MS 38655",
+          "mailingAddress": "241 OLD HIGHWAY 98 E TYLERTOWN, MS 39667",
+          "phone": "(901) 828-9275",
+          "email": "michael@noblelabsms.com",
+          "recordId": "386275",
+          "isDispensary": true
+        }
+      ]
+    },
     "Hinds": {
       "county": "Hinds",
-      "total": 29,
+      "total": 27,
       "byType": {
-        "Cultivator Facility": 7,
-        "Processing Facility": 4,
+        "Cultivator Facility": 6,
         "Disposal Entity": 1,
+        "Processing Facility": 3,
         "Dispensary": 16,
         "Transportation Entity": 1
       },
@@ -7477,132 +7555,6 @@
           "phone": "(985) 718-6907",
           "email": "bblessedholdingsms@gmail.com",
           "recordId": "384093",
-          "isDispensary": true
-        }
-      ]
-    },
-    "Lafayette": {
-      "county": "Lafayette",
-      "total": 12,
-      "byType": {
-        "Cultivator Facility": 1,
-        "Dispensary": 7,
-        "Processing Facility": 1,
-        "Disposal Entity": 1,
-        "Transportation Entity": 1,
-        "Research Facility": 1
-      },
-      "dispensaries": [
-        {
-          "id": "DSPY006336",
-          "businessName": "CannaMiss LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lafayette",
-          "expiration": "07-28-2026",
-          "issueDate": "07-29-2025",
-          "ownerName": "CANNAMISS LLC",
-          "physicalAddress": "1130 N LAMAR BLVD OXFORD, MS 38655",
-          "mailingAddress": "1130 N LAMAR BLVD OXFORD, MS 38655",
-          "phone": "(212) 537-6794",
-          "email": "cyrusn@gmail.com",
-          "recordId": "1262",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY007236",
-          "businessName": "Hybrid LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lafayette",
-          "expiration": "08-01-2026",
-          "issueDate": "07-21-2025",
-          "ownerName": "Antonio Barragan",
-          "physicalAddress": "1801 JACKSON AVE W A OXFORD, MS 38655",
-          "mailingAddress": "1801 JACKSON AVE W SUITE D 112 OXFORD, MS 38655",
-          "phone": "(662) 934-2121",
-          "email": "hemphealthms@gmail.com",
-          "recordId": "1304",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY007536",
-          "businessName": "Magnolia Medical Cannabis Company, LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lafayette",
-          "expiration": "08-01-2026",
-          "issueDate": "07-07-2025",
-          "ownerName": "Jeff Capwell",
-          "physicalAddress": "2570 JACKSON AVE W OXFORD, MS 38655",
-          "mailingAddress": "105 DOUGLAS DR OXFORD, MS 38655",
-          "phone": "(901) 481-9862",
-          "email": "ross@magnolia-cannabis.com",
-          "recordId": "1326",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY011836",
-          "businessName": "SB Oxford",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lafayette",
-          "expiration": "09-21-2026",
-          "issueDate": "09-18-2025",
-          "ownerName": "Jessica Turner, Bridgett Green, Krista Beck, J9 Holdings, LLC, SAT, LLC, SB OXFORD, LLC",
-          "physicalAddress": "1319 N LAMAR BLVD OXFORD, MS 38655",
-          "mailingAddress": "1319 N LAMAR BLVD A OXFORD, MS 38655",
-          "phone": "(662) 457-0088",
-          "email": "doug@starbuds.us",
-          "recordId": "2292",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY018964",
-          "businessName": "Dabbs Cannabis Dispensary LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lafayette",
-          "expiration": "08-10-2026",
-          "issueDate": "08-04-2025",
-          "ownerName": "Tony Wallace, Bobby Britton",
-          "physicalAddress": "2132 Jackson Ave W Oxford, MS 38655",
-          "mailingAddress": "1510 Simpson Highway 149 Mendenhall, MS 39114",
-          "phone": "(601) 594-2285",
-          "email": "afbbritton@yahoo.com",
-          "recordId": "47246",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY025436",
-          "businessName": "Rootdown 3, LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lafayette",
-          "expiration": "09-09-2026",
-          "issueDate": "09-09-2025",
-          "ownerName": "Rootdown LLC",
-          "physicalAddress": "821 N LAMAR BLVD STE 311 OXFORD, MS 38655",
-          "mailingAddress": "2906 N STATE ST STE 311 JACKSON, MS 39216",
-          "phone": "(601) 622-6897",
-          "email": "compliance@rootdownms.com",
-          "recordId": "346329",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY025736",
-          "businessName": "Biosciences of MS LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lafayette",
-          "expiration": "12-16-2026",
-          "issueDate": "12-16-2025",
-          "ownerName": "Jeffrey Schmidtke, Michael Hutchison",
-          "physicalAddress": "101 RICKY D BRITT SR BLVD OXFORD, MS 38655",
-          "mailingAddress": "241 OLD HIGHWAY 98 E TYLERTOWN, MS 39667",
-          "phone": "(901) 828-9275",
-          "email": "michael@noblelabsms.com",
-          "recordId": "386275",
           "isDispensary": true
         }
       ]
@@ -11426,7 +11378,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-06-30T13:02:38.704Z",
+    "generatedAt": "2026-07-01T13:30:33.745Z",
     "total": 196,
     "matched": 169,
     "unmatched": 27
