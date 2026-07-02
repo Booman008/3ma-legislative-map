@@ -1,9 +1,9 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-07-01T13:30:33.363Z",
-  "total": 373,
+  "generatedAt": "2026-07-02T12:52:53.181Z",
+  "total": 372,
   "typeTotals": {
-    "Disposal Entity": 6,
+    "Disposal Entity": 5,
     "Cultivator Facility": 111,
     "Processing Facility": 41,
     "Transportation Entity": 16,
@@ -58,22 +58,6 @@
       "phone": "(601) 918-1851",
       "email": "chismw@gmail.com",
       "recordId": "1022",
-      "isDispensary": false
-    },
-    {
-      "id": "CDIS000125",
-      "businessName": "Mockingbird Waste Disposal LLC",
-      "type": "Disposal Entity",
-      "typeSlug": "disposal-entity",
-      "county": "Hinds",
-      "expiration": "07-01-2026",
-      "issueDate": "06-30-2025",
-      "ownerName": "Placeholder Additional Ownership, Mississippi Mockingbird Investments LLC",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(601) 521-3653",
-      "email": "jaci@mockingbird-holdings.com",
-      "recordId": "1036",
       "isDispensary": false
     },
     {
@@ -3999,8 +3983,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Scott",
-      "expiration": "07-07-2026",
-      "issueDate": "07-08-2025",
+      "expiration": "07-07-2027",
+      "issueDate": "07-01-2026",
       "ownerName": "Tony Wallace, Bobby Britton",
       "physicalAddress": "228 N WOODLAND DR / (228 MS-35) FOREST, MS 39074",
       "mailingAddress": "PO BOX 777 MENDENHALL, MS 39114",
@@ -7292,10 +7276,9 @@
     },
     "Hinds": {
       "county": "Hinds",
-      "total": 27,
+      "total": 26,
       "byType": {
         "Cultivator Facility": 6,
-        "Disposal Entity": 1,
         "Processing Facility": 3,
         "Dispensary": 16,
         "Transportation Entity": 1
@@ -10596,8 +10579,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Scott",
-          "expiration": "07-07-2026",
-          "issueDate": "07-08-2025",
+          "expiration": "07-07-2027",
+          "issueDate": "07-01-2026",
           "ownerName": "Tony Wallace, Bobby Britton",
           "physicalAddress": "228 N WOODLAND DR / (228 MS-35) FOREST, MS 39074",
           "mailingAddress": "PO BOX 777 MENDENHALL, MS 39114",
@@ -11378,7 +11361,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-07-01T13:30:33.745Z",
+    "generatedAt": "2026-07-02T12:52:53.563Z",
     "total": 196,
     "matched": 169,
     "unmatched": 27
