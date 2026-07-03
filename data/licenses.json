@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-07-02T12:52:53.181Z",
+  "generatedAt": "2026-07-03T12:51:14.207Z",
   "total": 372,
   "typeTotals": {
     "Disposal Entity": 5,
@@ -1347,8 +1347,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Adams",
-      "expiration": "07-26-2026",
-      "issueDate": "06-27-2025",
+      "expiration": "07-26-2027",
+      "issueDate": "07-02-2026",
       "ownerName": "The Highest Care L.L.C",
       "physicalAddress": "2 SERGEANT PRENTISS DR NATCHEZ, MS 39120",
       "mailingAddress": "1 CEMETERY RD NATCHEZ, MS 39120",
@@ -6991,17 +6991,17 @@
     },
     {
       "id": "TRAN002421",
-      "businessName": "Thetransporter, LLC",
+      "businessName": "Dog Daze Farm LLC",
       "type": "Transportation Entity",
       "typeSlug": "transportation-entity",
       "county": "Greene",
       "expiration": "09-05-2026",
       "issueDate": "09-05-2025",
-      "ownerName": "Thetransporter, LLC",
+      "ownerName": "Bonnie McKey, Susan Lack, Kyle Lack",
       "physicalAddress": "",
       "mailingAddress": "",
-      "phone": "(601) 508-4707",
-      "email": "greenfreeman238@gmail.com",
+      "phone": "(601) 297-0140",
+      "email": "lackcarter64@gmail.com",
       "recordId": "511995",
       "isDispensary": false
     }
@@ -10043,8 +10043,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Adams",
-          "expiration": "07-26-2026",
-          "issueDate": "06-27-2025",
+          "expiration": "07-26-2027",
+          "issueDate": "07-02-2026",
           "ownerName": "The Highest Care L.L.C",
           "physicalAddress": "2 SERGEANT PRENTISS DR NATCHEZ, MS 39120",
           "mailingAddress": "1 CEMETERY RD NATCHEZ, MS 39120",
@@ -11361,7 +11361,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-07-02T12:52:53.563Z",
+    "generatedAt": "2026-07-03T12:51:14.590Z",
     "total": 196,
     "matched": 169,
     "unmatched": 27
