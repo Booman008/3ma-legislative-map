@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-07-03T12:51:14.207Z",
+  "generatedAt": "2026-07-04T12:00:32.000Z",
   "total": 372,
   "typeTotals": {
     "Disposal Entity": 5,
@@ -11361,7 +11361,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-07-03T12:51:14.590Z",
+    "generatedAt": "2026-07-04T12:00:32.395Z",
     "total": 196,
     "matched": 169,
     "unmatched": 27
