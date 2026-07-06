@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_county_metrics_latest.csv",
-  "generatedAt": "2026-07-05T12:08:20.754Z",
+  "generatedAt": "2026-07-06T14:18:39.399Z",
   "counties": 82,
   "countyMetrics": {
     "Adams": {
@@ -285,11 +285,11 @@
       "workers": 479,
       "practitioners": 20,
       "practitionerDensity": 0.09476696802562498,
-      "activeCardholders": 7530,
-      "patientDensity": 35.67976346164781,
+      "activeCardholders": 7529,
+      "patientDensity": 35.67502511324653,
       "dispensaryBusinesses": 23,
       "relatedBusinesses": 655,
-      "totalProgramRecords": 19349
+      "totalProgramRecords": 19348
     },
     "Hinds": {
       "county": "Hinds",
