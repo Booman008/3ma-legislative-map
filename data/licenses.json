@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-07-09T13:42:01.242Z",
+  "generatedAt": "2026-07-10T13:03:01.608Z",
   "total": 370,
   "typeTotals": {
     "Cultivator Facility": 110,
@@ -4421,8 +4421,8 @@
       "ownerName": "Hoang Nguyen, Jennifer Williams, Thao Pham",
       "physicalAddress": "",
       "mailingAddress": "",
-      "phone": "(662) 721-8860",
-      "email": "jwill100@outlook.com",
+      "phone": "(228) 326-0597",
+      "email": "hogee1217kim@yahoo.com",
       "recordId": "75725",
       "isDispensary": false
     },
@@ -11327,7 +11327,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-07-09T13:42:01.670Z",
+    "generatedAt": "2026-07-10T13:03:02.003Z",
     "total": 196,
     "matched": 169,
     "unmatched": 27
