@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-07-10T13:03:01.608Z",
+  "generatedAt": "2026-07-11T11:42:47.637Z",
   "total": 370,
   "typeTotals": {
     "Cultivator Facility": 110,
@@ -3721,17 +3721,17 @@
     },
     {
       "id": "MCUL005521",
-      "businessName": "Sawmill402, LLC",
+      "businessName": "Dog Daze Farm LLC",
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Greene",
       "expiration": "07-10-2027",
       "issueDate": "07-08-2026",
-      "ownerName": "Dog Daze Farm llc",
+      "ownerName": "BONNIE MCKEY, SUSAN LACK, KYLE LACK, Dog Daze Farm LLC",
       "physicalAddress": "",
       "mailingAddress": "",
-      "phone": "(601) 508-4707",
-      "email": "greenfreeman238@gmail.com",
+      "phone": "(601) 297-0140",
+      "email": "lackcarter64@gmail.com",
       "recordId": "22544",
       "isDispensary": false
     },
@@ -4408,22 +4408,6 @@
       "phone": "(228) 424-7153",
       "email": "lionspawconcentratesllc@gmail.com",
       "recordId": "74093",
-      "isDispensary": false
-    },
-    {
-      "id": "MCUL006930",
-      "businessName": "Essential Canna Labs",
-      "type": "Cultivator Facility",
-      "typeSlug": "cultivator-facility",
-      "county": "Jackson",
-      "expiration": "12-01-2026",
-      "issueDate": "12-01-2025",
-      "ownerName": "Hoang Nguyen, Jennifer Williams, Thao Pham",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(228) 326-0597",
-      "email": "hogee1217kim@yahoo.com",
-      "recordId": "75725",
       "isDispensary": false
     },
     {
@@ -6971,6 +6955,22 @@
       "phone": "(601) 297-0140",
       "email": "lackcarter64@gmail.com",
       "recordId": "511995",
+      "isDispensary": false
+    },
+    {
+      "id": "MCUL006930",
+      "businessName": "Essential Canna Labs",
+      "type": "Cultivator Facility",
+      "typeSlug": "cultivator-facility",
+      "county": "Jackson",
+      "expiration": "12-01-2026",
+      "issueDate": "12-01-2025",
+      "ownerName": "Hoang Nguyen, Jennifer Williams, Thao Pham",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(228) 326-0597",
+      "email": "hogee1217kim@yahoo.com",
+      "recordId": "519405",
       "isDispensary": false
     }
   ],
@@ -11327,7 +11327,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-07-10T13:03:02.003Z",
+    "generatedAt": "2026-07-11T11:42:47.958Z",
     "total": 196,
     "matched": 169,
     "unmatched": 27
