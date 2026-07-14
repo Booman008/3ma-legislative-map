@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-07-13T13:12:06.112Z",
+  "generatedAt": "2026-07-14T12:04:33.320Z",
   "total": 370,
   "typeTotals": {
     "Cultivator Facility": 110,
@@ -3737,17 +3737,17 @@
     },
     {
       "id": "MPRC000321",
-      "businessName": "Sawmill402,  LLC",
+      "businessName": "Dog Daze Farm LLC",
       "type": "Processing Facility",
       "typeSlug": "processing-facility",
       "county": "Greene",
       "expiration": "07-10-2027",
       "issueDate": "07-08-2026",
-      "ownerName": "dog daze farm llc",
+      "ownerName": "BONNIE MCKEY, SUSAN LACK, KYLE LACK, DOG DAZE FARM LLC",
       "physicalAddress": "",
       "mailingAddress": "",
-      "phone": "(601) 508-4707",
-      "email": "greenfreeman238@gmail.com",
+      "phone": "(601) 297-0140",
+      "email": "lackcarter64@gmail.com",
       "recordId": "22710",
       "isDispensary": false
     },
@@ -11327,7 +11327,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-07-13T13:12:06.498Z",
+    "generatedAt": "2026-07-14T12:04:33.705Z",
     "total": 196,
     "matched": 169,
     "unmatched": 27
