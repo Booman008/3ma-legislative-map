@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-07-24T12:11:10.964Z",
-  "total": 367,
+  "generatedAt": "2026-07-25T11:56:09.859Z",
+  "total": 366,
   "typeTotals": {
     "Cultivator Facility": 109,
     "Processing Facility": 41,
     "Transportation Entity": 16,
     "Testing Facility": 2,
-    "Dispensary": 194,
+    "Dispensary": 193,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -820,10 +820,10 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Walthall",
-      "expiration": "08-02-2026",
-      "issueDate": "07-31-2025",
+      "expiration": "08-02-2027",
+      "issueDate": "07-24-2026",
       "ownerName": "Michael Hutchison, Jeffrey Schmidtke",
-      "physicalAddress": "241 OLD HIGHWAY 98 E N/A TYLERTOWN, MS 39667",
+      "physicalAddress": "241 OLD HIGHWAY 98 E TYLERTOWN, MS 39667",
       "mailingAddress": "241 OLD HIGHWAY 98 E N/A TYLERTOWN, MS 39667",
       "phone": "(150) 490-5875",
       "email": "jeffschmidtke@gmail.com",
@@ -4783,28 +4783,6 @@
       "isDispensary": false
     },
     {
-      "id": "DSPY023230",
-      "businessName": "Blunt Buds LLC",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Jackson",
-      "expiration": "07-24-2026",
-      "issueDate": "07-24-2025",
-      "ownerName": "Francisco Ferreiro-Sarduy, Tony Parmar",
-      "physicalAddress": "10576 OLD STAGE RD MOSS POINT, MS 39562",
-      "mailingAddress": "8 CAREY PL PRT WASHINGTN, NY 11050",
-      "phone": "(212) 537-6082",
-      "email": "tony@rollingboxmedia.com",
-      "recordId": "124024",
-      "isDispensary": true,
-      "geocodeStatus": "matched",
-      "lat": 30.457229293477,
-      "lng": -88.433056668106,
-      "geocodeLabel": "10576 OLD STAGE RD, MOSS POINT, MS, 39562",
-      "houseDistrict": "111",
-      "senateDistrict": "51"
-    },
-    {
       "id": "DSPY022325",
       "businessName": "OPEN MIND 1",
       "type": "Dispensary",
@@ -7234,10 +7212,10 @@
     },
     "Jackson": {
       "county": "Jackson",
-      "total": 38,
+      "total": 37,
       "byType": {
         "Cultivator Facility": 12,
-        "Dispensary": 17,
+        "Dispensary": 16,
         "Processing Facility": 8,
         "Transportation Entity": 1
       },
@@ -7432,22 +7410,6 @@
           "phone": "(303) 709-2400",
           "email": "provisions4@msprovisions.com",
           "recordId": "103133",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY023230",
-          "businessName": "Blunt Buds LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Jackson",
-          "expiration": "07-24-2026",
-          "issueDate": "07-24-2025",
-          "ownerName": "Francisco Ferreiro-Sarduy, Tony Parmar",
-          "physicalAddress": "10576 OLD STAGE RD MOSS POINT, MS 39562",
-          "mailingAddress": "8 CAREY PL PRT WASHINGTN, NY 11050",
-          "phone": "(212) 537-6082",
-          "email": "tony@rollingboxmedia.com",
-          "recordId": "124024",
           "isDispensary": true
         },
         {
@@ -7932,10 +7894,10 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Walthall",
-          "expiration": "08-02-2026",
-          "issueDate": "07-31-2025",
+          "expiration": "08-02-2027",
+          "issueDate": "07-24-2026",
           "ownerName": "Michael Hutchison, Jeffrey Schmidtke",
-          "physicalAddress": "241 OLD HIGHWAY 98 E N/A TYLERTOWN, MS 39667",
+          "physicalAddress": "241 OLD HIGHWAY 98 E TYLERTOWN, MS 39667",
           "mailingAddress": "241 OLD HIGHWAY 98 E N/A TYLERTOWN, MS 39667",
           "phone": "(150) 490-5875",
           "email": "jeffschmidtke@gmail.com",
@@ -10903,9 +10865,6 @@
         "DSPY018530",
         "DSPY025230"
       ],
-      "111": [
-        "DSPY023230"
-      ],
       "112": [
         "DSPY017030",
         "DSPY021730"
@@ -11218,7 +11177,6 @@
         "DSPY014730",
         "DSPY015230",
         "DSPY017630",
-        "DSPY023230",
         "DSPY024530",
         "DSPY025230"
       ],
@@ -11236,9 +11194,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-07-24T12:11:11.374Z",
-    "total": 194,
-    "matched": 168,
+    "generatedAt": "2026-07-25T11:56:10.471Z",
+    "total": 193,
+    "matched": 167,
     "unmatched": 26
   }
 }
