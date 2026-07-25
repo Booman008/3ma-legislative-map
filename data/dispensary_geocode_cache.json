@@ -1121,8 +1121,14 @@
       "lat": 32.606915639283,
       "lng": -90.067924635383,
       "matchedAddress": "117 SIDNEY RUNNELS DR, CANTON, MS, 39046"
+    },
+    "241 OLD HIGHWAY 98 E TYLERTOWN, MS 39667": {
+      "status": "matched",
+      "lat": 31.124924438715,
+      "lng": -90.106076515915,
+      "matchedAddress": "241 OLD HWY 98 E, TYLERTOWN, MS, 39667"
     }
   },
-  "generatedAt": "2026-07-24T12:11:11.374Z",
+  "generatedAt": "2026-07-25T11:56:10.471Z",
   "provider": "U.S. Census Geocoder"
 }
