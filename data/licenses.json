@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-07-25T11:56:09.859Z",
-  "total": 366,
+  "generatedAt": "2026-07-26T11:53:38.306Z",
+  "total": 365,
   "typeTotals": {
     "Cultivator Facility": 109,
     "Processing Facility": 41,
     "Transportation Entity": 16,
     "Testing Facility": 2,
-    "Dispensary": 193,
+    "Dispensary": 192,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -1122,28 +1122,6 @@
       "geocodeLabel": "1201 N GLOSTER ST, TUPELO, MS, 38804",
       "houseDistrict": "18",
       "senateDistrict": "6"
-    },
-    {
-      "id": "DSPY002206",
-      "businessName": "Medical Cannabis of MS, LLC",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Bolivar",
-      "expiration": "07-25-2026",
-      "issueDate": "07-23-2025",
-      "ownerName": "James McClellan, James McClellan",
-      "physicalAddress": "717 N DAVIS AVE CLEVELAND, MS 38732",
-      "mailingAddress": "717 N DAVIS AVE CLEVELAND, MS 38732",
-      "phone": "(662) 545-9333",
-      "email": "medcanms@gmail.com",
-      "recordId": "1379",
-      "isDispensary": true,
-      "geocodeStatus": "matched",
-      "lat": 33.755289231715,
-      "lng": -90.715893265912,
-      "geocodeLabel": "717 N DAVIS AVE, CLEVELAND, MS, 38732",
-      "houseDistrict": "29",
-      "senateDistrict": "13"
     },
     {
       "id": "MCUL000405",
@@ -8751,9 +8729,9 @@
     },
     "Bolivar": {
       "county": "Bolivar",
-      "total": 3,
+      "total": 2,
       "byType": {
-        "Dispensary": 3
+        "Dispensary": 2
       },
       "dispensaries": [
         {
@@ -8770,22 +8748,6 @@
           "phone": "(662) 846-1716",
           "email": "tjanoush@wesjan.com",
           "recordId": "1336",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY002206",
-          "businessName": "Medical Cannabis of MS, LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Bolivar",
-          "expiration": "07-25-2026",
-          "issueDate": "07-23-2025",
-          "ownerName": "James McClellan, James McClellan",
-          "physicalAddress": "717 N DAVIS AVE CLEVELAND, MS 38732",
-          "mailingAddress": "717 N DAVIS AVE CLEVELAND, MS 38732",
-          "phone": "(662) 545-9333",
-          "email": "medcanms@gmail.com",
-          "recordId": "1379",
           "isDispensary": true
         },
         {
@@ -10667,9 +10629,6 @@
         "DSPY025817",
         "DSPY026317"
       ],
-      "29": [
-        "DSPY002206"
-      ],
       "30": [
         "DSPY010867",
         "DSPY013522"
@@ -10979,7 +10938,6 @@
         "DSPY021424"
       ],
       "13": [
-        "DSPY002206",
         "DSPY010867",
         "DSPY012806"
       ],
@@ -11194,9 +11152,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-07-25T11:56:10.471Z",
-    "total": 193,
-    "matched": 167,
+    "generatedAt": "2026-07-26T11:53:38.694Z",
+    "total": 192,
+    "matched": 166,
     "unmatched": 26
   }
 }
