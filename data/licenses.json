@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-07-27T13:31:12.362Z",
-  "total": 361,
+  "generatedAt": "2026-07-28T12:29:28.586Z",
+  "total": 362,
   "typeTotals": {
     "Cultivator Facility": 109,
     "Processing Facility": 41,
     "Transportation Entity": 16,
     "Testing Facility": 2,
-    "Dispensary": 188,
+    "Dispensary": 189,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -1080,6 +1080,28 @@
       "senateDistrict": "6"
     },
     {
+      "id": "DSPY002206",
+      "businessName": "Medical Cannabis of MS, LLC",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Bolivar",
+      "expiration": "07-25-2027",
+      "issueDate": "07-27-2026",
+      "ownerName": "James McClellan, James McClellan",
+      "physicalAddress": "717 N DAVIS AVE CLEVELAND, MS 38732",
+      "mailingAddress": "717 N DAVIS AVE CLEVELAND, MS 38732",
+      "phone": "(662) 545-9333",
+      "email": "medcanms@gmail.com",
+      "recordId": "1379",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 33.755289231715,
+      "lng": -90.715893265912,
+      "geocodeLabel": "717 N DAVIS AVE, CLEVELAND, MS, 38732",
+      "houseDistrict": "29",
+      "senateDistrict": "13"
+    },
+    {
       "id": "MCUL000405",
       "businessName": "Good Flower Farms",
       "type": "Cultivator Facility",
@@ -1457,11 +1479,11 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Hinds",
-      "expiration": "08-17-2026",
-      "issueDate": "08-13-2025",
+      "expiration": "08-17-2027",
+      "issueDate": "07-27-2026",
       "ownerName": "Mary Sivils, Kathy Hartwell",
-      "physicalAddress": "1625 E COUNTY LINE RD JACKSON, MS 39211",
-      "mailingAddress": "7242 HAVENWOOD DR C/O KATHY HARTWELL BENTON, AR 72019",
+      "physicalAddress": "1625 E County Line Rd Jackson, MS 39211",
+      "mailingAddress": "7242 Havenwood Dr Benton, AR 72019",
       "phone": "(601) 572-9243",
       "email": "kathy@uptownfunkcc.com",
       "recordId": "1650",
@@ -6857,11 +6879,11 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Hinds",
-          "expiration": "08-17-2026",
-          "issueDate": "08-13-2025",
+          "expiration": "08-17-2027",
+          "issueDate": "07-27-2026",
           "ownerName": "Mary Sivils, Kathy Hartwell",
-          "physicalAddress": "1625 E COUNTY LINE RD JACKSON, MS 39211",
-          "mailingAddress": "7242 HAVENWOOD DR C/O KATHY HARTWELL BENTON, AR 72019",
+          "physicalAddress": "1625 E County Line Rd Jackson, MS 39211",
+          "mailingAddress": "7242 Havenwood Dr Benton, AR 72019",
           "phone": "(601) 572-9243",
           "email": "kathy@uptownfunkcc.com",
           "recordId": "1650",
@@ -8598,9 +8620,9 @@
     },
     "Bolivar": {
       "county": "Bolivar",
-      "total": 2,
+      "total": 3,
       "byType": {
-        "Dispensary": 2
+        "Dispensary": 3
       },
       "dispensaries": [
         {
@@ -8617,6 +8639,22 @@
           "phone": "(662) 846-1716",
           "email": "tjanoush@wesjan.com",
           "recordId": "1336",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY002206",
+          "businessName": "Medical Cannabis of MS, LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Bolivar",
+          "expiration": "07-25-2027",
+          "issueDate": "07-27-2026",
+          "ownerName": "James McClellan, James McClellan",
+          "physicalAddress": "717 N DAVIS AVE CLEVELAND, MS 38732",
+          "mailingAddress": "717 N DAVIS AVE CLEVELAND, MS 38732",
+          "phone": "(662) 545-9333",
+          "email": "medcanms@gmail.com",
+          "recordId": "1379",
           "isDispensary": true
         },
         {
@@ -10482,6 +10520,9 @@
         "DSPY025817",
         "DSPY026317"
       ],
+      "29": [
+        "DSPY002206"
+      ],
       "30": [
         "DSPY010867",
         "DSPY013522"
@@ -10788,6 +10829,7 @@
         "DSPY021424"
       ],
       "13": [
+        "DSPY002206",
         "DSPY010867",
         "DSPY012806"
       ],
@@ -10999,9 +11041,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-07-27T13:31:12.752Z",
-    "total": 188,
-    "matched": 163,
+    "generatedAt": "2026-07-28T12:29:28.930Z",
+    "total": 189,
+    "matched": 164,
     "unmatched": 25
   }
 }
