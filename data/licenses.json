@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-07-28T12:29:28.586Z",
-  "total": 362,
+  "generatedAt": "2026-07-29T12:54:15.649Z",
+  "total": 360,
   "typeTotals": {
     "Cultivator Facility": 109,
     "Processing Facility": 41,
     "Transportation Entity": 16,
     "Testing Facility": 2,
-    "Dispensary": 189,
+    "Dispensary": 187,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -312,8 +312,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Lafayette",
-      "expiration": "07-28-2026",
-      "issueDate": "07-29-2025",
+      "expiration": "07-28-2027",
+      "issueDate": "07-28-2026",
       "ownerName": "CANNAMISS LLC",
       "physicalAddress": "1130 N LAMAR BLVD OXFORD, MS 38655",
       "mailingAddress": "1130 N LAMAR BLVD OXFORD, MS 38655",
@@ -915,11 +915,11 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Hinds",
-      "expiration": "07-28-2026",
-      "issueDate": "08-01-2025",
+      "expiration": "07-28-2027",
+      "issueDate": "07-28-2026",
       "ownerName": "David Rula, Mark Anderson, Bonnie Horn, Jason Truong, Strategic Holdings, LLC, Quality Roots MS, LLC, Blue Note Holdings, LLC",
       "physicalAddress": "1051 E COUNTY LINE RD JACKSON, MS 39211",
-      "mailingAddress": "1051 E COUNTY LINE RD STE 1059A JACKSON, MS 39211",
+      "mailingAddress": "1059 E County Line Rd Jackson, MS 39211",
       "phone": "(601) 750-3347",
       "email": "davidrula23@gmail.com",
       "recordId": "1352",
@@ -1150,28 +1150,6 @@
       "isDispensary": false
     },
     {
-      "id": "DSPY005438",
-      "businessName": "BWD Meridian LLC",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Lauderdale",
-      "expiration": "07-28-2026",
-      "issueDate": "07-30-2025",
-      "ownerName": "David Rula, Mark Anderson, Bonnie Horn, Jason Truong, Strategic Holdings, LLC, Quality Roots MS, LLC, Blue Note Holdings, LLC",
-      "physicalAddress": "300 N FRONTAGE RD MERIDIAN, MS 39301",
-      "mailingAddress": "300 N FRONTAGE RD STE 600 MERIDIAN, MS 39301",
-      "phone": "(601) 750-3347",
-      "email": "davidrula23@gmail.com",
-      "recordId": "1404",
-      "isDispensary": true,
-      "geocodeStatus": "matched",
-      "lat": 32.363413498188,
-      "lng": -88.676867794786,
-      "geocodeLabel": "300 N FRONTAGE RD, MERIDIAN, MS, 39301",
-      "houseDistrict": "81",
-      "senateDistrict": "33"
-    },
-    {
       "id": "MCUL002064",
       "businessName": "Hooks Industries",
       "type": "Cultivator Facility",
@@ -1262,28 +1240,6 @@
       "email": "bill@shackupinn.com",
       "recordId": "1438",
       "isDispensary": false
-    },
-    {
-      "id": "DSPY006018",
-      "businessName": "Kelly's Green, Inc.",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Forrest",
-      "expiration": "07-28-2026",
-      "issueDate": "07-22-2025",
-      "ownerName": "Puff Puff Give, LLC",
-      "physicalAddress": "20 RAWLS SPRINGS LOOP RD HATTIESBURG, MS 39402",
-      "mailingAddress": "540 FORD AVE BLDG B JACKSON, MS 39209",
-      "phone": "(601) 582-6031",
-      "email": "robert@omegacannabis.com",
-      "recordId": "1440",
-      "isDispensary": true,
-      "geocodeStatus": "matched",
-      "lat": 31.360197235044,
-      "lng": -89.348213398516,
-      "geocodeLabel": "20 RAWLS SPRINGS LOOP RD, HATTIESBURG, MS, 39402",
-      "houseDistrict": "90",
-      "senateDistrict": "45"
     },
     {
       "id": "DSPY009724",
@@ -6863,11 +6819,11 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Hinds",
-          "expiration": "07-28-2026",
-          "issueDate": "08-01-2025",
+          "expiration": "07-28-2027",
+          "issueDate": "07-28-2026",
           "ownerName": "David Rula, Mark Anderson, Bonnie Horn, Jason Truong, Strategic Holdings, LLC, Quality Roots MS, LLC, Blue Note Holdings, LLC",
           "physicalAddress": "1051 E COUNTY LINE RD JACKSON, MS 39211",
-          "mailingAddress": "1051 E COUNTY LINE RD STE 1059A JACKSON, MS 39211",
+          "mailingAddress": "1059 E County Line Rd Jackson, MS 39211",
           "phone": "(601) 750-3347",
           "email": "davidrula23@gmail.com",
           "recordId": "1352",
@@ -7894,8 +7850,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Lafayette",
-          "expiration": "07-28-2026",
-          "issueDate": "07-29-2025",
+          "expiration": "07-28-2027",
+          "issueDate": "07-28-2026",
           "ownerName": "CANNAMISS LLC",
           "physicalAddress": "1130 N LAMAR BLVD OXFORD, MS 38655",
           "mailingAddress": "1130 N LAMAR BLVD OXFORD, MS 38655",
@@ -8157,9 +8113,9 @@
     },
     "Lauderdale": {
       "county": "Lauderdale",
-      "total": 12,
+      "total": 11,
       "byType": {
-        "Dispensary": 7,
+        "Dispensary": 6,
         "Cultivator Facility": 3,
         "Processing Facility": 1,
         "Transportation Entity": 1
@@ -8195,22 +8151,6 @@
           "phone": "(601) 512-2140",
           "email": "dispensary@legallyrootedcannabis.com",
           "recordId": "1350",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY005438",
-          "businessName": "BWD Meridian LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lauderdale",
-          "expiration": "07-28-2026",
-          "issueDate": "07-30-2025",
-          "ownerName": "David Rula, Mark Anderson, Bonnie Horn, Jason Truong, Strategic Holdings, LLC, Quality Roots MS, LLC, Blue Note Holdings, LLC",
-          "physicalAddress": "300 N FRONTAGE RD MERIDIAN, MS 39301",
-          "mailingAddress": "300 N FRONTAGE RD STE 600 MERIDIAN, MS 39301",
-          "phone": "(601) 750-3347",
-          "email": "davidrula23@gmail.com",
-          "recordId": "1404",
           "isDispensary": true
         },
         {
@@ -8497,9 +8437,9 @@
     },
     "Forrest": {
       "county": "Forrest",
-      "total": 10,
+      "total": 9,
       "byType": {
-        "Dispensary": 7,
+        "Dispensary": 6,
         "Transportation Entity": 1,
         "Cultivator Facility": 2
       },
@@ -8518,22 +8458,6 @@
           "phone": "(601) 918-1851",
           "email": "william.chism@riverremedyms.com",
           "recordId": "1333",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY006018",
-          "businessName": "Kelly's Green, Inc.",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Forrest",
-          "expiration": "07-28-2026",
-          "issueDate": "07-22-2025",
-          "ownerName": "Puff Puff Give, LLC",
-          "physicalAddress": "20 RAWLS SPRINGS LOOP RD HATTIESBURG, MS 39402",
-          "mailingAddress": "540 FORD AVE BLDG B JACKSON, MS 39209",
-          "phone": "(601) 582-6031",
-          "email": "robert@omegacannabis.com",
-          "recordId": "1440",
           "isDispensary": true
         },
         {
@@ -10639,7 +10563,6 @@
         "DSPY015334"
       ],
       "81": [
-        "DSPY005438",
         "DSPY021938",
         "DSPY023138"
       ],
@@ -10657,7 +10580,6 @@
         "DSPY002941"
       ],
       "90": [
-        "DSPY006018",
         "DSPY025518"
       ],
       "92": [
@@ -10920,7 +10842,6 @@
         "DSPY000738"
       ],
       "33": [
-        "DSPY005438",
         "DSPY017512",
         "DSPY021938",
         "DSPY023138"
@@ -10974,7 +10895,6 @@
       "45": [
         "DSPY001837",
         "DSPY005037",
-        "DSPY006018",
         "DSPY016137",
         "DSPY025518"
       ],
@@ -11041,9 +10961,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-07-28T12:29:28.930Z",
-    "total": 189,
-    "matched": 164,
+    "generatedAt": "2026-07-29T12:54:16.016Z",
+    "total": 187,
+    "matched": 162,
     "unmatched": 25
   }
 }
