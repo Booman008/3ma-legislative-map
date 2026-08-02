@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-08-01T11:54:14.132Z",
-  "total": 364,
+  "generatedAt": "2026-08-02T11:52:27.668Z",
+  "total": 363,
   "typeTotals": {
     "Cultivator Facility": 108,
     "Processing Facility": 41,
     "Transportation Entity": 16,
     "Testing Facility": 2,
-    "Dispensary": 192,
+    "Dispensary": 191,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -598,28 +598,6 @@
       "geocodeLabel": "612 HWY 12 E, STARKVILLE, MS, 39759",
       "houseDistrict": "43",
       "senateDistrict": "15"
-    },
-    {
-      "id": "DSPY007236",
-      "businessName": "Hybrid LLC",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Lafayette",
-      "expiration": "08-01-2026",
-      "issueDate": "07-21-2025",
-      "ownerName": "Antonio Barragan",
-      "physicalAddress": "1801 JACKSON AVE W A OXFORD, MS 38655",
-      "mailingAddress": "1801 JACKSON AVE W SUITE D 112 OXFORD, MS 38655",
-      "phone": "(662) 934-2121",
-      "email": "hemphealthms@gmail.com",
-      "recordId": "1304",
-      "isDispensary": true,
-      "geocodeStatus": "matched",
-      "lat": 34.36547498864,
-      "lng": -89.553295322453,
-      "geocodeLabel": "1801 JACKSON AVE W, OXFORD, MS, 38655",
-      "houseDistrict": "12",
-      "senateDistrict": "9"
     },
     {
       "id": "DSPY000359",
@@ -7956,9 +7934,9 @@
     },
     "Lafayette": {
       "county": "Lafayette",
-      "total": 11,
+      "total": 10,
       "byType": {
-        "Dispensary": 7,
+        "Dispensary": 6,
         "Processing Facility": 1,
         "Disposal Entity": 1,
         "Transportation Entity": 1,
@@ -7979,22 +7957,6 @@
           "phone": "(212) 537-6794",
           "email": "cyrusn@gmail.com",
           "recordId": "1262",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY007236",
-          "businessName": "Hybrid LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lafayette",
-          "expiration": "08-01-2026",
-          "issueDate": "07-21-2025",
-          "ownerName": "Antonio Barragan",
-          "physicalAddress": "1801 JACKSON AVE W A OXFORD, MS 38655",
-          "mailingAddress": "1801 JACKSON AVE W SUITE D 112 OXFORD, MS 38655",
-          "phone": "(662) 934-2121",
-          "email": "hemphealthms@gmail.com",
-          "recordId": "1304",
           "isDispensary": true
         },
         {
@@ -10578,7 +10540,6 @@
         "DSPY022769"
       ],
       "12": [
-        "DSPY007236",
         "DSPY007536",
         "DSPY018964",
         "DSPY025736"
@@ -10909,7 +10870,6 @@
       ],
       "9": [
         "DSPY006336",
-        "DSPY007236",
         "DSPY007536",
         "DSPY011836",
         "DSPY014554",
@@ -11140,9 +11100,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-08-01T11:54:14.532Z",
-    "total": 192,
-    "matched": 166,
+    "generatedAt": "2026-08-02T11:52:28.052Z",
+    "total": 191,
+    "matched": 165,
     "unmatched": 26
   }
 }
