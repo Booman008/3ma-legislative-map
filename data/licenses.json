@@ -1,11 +1,11 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-08-04T12:52:07.802Z",
-  "total": 363,
+  "generatedAt": "2026-08-05T12:45:55.586Z",
+  "total": 362,
   "typeTotals": {
     "Cultivator Facility": 108,
     "Processing Facility": 41,
-    "Transportation Entity": 16,
+    "Transportation Entity": 15,
     "Testing Facility": 2,
     "Dispensary": 191,
     "Disposal Entity": 4,
@@ -1286,8 +1286,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Harrison",
-      "expiration": "08-09-2026",
-      "issueDate": "07-28-2025",
+      "expiration": "08-09-2027",
+      "issueDate": "08-04-2026",
       "ownerName": "Hung-Tyler Ly",
       "physicalAddress": "913 DIVISION ST BILOXI, MS 39530",
       "mailingAddress": "913 DIVISION ST BILOXI, MS 39530",
@@ -3906,8 +3906,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Lafayette",
-      "expiration": "08-10-2026",
-      "issueDate": "08-04-2025",
+      "expiration": "08-10-2027",
+      "issueDate": "08-04-2026",
       "ownerName": "Tony Wallace, Bobby Britton",
       "physicalAddress": "2132 Jackson Ave W Oxford, MS 38655",
       "mailingAddress": "1510 Simpson Highway 149 Mendenhall, MS 39114",
@@ -5571,22 +5571,6 @@
       "phone": "(662) 457-0088",
       "email": "dougstout@mississippihealthconsultants.com",
       "recordId": "284317",
-      "isDispensary": false
-    },
-    {
-      "id": "TRAN002341",
-      "businessName": "Puffin Deliveries MS North",
-      "type": "Transportation Entity",
-      "typeSlug": "transportation-entity",
-      "county": "Lee",
-      "expiration": "08-21-2026",
-      "issueDate": "09-18-2025",
-      "ownerName": "Wade Rhinehart",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(601) 271-1557",
-      "email": "info@puffindeliveries.com",
-      "recordId": "285947",
       "isDispensary": false
     },
     {
@@ -7997,8 +7981,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Lafayette",
-          "expiration": "08-10-2026",
-          "issueDate": "08-04-2025",
+          "expiration": "08-10-2027",
+          "issueDate": "08-04-2026",
           "ownerName": "Tony Wallace, Bobby Britton",
           "physicalAddress": "2132 Jackson Ave W Oxford, MS 38655",
           "mailingAddress": "1510 Simpson Highway 149 Mendenhall, MS 39114",
@@ -8829,8 +8813,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Harrison",
-          "expiration": "08-09-2026",
-          "issueDate": "07-28-2025",
+          "expiration": "08-09-2027",
+          "issueDate": "08-04-2026",
           "ownerName": "Hung-Tyler Ly",
           "physicalAddress": "913 DIVISION ST BILOXI, MS 39530",
           "mailingAddress": "913 DIVISION ST BILOXI, MS 39530",
@@ -9353,12 +9337,11 @@
     },
     "Lee": {
       "county": "Lee",
-      "total": 15,
+      "total": 14,
       "byType": {
         "Cultivator Facility": 4,
         "Dispensary": 8,
-        "Processing Facility": 2,
-        "Transportation Entity": 1
+        "Processing Facility": 2
       },
       "dispensaries": [
         {
@@ -11100,7 +11083,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-08-04T12:52:08.185Z",
+    "generatedAt": "2026-08-05T12:45:55.978Z",
     "total": 191,
     "matched": 165,
     "unmatched": 26
