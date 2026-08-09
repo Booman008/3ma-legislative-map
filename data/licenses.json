@@ -1,9 +1,9 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-08-08T11:18:52.402Z",
-  "total": 363,
+  "generatedAt": "2026-08-09T11:19:25.944Z",
+  "total": 362,
   "typeTotals": {
-    "Cultivator Facility": 108,
+    "Cultivator Facility": 107,
     "Processing Facility": 41,
     "Transportation Entity": 15,
     "Testing Facility": 2,
@@ -186,22 +186,6 @@
       "phone": "(601) 910-3001",
       "email": "allen.whitt@steephillms.com",
       "recordId": "1148",
-      "isDispensary": false
-    },
-    {
-      "id": "CULV000945",
-      "businessName": "Phoenix MS LLC",
-      "type": "Cultivator Facility",
-      "typeSlug": "cultivator-facility",
-      "county": "Madison",
-      "expiration": "08-08-2026",
-      "issueDate": "08-05-2025",
-      "ownerName": "Jason Mick",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(901) 233-5655",
-      "email": "jason.mick1004@gmail.com",
-      "recordId": "1151",
       "isDispensary": false
     },
     {
@@ -7501,9 +7485,9 @@
     },
     "Madison": {
       "county": "Madison",
-      "total": 16,
+      "total": 15,
       "byType": {
-        "Cultivator Facility": 4,
+        "Cultivator Facility": 3,
         "Transportation Entity": 3,
         "Dispensary": 5,
         "Processing Facility": 3,
@@ -11123,7 +11107,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-08-08T11:18:52.783Z",
+    "generatedAt": "2026-08-09T11:19:26.250Z",
     "total": 192,
     "matched": 166,
     "unmatched": 26
