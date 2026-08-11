@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-08-10T11:40:37.591Z",
+  "generatedAt": "2026-08-11T11:35:44.640Z",
   "total": 360,
   "typeTotals": {
     "Cultivator Facility": 107,
     "Processing Facility": 41,
+    "Transportation Entity": 15,
     "Testing Facility": 2,
-    "Dispensary": 191,
-    "Transportation Entity": 14,
+    "Dispensary": 190,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -154,6 +154,22 @@
       "phone": "(601) 248-4006",
       "email": "leeann@slipherlaw.com",
       "recordId": "1088",
+      "isDispensary": false
+    },
+    {
+      "id": "TRAN000345",
+      "businessName": "Kudzu Transportation Company, LLC",
+      "type": "Transportation Entity",
+      "typeSlug": "transportation-entity",
+      "county": "Madison",
+      "expiration": "08-12-2026",
+      "issueDate": "08-21-2025",
+      "ownerName": "JARED KOBS",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(601) 927-7723",
+      "email": "jared@kudzucc.com",
+      "recordId": "1089",
       "isDispensary": false
     },
     {
@@ -715,28 +731,6 @@
       "geocodeLabel": "1223 SUNSET DR, GRENADA, MS, 38901",
       "houseDistrict": "34",
       "senateDistrict": "14"
-    },
-    {
-      "id": "DSPY000641",
-      "businessName": "Interstellar Tupelo, LLC",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Lee",
-      "expiration": "08-10-2026",
-      "issueDate": "07-22-2025",
-      "ownerName": "Thomas Krumland, Gregory Bennett, Stephen Schlett, Rt2, OFFSET CC LLC, BEBE HOLDINGS, LLC, Mama's Boys Investments, LLC, Canna ops llc",
-      "physicalAddress": "3978 N GLOSTER ST TUPELO, MS 38804",
-      "mailingAddress": "3978 N GLOSTER ST TUPELO, MS 38804",
-      "phone": "(601) 707-4039",
-      "email": "tupelo@ignitems.com",
-      "recordId": "1340",
-      "isDispensary": true,
-      "geocodeStatus": "matched",
-      "lat": 34.314365589839,
-      "lng": -88.706688541312,
-      "geocodeLabel": "3978 N GLOSTER ST, TUPELO, MS, 38804",
-      "houseDistrict": "18",
-      "senateDistrict": "6"
     },
     {
       "id": "DSPY008974",
@@ -7431,11 +7425,11 @@
     },
     "Madison": {
       "county": "Madison",
-      "total": 14,
+      "total": 15,
       "byType": {
         "Cultivator Facility": 3,
+        "Transportation Entity": 3,
         "Dispensary": 5,
-        "Transportation Entity": 2,
         "Processing Facility": 3,
         "Disposal Entity": 1
       },
@@ -8692,161 +8686,6 @@
         }
       ]
     },
-    "Lee": {
-      "county": "Lee",
-      "total": 15,
-      "byType": {
-        "Dispensary": 9,
-        "Cultivator Facility": 4,
-        "Processing Facility": 2
-      },
-      "dispensaries": [
-        {
-          "id": "DSPY000641",
-          "businessName": "Interstellar Tupelo, LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lee",
-          "expiration": "08-10-2026",
-          "issueDate": "07-22-2025",
-          "ownerName": "Thomas Krumland, Gregory Bennett, Stephen Schlett, Rt2, OFFSET CC LLC, BEBE HOLDINGS, LLC, Mama's Boys Investments, LLC, Canna ops llc",
-          "physicalAddress": "3978 N GLOSTER ST TUPELO, MS 38804",
-          "mailingAddress": "3978 N GLOSTER ST TUPELO, MS 38804",
-          "phone": "(601) 707-4039",
-          "email": "tupelo@ignitems.com",
-          "recordId": "1340",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY002141",
-          "businessName": "Cannacare LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lee",
-          "expiration": "07-25-2027",
-          "issueDate": "07-17-2026",
-          "ownerName": "Taylor Limanek, Tracy Pipkin, Michael Griffin",
-          "physicalAddress": "111 S INDUSTRIAL RD TUPELO, MS 38801",
-          "mailingAddress": "111 S INDUSTRIAL RD TUPELO, MS 38801",
-          "phone": "(662) 871-9522",
-          "email": "cannacarellc22@gmail.com",
-          "recordId": "1365",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY000941",
-          "businessName": "High Hopes Cannabis LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lee",
-          "expiration": "07-22-2027",
-          "issueDate": "07-21-2026",
-          "ownerName": "Jason Truong",
-          "physicalAddress": "1201 N GLOSTER ST TUPELO, MS 38804",
-          "mailingAddress": "4734 MARKET ST TUPELO, MS 38801",
-          "phone": "(662) 523-4440",
-          "email": "truong_pham@hotmail.com",
-          "recordId": "1370",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY011341",
-          "businessName": "Jamal Saeed",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lee",
-          "expiration": "09-15-2026",
-          "issueDate": "09-12-2025",
-          "ownerName": "Jamal Saeed",
-          "physicalAddress": "608 N GLOSTER ST TUPELO, MS 38804",
-          "mailingAddress": "608 N GLOSTER ST TUPELO, MS 38804",
-          "phone": "(662) 523-0892",
-          "email": "cannabisheadquarter@gmail.com",
-          "recordId": "2722",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY019741",
-          "businessName": "SB Tupelo, LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lee",
-          "expiration": "10-24-2026",
-          "issueDate": "10-23-2025",
-          "ownerName": "Bridgett Green, Krista Beck, Three Rivers Investments, LLC, SNB Therapies, LLC, SAT, LLC, SB Tupelo, LLC",
-          "physicalAddress": "2546 MS 145 Saltillo, MS 38866",
-          "mailingAddress": "2546 MS 145 Suite D Saltillo, MS 38866",
-          "phone": "(662) 457-0088",
-          "email": "doug@starbuds.us",
-          "recordId": "64990",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY020075",
-          "businessName": "The Green Standard Vicksburg LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lee",
-          "expiration": "12-11-2026",
-          "issueDate": "11-20-2025",
-          "ownerName": "Daren Schiffman, George Wilkes, Daniel Jones, Anthony Lanzito, Chandra Menconi, Pietro Cefalu, Madison Blackmon, Antonio Cefalu, Meteorite Holdings LLC",
-          "physicalAddress": "3128 OLD BELDEN CIRCLE TUPELO, MS 38801",
-          "mailingAddress": "956 S BARTLETT RD # 307 PMB 307 BARTLETT, IL 60103",
-          "phone": "(708) 415-4087",
-          "email": "daren@dnaholdingsllc.com",
-          "recordId": "83113",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY024441",
-          "businessName": "SARBJOT LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lee",
-          "expiration": "03-18-2027",
-          "issueDate": "02-24-2026",
-          "ownerName": "Kamaljit Kaur",
-          "physicalAddress": "1295 N EASON BLVD TUPELO, MS 38804",
-          "mailingAddress": "3759 SCOTTS PLACE DR SALTILLO, MS 38866",
-          "phone": "(662) 422-2359",
-          "email": "garyandkam@gmail.com",
-          "recordId": "262352",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY001441",
-          "businessName": "Simpson Legion LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lee",
-          "expiration": "07-25-2027",
-          "issueDate": "07-14-2026",
-          "ownerName": "Mary Wallace, Rhonda Prentice, Tony Wallace, Bobby Britton",
-          "physicalAddress": "715 GARFIELD ST TUPELO, MS 38801",
-          "mailingAddress": "242 MARKET ST FLOWOOD, MS 39232",
-          "phone": "(901) 412-9440",
-          "email": "blanebritton@gmail.com",
-          "recordId": "301152",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY004141",
-          "businessName": "MS Moss, LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lee",
-          "expiration": "07-25-2027",
-          "issueDate": "07-22-2026",
-          "ownerName": "MS Moss Holdings, LLC",
-          "physicalAddress": "3836 N GLOSTER ST STE 311 TUPELO, MS 38804",
-          "mailingAddress": "2906 N STATE ST STE 311 JACKSON, MS 39216",
-          "phone": "(601) 622-6897",
-          "email": "compliance@rootdownms.com",
-          "recordId": "389047",
-          "isDispensary": true
-        }
-      ]
-    },
     "Leake": {
       "county": "Leake",
       "total": 2,
@@ -9438,6 +9277,145 @@
           "phone": "(601) 622-6897",
           "email": "compliance@rootdownms.com",
           "recordId": "389044",
+          "isDispensary": true
+        }
+      ]
+    },
+    "Lee": {
+      "county": "Lee",
+      "total": 14,
+      "byType": {
+        "Cultivator Facility": 4,
+        "Dispensary": 8,
+        "Processing Facility": 2
+      },
+      "dispensaries": [
+        {
+          "id": "DSPY002141",
+          "businessName": "Cannacare LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lee",
+          "expiration": "07-25-2027",
+          "issueDate": "07-17-2026",
+          "ownerName": "Taylor Limanek, Tracy Pipkin, Michael Griffin",
+          "physicalAddress": "111 S INDUSTRIAL RD TUPELO, MS 38801",
+          "mailingAddress": "111 S INDUSTRIAL RD TUPELO, MS 38801",
+          "phone": "(662) 871-9522",
+          "email": "cannacarellc22@gmail.com",
+          "recordId": "1365",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY000941",
+          "businessName": "High Hopes Cannabis LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lee",
+          "expiration": "07-22-2027",
+          "issueDate": "07-21-2026",
+          "ownerName": "Jason Truong",
+          "physicalAddress": "1201 N GLOSTER ST TUPELO, MS 38804",
+          "mailingAddress": "4734 MARKET ST TUPELO, MS 38801",
+          "phone": "(662) 523-4440",
+          "email": "truong_pham@hotmail.com",
+          "recordId": "1370",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY011341",
+          "businessName": "Jamal Saeed",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lee",
+          "expiration": "09-15-2026",
+          "issueDate": "09-12-2025",
+          "ownerName": "Jamal Saeed",
+          "physicalAddress": "608 N GLOSTER ST TUPELO, MS 38804",
+          "mailingAddress": "608 N GLOSTER ST TUPELO, MS 38804",
+          "phone": "(662) 523-0892",
+          "email": "cannabisheadquarter@gmail.com",
+          "recordId": "2722",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY019741",
+          "businessName": "SB Tupelo, LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lee",
+          "expiration": "10-24-2026",
+          "issueDate": "10-23-2025",
+          "ownerName": "Bridgett Green, Krista Beck, Three Rivers Investments, LLC, SNB Therapies, LLC, SAT, LLC, SB Tupelo, LLC",
+          "physicalAddress": "2546 MS 145 Saltillo, MS 38866",
+          "mailingAddress": "2546 MS 145 Suite D Saltillo, MS 38866",
+          "phone": "(662) 457-0088",
+          "email": "doug@starbuds.us",
+          "recordId": "64990",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY020075",
+          "businessName": "The Green Standard Vicksburg LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lee",
+          "expiration": "12-11-2026",
+          "issueDate": "11-20-2025",
+          "ownerName": "Daren Schiffman, George Wilkes, Daniel Jones, Anthony Lanzito, Chandra Menconi, Pietro Cefalu, Madison Blackmon, Antonio Cefalu, Meteorite Holdings LLC",
+          "physicalAddress": "3128 OLD BELDEN CIRCLE TUPELO, MS 38801",
+          "mailingAddress": "956 S BARTLETT RD # 307 PMB 307 BARTLETT, IL 60103",
+          "phone": "(708) 415-4087",
+          "email": "daren@dnaholdingsllc.com",
+          "recordId": "83113",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY024441",
+          "businessName": "SARBJOT LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lee",
+          "expiration": "03-18-2027",
+          "issueDate": "02-24-2026",
+          "ownerName": "Kamaljit Kaur",
+          "physicalAddress": "1295 N EASON BLVD TUPELO, MS 38804",
+          "mailingAddress": "3759 SCOTTS PLACE DR SALTILLO, MS 38866",
+          "phone": "(662) 422-2359",
+          "email": "garyandkam@gmail.com",
+          "recordId": "262352",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY001441",
+          "businessName": "Simpson Legion LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lee",
+          "expiration": "07-25-2027",
+          "issueDate": "07-14-2026",
+          "ownerName": "Mary Wallace, Rhonda Prentice, Tony Wallace, Bobby Britton",
+          "physicalAddress": "715 GARFIELD ST TUPELO, MS 38801",
+          "mailingAddress": "242 MARKET ST FLOWOOD, MS 39232",
+          "phone": "(901) 412-9440",
+          "email": "blanebritton@gmail.com",
+          "recordId": "301152",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY004141",
+          "businessName": "MS Moss, LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lee",
+          "expiration": "07-25-2027",
+          "issueDate": "07-22-2026",
+          "ownerName": "MS Moss Holdings, LLC",
+          "physicalAddress": "3836 N GLOSTER ST STE 311 TUPELO, MS 38804",
+          "mailingAddress": "2906 N STATE ST STE 311 JACKSON, MS 39216",
+          "phone": "(601) 622-6897",
+          "email": "compliance@rootdownms.com",
+          "recordId": "389047",
           "isDispensary": true
         }
       ]
@@ -10503,7 +10481,6 @@
         "DSPY011341"
       ],
       "18": [
-        "DSPY000641",
         "DSPY000941",
         "DSPY004141"
       ],
@@ -10808,7 +10785,6 @@
         "DSPY020171"
       ],
       "6": [
-        "DSPY000641",
         "DSPY000941",
         "DSPY002141",
         "DSPY004141",
@@ -11049,9 +11025,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-08-10T11:40:38.117Z",
-    "total": 191,
-    "matched": 165,
+    "generatedAt": "2026-08-11T11:35:45.028Z",
+    "total": 190,
+    "matched": 164,
     "unmatched": 26
   }
 }
