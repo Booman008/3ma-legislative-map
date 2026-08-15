@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-08-14T11:35:43.750Z",
+  "generatedAt": "2026-08-15T11:09:02.065Z",
   "total": 360,
   "typeTotals": {
     "Cultivator Facility": 107,
@@ -5943,8 +5943,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Scott",
-      "expiration": "08-19-2026",
-      "issueDate": "08-19-2025",
+      "expiration": "08-19-2027",
+      "issueDate": "08-14-2026",
       "ownerName": "Dominique Gilmer",
       "physicalAddress": "1910 HIGHWAY 35 S FOREST, MS 39074",
       "mailingAddress": "568 MAGNOLIA HTS FOREST, MS 39074",
@@ -10271,8 +10271,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Scott",
-          "expiration": "08-19-2026",
-          "issueDate": "08-19-2025",
+          "expiration": "08-19-2027",
+          "issueDate": "08-14-2026",
           "ownerName": "Dominique Gilmer",
           "physicalAddress": "1910 HIGHWAY 35 S FOREST, MS 39074",
           "mailingAddress": "568 MAGNOLIA HTS FOREST, MS 39074",
@@ -11025,7 +11025,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-08-14T11:35:44.055Z",
+    "generatedAt": "2026-08-15T11:09:02.487Z",
     "total": 190,
     "matched": 164,
     "unmatched": 26
