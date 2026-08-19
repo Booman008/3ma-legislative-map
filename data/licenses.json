@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-08-18T11:14:14.853Z",
+  "generatedAt": "2026-08-19T11:14:36.222Z",
   "total": 358,
   "typeTotals": {
     "Cultivator Facility": 107,
@@ -5860,8 +5860,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Lafayette",
-      "expiration": "09-09-2026",
-      "issueDate": "09-09-2025",
+      "expiration": "09-09-2027",
+      "issueDate": "08-18-2026",
       "ownerName": "Rootdown LLC",
       "physicalAddress": "821 N LAMAR BLVD STE 311 OXFORD, MS 38655",
       "mailingAddress": "2906 N STATE ST STE 311 JACKSON, MS 39216",
@@ -7899,8 +7899,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Lafayette",
-          "expiration": "09-09-2026",
-          "issueDate": "09-09-2025",
+          "expiration": "09-09-2027",
+          "issueDate": "08-18-2026",
           "ownerName": "Rootdown LLC",
           "physicalAddress": "821 N LAMAR BLVD STE 311 OXFORD, MS 38655",
           "mailingAddress": "2906 N STATE ST STE 311 JACKSON, MS 39216",
@@ -10945,7 +10945,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-08-18T11:14:15.105Z",
+    "generatedAt": "2026-08-19T11:14:36.613Z",
     "total": 188,
     "matched": 162,
     "unmatched": 26
