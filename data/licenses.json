@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-08-20T11:16:03.788Z",
-  "total": 358,
+  "generatedAt": "2026-08-21T11:15:28.019Z",
+  "total": 361,
   "typeTotals": {
-    "Cultivator Facility": 107,
-    "Processing Facility": 41,
+    "Cultivator Facility": 108,
+    "Processing Facility": 42,
     "Transportation Entity": 15,
     "Testing Facility": 2,
-    "Dispensary": 188,
+    "Dispensary": 189,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -1654,10 +1654,10 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Hancock",
-      "expiration": "09-13-2026",
-      "issueDate": "08-25-2025",
+      "expiration": "09-13-2027",
+      "issueDate": "08-20-2026",
       "ownerName": "Sam Farea",
-      "physicalAddress": "200 HIGHWAY 90 APT 8 BAY ST. LOUIS, MS 39576",
+      "physicalAddress": "200 HIGHWAY 90 BAY ST. LOUIS, MS 39576",
       "mailingAddress": "4322 W RAILROAD ST GULFPORT, MS 39501",
       "phone": "(228) 328-5116",
       "email": "samfarea4@gmail.com",
@@ -2079,8 +2079,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Alcorn",
-      "expiration": "09-13-2026",
-      "issueDate": "08-26-2025",
+      "expiration": "09-13-2027",
+      "issueDate": "08-20-2026",
       "ownerName": "Luciana Roberts, Emily Canada, William Chism, William Chism, Meskwaki Nation, Sac & Fox Tribe of the Mississippi in Iowa, Hinds Holdings, LLC, EBC Investment Holdings, LLC",
       "physicalAddress": "1507 HIGHWAY 72 E CORINTH, MS 38834",
       "mailingAddress": "115 AFTON DR CORINTH, MS 38834",
@@ -6029,9 +6029,9 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Hinds",
-      "expiration": "09-01-2026",
-      "issueDate": "09-10-2025",
-      "ownerName": "John Lucente, David Fowler, Jennifer Landry, Lucente, Curative Cannabis Dispensary, Pepe LLC",
+      "expiration": "09-01-2027",
+      "issueDate": "08-20-2026",
+      "ownerName": "Joseph Pepe, Gina Pepe, John Lucente, David Fowler, Jennifer Landry, Lucente, Curative Cannabis Dispensary, Pepe LLC",
       "physicalAddress": "1072 HIGH ST JACKSON, MS 39202",
       "mailingAddress": "1220 GRIMWOOD RD TONEY, AL 35773",
       "phone": "(985) 718-6907",
@@ -6658,6 +6658,22 @@
       "geocodeStatus": "unmatched"
     },
     {
+      "id": "MPRC002524",
+      "businessName": "Hash Grove Goods, LLC",
+      "type": "Processing Facility",
+      "typeSlug": "processing-facility",
+      "county": "Harrison",
+      "expiration": "08-20-2027",
+      "issueDate": "08-20-2026",
+      "ownerName": "Adam Lancon",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(228) 243-9211",
+      "email": "adamlancon@yahoo.com",
+      "recordId": "481278",
+      "isDispensary": false
+    },
+    {
       "id": "DSPY026218",
       "businessName": "MF Group, Inc.",
       "type": "Dispensary",
@@ -6688,6 +6704,44 @@
       "phone": "(601) 297-0140",
       "email": "lackcarter64@gmail.com",
       "recordId": "511995",
+      "isDispensary": false
+    },
+    {
+      "id": "DSPY026523",
+      "businessName": "420 Emporium LLC",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Hancock",
+      "expiration": "08-20-2027",
+      "issueDate": "08-20-2026",
+      "ownerName": "Melissa Malloy, Ryan Rowlett",
+      "physicalAddress": "4405 E Aloha Dr Diamondhead, MS 39525",
+      "mailingAddress": "4405 E Aloha Dr Suite AA Diamondhead, MS 39525",
+      "phone": "(423) 564-0806",
+      "email": "rowlettforoffice@gmail.com",
+      "recordId": "515614",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 30.375412863811,
+      "lng": -89.377286636802,
+      "geocodeLabel": "4405 ALOHA DR, DIAMONDHEAD, MS, 39525",
+      "houseDistrict": "95",
+      "senateDistrict": "46"
+    },
+    {
+      "id": "MCUL008859",
+      "businessName": "Lighter Foot LLC",
+      "type": "Cultivator Facility",
+      "typeSlug": "cultivator-facility",
+      "county": "Prentiss",
+      "expiration": "08-20-2027",
+      "issueDate": "08-20-2026",
+      "ownerName": "Nathaniel Follett",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(601) 527-9915",
+      "email": "lighterfootllc@gmail.com",
+      "recordId": "516891",
       "isDispensary": false
     },
     {
@@ -6964,9 +7018,9 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Hinds",
-          "expiration": "09-01-2026",
-          "issueDate": "09-10-2025",
-          "ownerName": "John Lucente, David Fowler, Jennifer Landry, Lucente, Curative Cannabis Dispensary, Pepe LLC",
+          "expiration": "09-01-2027",
+          "issueDate": "08-20-2026",
+          "ownerName": "Joseph Pepe, Gina Pepe, John Lucente, David Fowler, Jennifer Landry, Lucente, Curative Cannabis Dispensary, Pepe LLC",
           "physicalAddress": "1072 HIGH ST JACKSON, MS 39202",
           "mailingAddress": "1220 GRIMWOOD RD TONEY, AL 35773",
           "phone": "(985) 718-6907",
@@ -7929,9 +7983,9 @@
     },
     "Hancock": {
       "county": "Hancock",
-      "total": 9,
+      "total": 10,
       "byType": {
-        "Dispensary": 9
+        "Dispensary": 10
       },
       "dispensaries": [
         {
@@ -7956,10 +8010,10 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Hancock",
-          "expiration": "09-13-2026",
-          "issueDate": "08-25-2025",
+          "expiration": "09-13-2027",
+          "issueDate": "08-20-2026",
           "ownerName": "Sam Farea",
-          "physicalAddress": "200 HIGHWAY 90 APT 8 BAY ST. LOUIS, MS 39576",
+          "physicalAddress": "200 HIGHWAY 90 BAY ST. LOUIS, MS 39576",
           "mailingAddress": "4322 W RAILROAD ST GULFPORT, MS 39501",
           "phone": "(228) 328-5116",
           "email": "samfarea4@gmail.com",
@@ -8076,6 +8130,22 @@
           "phone": "(985) 718-6907",
           "email": "ginampepe@aol.com",
           "recordId": "350792",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY026523",
+          "businessName": "420 Emporium LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Hancock",
+          "expiration": "08-20-2027",
+          "issueDate": "08-20-2026",
+          "ownerName": "Melissa Malloy, Ryan Rowlett",
+          "physicalAddress": "4405 E Aloha Dr Diamondhead, MS 39525",
+          "mailingAddress": "4405 E Aloha Dr Suite AA Diamondhead, MS 39525",
+          "phone": "(423) 564-0806",
+          "email": "rowlettforoffice@gmail.com",
+          "recordId": "515614",
           "isDispensary": true
         }
       ]
@@ -8412,10 +8482,10 @@
     },
     "Prentiss": {
       "county": "Prentiss",
-      "total": 2,
+      "total": 3,
       "byType": {
         "Dispensary": 1,
-        "Cultivator Facility": 1
+        "Cultivator Facility": 2
       },
       "dispensaries": [
         {
@@ -8670,11 +8740,11 @@
     },
     "Harrison": {
       "county": "Harrison",
-      "total": 27,
+      "total": 28,
       "byType": {
         "Dispensary": 21,
         "Cultivator Facility": 3,
-        "Processing Facility": 3
+        "Processing Facility": 4
       },
       "dispensaries": [
         {
@@ -9917,8 +9987,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Alcorn",
-          "expiration": "09-13-2026",
-          "issueDate": "08-26-2025",
+          "expiration": "09-13-2027",
+          "issueDate": "08-20-2026",
           "ownerName": "Luciana Roberts, Emily Canada, William Chism, William Chism, Meskwaki Nation, Sac & Fox Tribe of the Mississippi in Iowa, Hinds Holdings, LLC, EBC Investment Holdings, LLC",
           "physicalAddress": "1507 HIGHWAY 72 E CORINTH, MS 38834",
           "mailingAddress": "115 AFTON DR CORINTH, MS 38834",
@@ -10573,7 +10643,8 @@
       "95": [
         "DSPY015123",
         "DSPY024124",
-        "DSPY024723"
+        "DSPY024723",
+        "DSPY026523"
       ],
       "97": [
         "DSPY003501",
@@ -10890,7 +10961,8 @@
         "DSPY023623",
         "DSPY024124",
         "DSPY024723",
-        "DSPY024923"
+        "DSPY024923",
+        "DSPY026523"
       ],
       "47": [
         "DSPY013030",
@@ -10945,9 +11017,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-08-20T11:16:04.161Z",
-    "total": 188,
-    "matched": 162,
+    "generatedAt": "2026-08-21T11:15:28.601Z",
+    "total": 189,
+    "matched": 163,
     "unmatched": 26
   }
 }

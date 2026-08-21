@@ -1127,8 +1127,14 @@
       "lat": 31.124924438715,
       "lng": -90.106076515915,
       "matchedAddress": "241 OLD HWY 98 E, TYLERTOWN, MS, 39667"
+    },
+    "200 HIGHWAY 90 BAY ST. LOUIS, MS 39576": {
+      "status": "matched",
+      "lat": 30.308264366941,
+      "lng": -89.372375848718,
+      "matchedAddress": "200 HWY 90, WAVELAND, MS, 39576"
     }
   },
-  "generatedAt": "2026-08-20T11:16:04.161Z",
+  "generatedAt": "2026-08-21T11:15:28.601Z",
   "provider": "U.S. Census Geocoder"
 }
