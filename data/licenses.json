@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-08-21T11:15:28.019Z",
-  "total": 361,
+  "generatedAt": "2026-08-22T11:10:16.675Z",
+  "total": 363,
   "typeTotals": {
     "Cultivator Facility": 108,
     "Processing Facility": 42,
     "Transportation Entity": 15,
     "Testing Facility": 2,
-    "Dispensary": 189,
+    "Dispensary": 191,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -5685,6 +5685,28 @@
       "senateDistrict": "49"
     },
     {
+      "id": "DSPY026615",
+      "businessName": "BYRAMDP, LLC",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Copiah",
+      "expiration": "08-21-2027",
+      "issueDate": "08-21-2026",
+      "ownerName": "Byramdp, LLC.",
+      "physicalAddress": "685C CALDWELL DR HAZLEHURST, MS 39083",
+      "mailingAddress": "412 PORT ARBOR BRANDON, MS 39047",
+      "phone": "(601) 832-8289",
+      "email": "kanwaljit8289@gmail.com",
+      "recordId": "309507",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 31.87401281699,
+      "lng": -90.398380068966,
+      "geocodeLabel": "685C CALDWELL DR, HAZLEHURST, MS, 39083",
+      "houseDistrict": "76",
+      "senateDistrict": "37"
+    },
+    {
       "id": "DSPY025045",
       "businessName": "Simpson Legion LLC",
       "type": "Dispensary",
@@ -6791,6 +6813,28 @@
       "email": "lackcarter64@gmail.com",
       "recordId": "524536",
       "isDispensary": false
+    },
+    {
+      "id": "DSPY026759",
+      "businessName": "DABBS 2 LLC",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Prentiss",
+      "expiration": "08-21-2027",
+      "issueDate": "08-21-2026",
+      "ownerName": "Bennie Knighten, Tony Wallace, Bobby Britton",
+      "physicalAddress": "607 W Chambers Dr Booneville, MS 38829",
+      "mailingAddress": "607 W Chambers Dr Booneville, MS 38829",
+      "phone": "(601) 594-2285",
+      "email": "blanebritton@gmail.com",
+      "recordId": "525632",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 34.684808868588,
+      "lng": -88.56223048139,
+      "geocodeLabel": "607 W CHAMBERS DR, BOONEVILLE, MS, 38829",
+      "houseDistrict": "3",
+      "senateDistrict": "5"
     }
   ],
   "countySummaries": {
@@ -8482,9 +8526,9 @@
     },
     "Prentiss": {
       "county": "Prentiss",
-      "total": 3,
+      "total": 4,
       "byType": {
-        "Dispensary": 1,
+        "Dispensary": 2,
         "Cultivator Facility": 2
       },
       "dispensaries": [
@@ -8502,6 +8546,22 @@
           "phone": "(662) 416-8431",
           "email": "mkb1990@yahoo.com",
           "recordId": "1306",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY026759",
+          "businessName": "DABBS 2 LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Prentiss",
+          "expiration": "08-21-2027",
+          "issueDate": "08-21-2026",
+          "ownerName": "Bennie Knighten, Tony Wallace, Bobby Britton",
+          "physicalAddress": "607 W Chambers Dr Booneville, MS 38829",
+          "mailingAddress": "607 W Chambers Dr Booneville, MS 38829",
+          "phone": "(601) 594-2285",
+          "email": "blanebritton@gmail.com",
+          "recordId": "525632",
           "isDispensary": true
         }
       ]
@@ -10393,21 +10453,29 @@
       },
       "dispensaries": []
     },
-    "Franklin": {
-      "county": "Franklin",
-      "total": 1,
-      "byType": {
-        "Cultivator Facility": 1
-      },
-      "dispensaries": []
-    },
     "Copiah": {
       "county": "Copiah",
-      "total": 1,
+      "total": 2,
       "byType": {
-        "Dispensary": 1
+        "Dispensary": 2
       },
       "dispensaries": [
+        {
+          "id": "DSPY026615",
+          "businessName": "BYRAMDP, LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Copiah",
+          "expiration": "08-21-2027",
+          "issueDate": "08-21-2026",
+          "ownerName": "Byramdp, LLC.",
+          "physicalAddress": "685C CALDWELL DR HAZLEHURST, MS 39083",
+          "mailingAddress": "412 PORT ARBOR BRANDON, MS 39047",
+          "phone": "(601) 832-8289",
+          "email": "kanwaljit8289@gmail.com",
+          "recordId": "309507",
+          "isDispensary": true
+        },
         {
           "id": "DSPY020315",
           "businessName": "DABBS 1",
@@ -10425,6 +10493,14 @@
           "isDispensary": true
         }
       ]
+    },
+    "Franklin": {
+      "county": "Franklin",
+      "total": 1,
+      "byType": {
+        "Cultivator Facility": 1
+      },
+      "dispensaries": []
     }
   },
   "dispensaryDistrictSummaries": {
@@ -10438,7 +10514,8 @@
         "DSPY024002"
       ],
       "3": [
-        "DSPY000359"
+        "DSPY000359",
+        "DSPY026759"
       ],
       "4": [
         "DSPY019070"
@@ -10600,7 +10677,8 @@
         "DSPY023925"
       ],
       "76": [
-        "DSPY020315"
+        "DSPY020315",
+        "DSPY026615"
       ],
       "77": [
         "DSPY016464"
@@ -10775,7 +10853,8 @@
       "5": [
         "DSPY000359",
         "DSPY012229",
-        "DSPY020171"
+        "DSPY020171",
+        "DSPY026759"
       ],
       "6": [
         "DSPY000941",
@@ -10917,7 +10996,8 @@
         "DSPY003501",
         "DSPY013801",
         "DSPY015501",
-        "DSPY020315"
+        "DSPY020315",
+        "DSPY026615"
       ],
       "38": [
         "DSPY012757",
@@ -11017,9 +11097,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-08-21T11:15:28.601Z",
-    "total": 189,
-    "matched": 163,
+    "generatedAt": "2026-08-22T11:10:17.309Z",
+    "total": 191,
+    "matched": 165,
     "unmatched": 26
   }
 }
