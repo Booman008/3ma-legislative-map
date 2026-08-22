@@ -1133,8 +1133,20 @@
       "lat": 30.308264366941,
       "lng": -89.372375848718,
       "matchedAddress": "200 HWY 90, WAVELAND, MS, 39576"
+    },
+    "607 W CHAMBERS DR BOONEVILLE, MS 38829": {
+      "status": "matched",
+      "lat": 34.684808868588,
+      "lng": -88.56223048139,
+      "matchedAddress": "607 W CHAMBERS DR, BOONEVILLE, MS, 38829"
+    },
+    "685C CALDWELL DR HAZLEHURST, MS 39083": {
+      "status": "matched",
+      "lat": 31.87401281699,
+      "lng": -90.398380068966,
+      "matchedAddress": "685C CALDWELL DR, HAZLEHURST, MS, 39083"
     }
   },
-  "generatedAt": "2026-08-21T11:15:28.601Z",
+  "generatedAt": "2026-08-22T11:10:17.309Z",
   "provider": "U.S. Census Geocoder"
 }
