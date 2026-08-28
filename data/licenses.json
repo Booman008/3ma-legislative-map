@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-08-27T20:50:51.253Z",
-  "total": 362,
+  "generatedAt": "2026-08-28T21:16:57.011Z",
+  "total": 363,
   "typeTotals": {
     "Cultivator Facility": 108,
     "Processing Facility": 42,
     "Transportation Entity": 15,
     "Testing Facility": 2,
-    "Dispensary": 190,
+    "Dispensary": 191,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -1483,6 +1483,23 @@
       "email": "scarlet@mspropertypro.com",
       "recordId": "1680",
       "isDispensary": false
+    },
+    {
+      "id": "DSPY010425",
+      "businessName": "Kudzu Cannabis Company, LLC",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Hinds",
+      "expiration": "08-24-2027",
+      "issueDate": "08-27-2026",
+      "ownerName": "JARED KOBS",
+      "physicalAddress": "4678 I 55 FRONTAGE RD N JACKSON, MS 39211",
+      "mailingAddress": "4678 I 55 FRONTAGE RD N JACKSON, MS 39211",
+      "phone": "(601) 414-9333",
+      "email": "jared@kudzucc.com",
+      "recordId": "1738",
+      "isDispensary": true,
+      "geocodeStatus": "unmatched"
     },
     {
       "id": "DSPY010125",
@@ -6823,11 +6840,11 @@
   "countySummaries": {
     "Hinds": {
       "county": "Hinds",
-      "total": 23,
+      "total": 24,
       "byType": {
         "Cultivator Facility": 6,
         "Processing Facility": 3,
-        "Dispensary": 13,
+        "Dispensary": 14,
         "Transportation Entity": 1
       },
       "dispensaries": [
@@ -6893,6 +6910,22 @@
           "phone": "(601) 572-9243",
           "email": "kathy@uptownfunkcc.com",
           "recordId": "1650",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY010425",
+          "businessName": "Kudzu Cannabis Company, LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Hinds",
+          "expiration": "08-24-2027",
+          "issueDate": "08-27-2026",
+          "ownerName": "JARED KOBS",
+          "physicalAddress": "4678 I 55 FRONTAGE RD N JACKSON, MS 39211",
+          "mailingAddress": "4678 I 55 FRONTAGE RD N JACKSON, MS 39211",
+          "phone": "(601) 414-9333",
+          "email": "jared@kudzucc.com",
+          "recordId": "1738",
           "isDispensary": true
         },
         {
@@ -11064,9 +11097,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-08-27T20:50:51.636Z",
-    "total": 190,
+    "generatedAt": "2026-08-28T21:16:57.265Z",
+    "total": 191,
     "matched": 165,
-    "unmatched": 25
+    "unmatched": 26
   }
 }
