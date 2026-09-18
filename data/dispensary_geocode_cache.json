@@ -1145,8 +1145,14 @@
       "lat": 31.87401281699,
       "lng": -90.398380068966,
       "matchedAddress": "685C CALDWELL DR, HAZLEHURST, MS, 39083"
+    },
+    "9053 COUNTY FARM RD LONG BEACH, MS 39560": {
+      "status": "matched",
+      "lat": 30.413280290305,
+      "lng": -89.191446680588,
+      "matchedAddress": "9053 COUNTY FARM RD, LONG BEACH, MS, 39560"
     }
   },
-  "generatedAt": "2026-09-17T15:21:21.636Z",
+  "generatedAt": "2026-09-18T14:41:19.918Z",
   "provider": "U.S. Census Geocoder"
 }

@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-09-17T15:21:21.287Z",
-  "total": 363,
+  "generatedAt": "2026-09-18T14:41:19.313Z",
+  "total": 364,
   "typeTotals": {
-    "Cultivator Facility": 108,
+    "Cultivator Facility": 113,
     "Processing Facility": 42,
-    "Transportation Entity": 15,
+    "Transportation Entity": 14,
     "Testing Facility": 2,
-    "Dispensary": 191,
+    "Dispensary": 188,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -210,8 +210,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Jasper",
-      "expiration": "09-12-2026",
-      "issueDate": "09-19-2025",
+      "expiration": "09-12-2027",
+      "issueDate": "09-16-2026",
       "ownerName": "Leaf River Farm",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -242,13 +242,13 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Panola",
-      "expiration": "09-12-2026",
-      "issueDate": "09-05-2025",
-      "ownerName": "Antonio Shall, Jonathan Shall, Patricia Shall, Sherman Franklin",
+      "expiration": "09-12-2027",
+      "issueDate": "09-11-2026",
+      "ownerName": "Sherman Franklin",
       "physicalAddress": "",
       "mailingAddress": "",
-      "phone": "(586) 201-6333",
-      "email": "pcussie15@gmail.com",
+      "phone": "(662) 703-0337",
+      "email": "franklintodd69@gmail.com",
       "recordId": "1237",
       "isDispensary": false
     },
@@ -1324,8 +1324,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Panola",
-      "expiration": "09-18-2026",
-      "issueDate": "09-18-2025",
+      "expiration": "09-18-2027",
+      "issueDate": "09-03-2026",
       "ownerName": "Jeremey Bearden",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -1474,8 +1474,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Greene",
-      "expiration": "09-24-2026",
-      "issueDate": "09-24-2025",
+      "expiration": "09-24-2027",
+      "issueDate": "09-16-2026",
       "ownerName": "GEORGE MCDONALD, Scarlet McDonald",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -1524,8 +1524,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Madison",
-      "expiration": "10-04-2026",
-      "issueDate": "10-02-2025",
+      "expiration": "10-04-2027",
+      "issueDate": "09-17-2026",
       "ownerName": "Beatties Bluff Holding LLC",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -1556,8 +1556,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Harrison",
-      "expiration": "09-13-2026",
-      "issueDate": "08-20-2025",
+      "expiration": "09-13-2027",
+      "issueDate": "09-15-2026",
       "ownerName": "Laurence Pickett, Larry Tubbs, Terrell Roddy",
       "physicalAddress": "12407 HIGHWAY 49 GULFPORT, MS 39503",
       "mailingAddress": "12407 HIGHWAY 49 GULFPORT, MS 39503",
@@ -1578,8 +1578,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Tallahatchie",
-      "expiration": "10-01-2026",
-      "issueDate": "10-01-2025",
+      "expiration": "10-01-2027",
+      "issueDate": "09-16-2026",
       "ownerName": "Barbara Grissom, Terry Grissom",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -1589,36 +1589,14 @@
       "isDispensary": false
     },
     {
-      "id": "DSPY011017",
-      "businessName": "Tru Source Medical Cannabis, LLC",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "DeSoto",
-      "expiration": "09-13-2026",
-      "issueDate": "09-10-2025",
-      "ownerName": "Clarence Cocroft",
-      "physicalAddress": "4714 North Central Way Olive Branch, MS 38654",
-      "mailingAddress": "6954 CLEARPOINT DR MEMPHIS, TN 38141",
-      "phone": "(901) 299-3293",
-      "email": "clarence@tcp-agresearch.com",
-      "recordId": "1989",
-      "isDispensary": true,
-      "geocodeStatus": "matched",
-      "lat": 34.928993623134,
-      "lng": -89.791738415667,
-      "geocodeLabel": "4714 NORTHCENTRAL WAY, OLIVE BRANCH, MS, 38654",
-      "houseDistrict": "6",
-      "senateDistrict": "19"
-    },
-    {
       "id": "DSPY010744",
       "businessName": "The Magg Dispensary, LLC",
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Lowndes",
-      "expiration": "09-13-2026",
-      "issueDate": "09-11-2025",
-      "ownerName": "George Pittman, Rebecca Stuart Boyd, Mary Boyd Pittman",
+      "expiration": "09-13-2027",
+      "issueDate": "09-11-2026",
+      "ownerName": "Rebecca Pittman, Mary Pittman, George Pittman",
       "physicalAddress": "901 HIGHWAY 45 N COLUMBUS, MS 39701",
       "mailingAddress": "901 HIGHWAY 45 N STE 1 COLUMBUS, MS 39701",
       "phone": "(662) 251-6067",
@@ -1669,28 +1647,6 @@
       "geocodeLabel": "200 HWY 90, WAVELAND, MS, 39576",
       "houseDistrict": "122",
       "senateDistrict": "46"
-    },
-    {
-      "id": "DSPY010867",
-      "businessName": "Arcane Enterprises",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Sunflower",
-      "expiration": "09-13-2026",
-      "issueDate": "08-18-2025",
-      "ownerName": "Katricia Smith",
-      "physicalAddress": "4241 HIGHWAY 49 DREW, MS 38737",
-      "mailingAddress": "4241 HIGHWAY 49 STE A DREW, MS 38737",
-      "phone": "(662) 701-7696",
-      "email": "klsmith@arcanemd.com",
-      "recordId": "2158",
-      "isDispensary": true,
-      "geocodeStatus": "matched",
-      "lat": 33.823519935397,
-      "lng": -90.521205892754,
-      "geocodeLabel": "4241 US HWY 49 W, DREW, MS, 38737",
-      "houseDistrict": "30",
-      "senateDistrict": "13"
     },
     {
       "id": "MCUL002324",
@@ -1790,8 +1746,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "George",
-      "expiration": "09-20-2026",
-      "issueDate": "09-11-2025",
+      "expiration": "09-20-2027",
+      "issueDate": "09-16-2026",
       "ownerName": "Allie Franklin, Robert Britton, Tony Wallace, Bobby Britton",
       "physicalAddress": "1282 Beaver Dam Rd Lucedale, MS 39452",
       "mailingAddress": "PO BOX 777 MENDENHALL, MS 39114",
@@ -1856,8 +1812,8 @@
       "type": "Processing Facility",
       "typeSlug": "processing-facility",
       "county": "Hinds",
-      "expiration": "10-04-2026",
-      "issueDate": "10-02-2025",
+      "expiration": "10-04-2027",
+      "issueDate": "09-17-2026",
       "ownerName": "River Wellness Holdings LLC",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -1888,8 +1844,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Harrison",
-      "expiration": "09-13-2026",
-      "issueDate": "09-16-2025",
+      "expiration": "09-13-2027",
+      "issueDate": "09-11-2026",
       "ownerName": "Long Beach Disensary LLC",
       "physicalAddress": "520 E RAILROAD ST STE A LONG BEACH, MS 39560",
       "mailingAddress": "520 E RAILROAD ST STE A LONG BEACH, MS 39560",
@@ -1903,23 +1859,6 @@
       "geocodeLabel": "520 E RAILROAD ST, LONG BEACH, MS, 39560",
       "houseDistrict": "120",
       "senateDistrict": "48"
-    },
-    {
-      "id": "DSPY011534",
-      "businessName": "Toke and Tell Dispensary 2 LLC",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Jones",
-      "expiration": "09-16-2026",
-      "issueDate": "09-22-2025",
-      "ownerName": "Tina Bruce",
-      "physicalAddress": "Ellisville Blvd Laurel, MS 39440",
-      "mailingAddress": "10 DUNBAR RD NATCHEZ, MS 39120",
-      "phone": "(601) 807-3833",
-      "email": "tina-bruce@att.net",
-      "recordId": "2593",
-      "isDispensary": true,
-      "geocodeStatus": "unmatched"
     },
     {
       "id": "PROC000961",
@@ -1981,8 +1920,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Lee",
-      "expiration": "09-15-2026",
-      "issueDate": "09-12-2025",
+      "expiration": "09-15-2027",
+      "issueDate": "09-03-2026",
       "ownerName": "Jamal Saeed",
       "physicalAddress": "608 N GLOSTER ST TUPELO, MS 38804",
       "mailingAddress": "608 N GLOSTER ST TUPELO, MS 38804",
@@ -2041,8 +1980,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Itawamba",
-      "expiration": "09-28-2026",
-      "issueDate": "09-22-2025",
+      "expiration": "09-28-2027",
+      "issueDate": "09-01-2026",
       "ownerName": "Wanda Farr",
       "physicalAddress": "101 WHEELER DR FULTON, MS 38843",
       "mailingAddress": "101 WHEELER DR FULTON, MS 38843",
@@ -2165,28 +2104,6 @@
       "email": "darren@blackprairiecult.com",
       "recordId": "3138",
       "isDispensary": false
-    },
-    {
-      "id": "DSPY012337",
-      "businessName": "Cultivated Wellness Dispensary NO.2",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Lamar",
-      "expiration": "09-29-2026",
-      "issueDate": "09-15-2025",
-      "ownerName": "Larry Pickett, Larry Tubbs, Terrell Roddy",
-      "physicalAddress": "6690 U S HIGHWAY 98 HATTIESBURG, MS 39402",
-      "mailingAddress": "6690 U S HIGHWAY 98 HATTIESBURG, MS 39402",
-      "phone": "(970) 630-9722",
-      "email": "troddy1965@gmail.com",
-      "recordId": "3144",
-      "isDispensary": true,
-      "geocodeStatus": "matched",
-      "lat": 31.316307041208,
-      "lng": -89.430976789657,
-      "geocodeLabel": "6690 US HWY 98, HATTIESBURG, MS, 39402",
-      "houseDistrict": "101",
-      "senateDistrict": "44"
     },
     {
       "id": "MCUL003241",
@@ -3258,7 +3175,7 @@
       "county": "Pike",
       "expiration": "05-08-2027",
       "issueDate": "05-08-2026",
-      "ownerName": "Bronson Saucier",
+      "ownerName": "Aaron Terrebonne",
       "physicalAddress": "",
       "mailingAddress": "",
       "phone": "(985) 637-3354",
@@ -3506,8 +3423,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Alcorn",
-      "expiration": "09-15-2026",
-      "issueDate": "08-18-2025",
+      "expiration": "09-15-2027",
+      "issueDate": "09-08-2026",
       "ownerName": "Shawn Ayers",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -3776,8 +3693,8 @@
       "type": "Transportation Entity",
       "typeSlug": "transportation-entity",
       "county": "Yazoo",
-      "expiration": "10-02-2026",
-      "issueDate": "10-02-2025",
+      "expiration": "10-02-2027",
+      "issueDate": "09-16-2026",
       "ownerName": "Magnolia High Transport, LLC",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -3906,8 +3823,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Lee",
-      "expiration": "09-11-2026",
-      "issueDate": "09-11-2025",
+      "expiration": "09-11-2027",
+      "issueDate": "09-08-2026",
       "ownerName": "Terry Wallace",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -3986,8 +3903,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Neshoba",
-      "expiration": "09-13-2026",
-      "issueDate": "09-09-2025",
+      "expiration": "09-13-2027",
+      "issueDate": "09-03-2026",
       "ownerName": "Tony Wallace, Bobby Britton",
       "physicalAddress": "1024 W BEACON ST PHILADELPHIA, MS 39350",
       "mailingAddress": "PO BOX 777 MENDENHALL, MS 39114",
@@ -4782,9 +4699,9 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Rankin",
-      "expiration": "09-05-2026",
-      "issueDate": "09-05-2025",
-      "ownerName": "Brady Perry, james harper",
+      "expiration": "09-05-2027",
+      "issueDate": "09-11-2026",
+      "ownerName": "james harper",
       "physicalAddress": "",
       "mailingAddress": "",
       "phone": "(662) 897-4542",
@@ -4879,22 +4796,6 @@
       "isDispensary": false
     },
     {
-      "id": "TRAN002954",
-      "businessName": "Collard Greens LLC",
-      "type": "Transportation Entity",
-      "typeSlug": "transportation-entity",
-      "county": "Panola",
-      "expiration": "09-03-2026",
-      "issueDate": "09-03-2025",
-      "ownerName": "Collard Greens LLC",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(919) 525-9979",
-      "email": "collardgreensllc@gmail.com",
-      "recordId": "166965",
-      "isDispensary": false
-    },
-    {
       "id": "MCUL007674",
       "businessName": "CHRONIC CANNABIS CO, LLC",
       "type": "Cultivator Facility",
@@ -4931,22 +4832,6 @@
       "geocodeLabel": "2709 25TH AVE, GULFPORT, MS, 39501",
       "houseDistrict": "119",
       "senateDistrict": "48"
-    },
-    {
-      "id": "CULV007130",
-      "businessName": "Cannacultivation LLC",
-      "type": "Cultivator Facility",
-      "typeSlug": "cultivator-facility",
-      "county": "Jackson",
-      "expiration": "09-11-2026",
-      "issueDate": "09-11-2025",
-      "ownerName": "Dustin Stewart, Chris Crosby, Jeff Camilletti, Joseph Camilletti, Mark Evans, Austin Wheeler, Ryan Cruz, Brandon Seay, Prime Deason, Joseph Brown, Roland Hathcock, Glenstone Holdings, Equitaire Endevors, Barkin Holdings, LLC, Olive Branch Cannabis Company, LLC",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(985) 981-0074",
-      "email": "dmitry@flayvur.com",
-      "recordId": "173944",
-      "isDispensary": false
     },
     {
       "id": "PROC002135",
@@ -4992,8 +4877,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Lee",
-      "expiration": "10-02-2026",
-      "issueDate": "09-18-2025",
+      "expiration": "10-02-2027",
+      "issueDate": "09-11-2026",
       "ownerName": "Deborah McGhie, William McGhie",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -5800,8 +5685,8 @@
       "type": "Processing Facility",
       "typeSlug": "processing-facility",
       "county": "Rankin",
-      "expiration": "09-05-2026",
-      "issueDate": "09-05-2025",
+      "expiration": "09-04-2027",
+      "issueDate": "09-08-2026",
       "ownerName": "tammy moore, Basha Development & Holdings LLC",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -6680,6 +6565,44 @@
       "geocodeStatus": "unmatched"
     },
     {
+      "id": "DSPY026824",
+      "businessName": "XPRESS DISPENSARY LLC",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Harrison",
+      "expiration": "08-31-2027",
+      "issueDate": "08-31-2026",
+      "ownerName": "SALEH LABOZAH",
+      "physicalAddress": "9053 County Farm Rd Long Beach, MS 39560",
+      "mailingAddress": "9053 County Farm Rd # B Long Beach, MS 39560",
+      "phone": "(337) 349-8693",
+      "email": "davidsampy@yahoo.com",
+      "recordId": "479899",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 30.413280290305,
+      "lng": -89.191446680588,
+      "geocodeLabel": "9053 COUNTY FARM RD, LONG BEACH, MS, 39560",
+      "houseDistrict": "121",
+      "senateDistrict": "48"
+    },
+    {
+      "id": "MCUL009101",
+      "businessName": "Ghenni Gardens LLC",
+      "type": "Cultivator Facility",
+      "typeSlug": "cultivator-facility",
+      "county": "Adams",
+      "expiration": "09-03-2027",
+      "issueDate": "09-03-2026",
+      "ownerName": "Andrew Anders, Ghenni Gardens LLC",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(601) 807-8734",
+      "email": "christianwroten@gmail.com",
+      "recordId": "481082",
+      "isDispensary": false
+    },
+    {
       "id": "MPRC002524",
       "businessName": "Hash Grove Goods, LLC",
       "type": "Processing Facility",
@@ -6713,19 +6636,83 @@
       "geocodeStatus": "unmatched"
     },
     {
+      "id": "MCUL008962",
+      "businessName": "KBCG Farms LLC",
+      "type": "Cultivator Facility",
+      "typeSlug": "cultivator-facility",
+      "county": "Scott",
+      "expiration": "09-03-2027",
+      "issueDate": "09-03-2026",
+      "ownerName": "Brenda Gray",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(985) 774-8511",
+      "email": "kbfarms2022@gmail.com",
+      "recordId": "489177",
+      "isDispensary": false
+    },
+    {
+      "id": "CULV007959",
+      "businessName": "Clean Harvest Cultivation LLC",
+      "type": "Cultivator Facility",
+      "typeSlug": "cultivator-facility",
+      "county": "Prentiss",
+      "expiration": "09-03-2027",
+      "issueDate": "09-03-2026",
+      "ownerName": "Ziyao Huang Huang",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(405) 998-1920",
+      "email": "cleanharvestcultivationllcion@outlook.com",
+      "recordId": "506964",
+      "isDispensary": false
+    },
+    {
+      "id": "CULV007867",
+      "businessName": "Budwiser LLC",
+      "type": "Cultivator Facility",
+      "typeSlug": "cultivator-facility",
+      "county": "Sunflower",
+      "expiration": "09-03-2027",
+      "issueDate": "09-03-2026",
+      "ownerName": "Rong Sheng Chai",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(405) 934-3254",
+      "email": "budwiserllc143@gmail.com",
+      "recordId": "509865",
+      "isDispensary": false
+    },
+    {
       "id": "TRAN002421",
       "businessName": "Dog Daze Farm LLC",
       "type": "Transportation Entity",
       "typeSlug": "transportation-entity",
       "county": "Greene",
-      "expiration": "09-05-2026",
-      "issueDate": "09-05-2025",
+      "expiration": "09-05-2027",
+      "issueDate": "09-02-2026",
       "ownerName": "Bonnie McKey, Susan Lack, Kyle Lack",
       "physicalAddress": "",
       "mailingAddress": "",
       "phone": "(601) 297-0140",
       "email": "lackcarter64@gmail.com",
       "recordId": "511995",
+      "isDispensary": false
+    },
+    {
+      "id": "MCUL009018",
+      "businessName": "1620 Holdings LLC",
+      "type": "Cultivator Facility",
+      "typeSlug": "cultivator-facility",
+      "county": "Forrest",
+      "expiration": "09-03-2027",
+      "issueDate": "09-03-2026",
+      "ownerName": "1620 holdings llc",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(303) 859-1369",
+      "email": "1620holdingsllc@gmail.com",
+      "recordId": "514306",
       "isDispensary": false
     },
     {
@@ -6780,6 +6767,22 @@
       "phone": "(228) 326-0597",
       "email": "hogee1217kim@yahoo.com",
       "recordId": "519405",
+      "isDispensary": false
+    },
+    {
+      "id": "MCUL009230",
+      "businessName": "KBJRJ",
+      "type": "Cultivator Facility",
+      "typeSlug": "cultivator-facility",
+      "county": "Jackson",
+      "expiration": "09-03-2027",
+      "issueDate": "09-03-2026",
+      "ownerName": "Keith Dailey, Robert Reed, Bryce Palmer",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(309) 371-1012",
+      "email": "underyyground@gmail.com",
+      "recordId": "520540",
       "isDispensary": false
     },
     {
@@ -7404,29 +7407,13 @@
     },
     "Jones": {
       "county": "Jones",
-      "total": 7,
+      "total": 6,
       "byType": {
         "Cultivator Facility": 2,
-        "Dispensary": 4,
+        "Dispensary": 3,
         "Processing Facility": 1
       },
       "dispensaries": [
-        {
-          "id": "DSPY011534",
-          "businessName": "Toke and Tell Dispensary 2 LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Jones",
-          "expiration": "09-16-2026",
-          "issueDate": "09-22-2025",
-          "ownerName": "Tina Bruce",
-          "physicalAddress": "Ellisville Blvd Laurel, MS 39440",
-          "mailingAddress": "10 DUNBAR RD NATCHEZ, MS 39120",
-          "phone": "(601) 807-3833",
-          "email": "tina-bruce@att.net",
-          "recordId": "2593",
-          "isDispensary": true
-        },
         {
           "id": "DSPY015334",
           "businessName": "AllsWell Brands, LLC",
@@ -7866,12 +7853,11 @@
     },
     "Panola": {
       "county": "Panola",
-      "total": 11,
+      "total": 10,
       "byType": {
         "Cultivator Facility": 6,
         "Dispensary": 2,
-        "Processing Facility": 2,
-        "Transportation Entity": 1
+        "Processing Facility": 2
       },
       "dispensaries": [
         {
@@ -8407,9 +8393,9 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Lowndes",
-          "expiration": "09-13-2026",
-          "issueDate": "09-11-2025",
-          "ownerName": "George Pittman, Rebecca Stuart Boyd, Mary Boyd Pittman",
+          "expiration": "09-13-2027",
+          "issueDate": "09-11-2026",
+          "ownerName": "Rebecca Pittman, Mary Pittman, George Pittman",
           "physicalAddress": "901 HIGHWAY 45 N COLUMBUS, MS 39701",
           "mailingAddress": "901 HIGHWAY 45 N STE 1 COLUMBUS, MS 39701",
           "phone": "(662) 251-6067",
@@ -8526,10 +8512,10 @@
     },
     "Prentiss": {
       "county": "Prentiss",
-      "total": 4,
+      "total": 5,
       "byType": {
         "Dispensary": 2,
-        "Cultivator Facility": 2
+        "Cultivator Facility": 3
       },
       "dispensaries": [
         {
@@ -8568,11 +8554,11 @@
     },
     "Forrest": {
       "county": "Forrest",
-      "total": 9,
+      "total": 10,
       "byType": {
         "Dispensary": 6,
         "Transportation Entity": 1,
-        "Cultivator Facility": 2
+        "Cultivator Facility": 3
       },
       "dispensaries": [
         {
@@ -8800,9 +8786,9 @@
     },
     "Harrison": {
       "county": "Harrison",
-      "total": 28,
+      "total": 29,
       "byType": {
-        "Dispensary": 21,
+        "Dispensary": 22,
         "Cultivator Facility": 3,
         "Processing Facility": 4
       },
@@ -8861,8 +8847,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Harrison",
-          "expiration": "09-13-2026",
-          "issueDate": "08-20-2025",
+          "expiration": "09-13-2027",
+          "issueDate": "09-15-2026",
           "ownerName": "Laurence Pickett, Larry Tubbs, Terrell Roddy",
           "physicalAddress": "12407 HIGHWAY 49 GULFPORT, MS 39503",
           "mailingAddress": "12407 HIGHWAY 49 GULFPORT, MS 39503",
@@ -8877,8 +8863,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Harrison",
-          "expiration": "09-13-2026",
-          "issueDate": "09-16-2025",
+          "expiration": "09-13-2027",
+          "issueDate": "09-11-2026",
           "ownerName": "Long Beach Disensary LLC",
           "physicalAddress": "520 E RAILROAD ST STE A LONG BEACH, MS 39560",
           "mailingAddress": "520 E RAILROAD ST STE A LONG BEACH, MS 39560",
@@ -9142,6 +9128,22 @@
           "email": "kalle@kaldemholdings.com",
           "recordId": "456919",
           "isDispensary": true
+        },
+        {
+          "id": "DSPY026824",
+          "businessName": "XPRESS DISPENSARY LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Harrison",
+          "expiration": "08-31-2027",
+          "issueDate": "08-31-2026",
+          "ownerName": "SALEH LABOZAH",
+          "physicalAddress": "9053 County Farm Rd Long Beach, MS 39560",
+          "mailingAddress": "9053 County Farm Rd # B Long Beach, MS 39560",
+          "phone": "(337) 349-8693",
+          "email": "davidsampy@yahoo.com",
+          "recordId": "479899",
+          "isDispensary": true
         }
       ]
     },
@@ -9230,9 +9232,9 @@
     },
     "Lamar": {
       "county": "Lamar",
-      "total": 11,
+      "total": 10,
       "byType": {
-        "Dispensary": 6,
+        "Dispensary": 5,
         "Cultivator Facility": 2,
         "Processing Facility": 3
       },
@@ -9267,22 +9269,6 @@
           "phone": "(601) 297-0140",
           "email": "blueskyent@bellsouth.net",
           "recordId": "1471",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY012337",
-          "businessName": "Cultivated Wellness Dispensary NO.2",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lamar",
-          "expiration": "09-29-2026",
-          "issueDate": "09-15-2025",
-          "ownerName": "Larry Pickett, Larry Tubbs, Terrell Roddy",
-          "physicalAddress": "6690 U S HIGHWAY 98 HATTIESBURG, MS 39402",
-          "mailingAddress": "6690 U S HIGHWAY 98 HATTIESBURG, MS 39402",
-          "phone": "(970) 630-9722",
-          "email": "troddy1965@gmail.com",
-          "recordId": "3144",
           "isDispensary": true
         },
         {
@@ -9382,8 +9368,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Lee",
-          "expiration": "09-15-2026",
-          "issueDate": "09-12-2025",
+          "expiration": "09-15-2027",
+          "issueDate": "09-03-2026",
           "ownerName": "Jamal Saeed",
           "physicalAddress": "608 N GLOSTER ST TUPELO, MS 38804",
           "mailingAddress": "608 N GLOSTER ST TUPELO, MS 38804",
@@ -9476,9 +9462,9 @@
     },
     "DeSoto": {
       "county": "DeSoto",
-      "total": 14,
+      "total": 13,
       "byType": {
-        "Dispensary": 13,
+        "Dispensary": 12,
         "Processing Facility": 1
       },
       "dispensaries": [
@@ -9512,22 +9498,6 @@
           "phone": "(901) 848-2151",
           "email": "wyld3023@gmail.com",
           "recordId": "1361",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY011017",
-          "businessName": "Tru Source Medical Cannabis, LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "DeSoto",
-          "expiration": "09-13-2026",
-          "issueDate": "09-10-2025",
-          "ownerName": "Clarence Cocroft",
-          "physicalAddress": "4714 North Central Way Olive Branch, MS 38654",
-          "mailingAddress": "6954 CLEARPOINT DR MEMPHIS, TN 38141",
-          "phone": "(901) 299-3293",
-          "email": "clarence@tcp-agresearch.com",
-          "recordId": "1989",
           "isDispensary": true
         },
         {
@@ -9753,9 +9723,10 @@
     },
     "Adams": {
       "county": "Adams",
-      "total": 3,
+      "total": 4,
       "byType": {
-        "Dispensary": 3
+        "Dispensary": 3,
+        "Cultivator Facility": 1
       },
       "dispensaries": [
         {
@@ -9937,8 +9908,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Itawamba",
-          "expiration": "09-28-2026",
-          "issueDate": "09-22-2025",
+          "expiration": "09-28-2027",
+          "issueDate": "09-01-2026",
           "ownerName": "Wanda Farr",
           "physicalAddress": "101 WHEELER DR FULTON, MS 38843",
           "mailingAddress": "101 WHEELER DR FULTON, MS 38843",
@@ -9956,32 +9927,6 @@
         "Cultivator Facility": 2
       },
       "dispensaries": []
-    },
-    "Sunflower": {
-      "county": "Sunflower",
-      "total": 2,
-      "byType": {
-        "Dispensary": 1,
-        "Cultivator Facility": 1
-      },
-      "dispensaries": [
-        {
-          "id": "DSPY010867",
-          "businessName": "Arcane Enterprises",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Sunflower",
-          "expiration": "09-13-2026",
-          "issueDate": "08-18-2025",
-          "ownerName": "Katricia Smith",
-          "physicalAddress": "4241 HIGHWAY 49 DREW, MS 38737",
-          "mailingAddress": "4241 HIGHWAY 49 STE A DREW, MS 38737",
-          "phone": "(662) 701-7696",
-          "email": "klsmith@arcanemd.com",
-          "recordId": "2158",
-          "isDispensary": true
-        }
-      ]
     },
     "Tunica": {
       "county": "Tunica",
@@ -10005,8 +9950,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "George",
-          "expiration": "09-20-2026",
-          "issueDate": "09-11-2025",
+          "expiration": "09-20-2027",
+          "issueDate": "09-16-2026",
           "ownerName": "Allie Franklin, Robert Britton, Tony Wallace, Bobby Britton",
           "physicalAddress": "1282 Beaver Dam Rd Lucedale, MS 39452",
           "mailingAddress": "PO BOX 777 MENDENHALL, MS 39114",
@@ -10297,10 +10242,10 @@
     },
     "Scott": {
       "county": "Scott",
-      "total": 4,
+      "total": 5,
       "byType": {
         "Dispensary": 2,
-        "Cultivator Facility": 2
+        "Cultivator Facility": 3
       },
       "dispensaries": [
         {
@@ -10375,8 +10320,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Neshoba",
-          "expiration": "09-13-2026",
-          "issueDate": "09-09-2025",
+          "expiration": "09-13-2027",
+          "issueDate": "09-03-2026",
           "ownerName": "Tony Wallace, Bobby Britton",
           "physicalAddress": "1024 W BEACON ST PHILADELPHIA, MS 39350",
           "mailingAddress": "PO BOX 777 MENDENHALL, MS 39114",
@@ -10442,6 +10387,14 @@
       "total": 1,
       "byType": {
         "Cultivator Facility": 1
+      },
+      "dispensaries": []
+    },
+    "Sunflower": {
+      "county": "Sunflower",
+      "total": 2,
+      "byType": {
+        "Cultivator Facility": 2
       },
       "dispensaries": []
     },
@@ -10525,7 +10478,6 @@
         "DSPY025947"
       ],
       "6": [
-        "DSPY011017",
         "DSPY015817",
         "DSPY023717"
       ],
@@ -10578,7 +10530,6 @@
         "DSPY002206"
       ],
       "30": [
-        "DSPY010867",
         "DSPY013522"
       ],
       "31": [
@@ -10739,7 +10690,6 @@
       "101": [
         "DSPY005037",
         "DSPY007137",
-        "DSPY012337",
         "DSPY014937",
         "DSPY016137"
       ],
@@ -10819,7 +10769,8 @@
         "DSPY022924"
       ],
       "121": [
-        "DSPY023524"
+        "DSPY023524",
+        "DSPY026824"
       ],
       "122": [
         "DSPY006623",
@@ -10885,7 +10836,6 @@
       ],
       "13": [
         "DSPY002206",
-        "DSPY010867",
         "DSPY012806"
       ],
       "14": [
@@ -10913,7 +10863,6 @@
       ],
       "19": [
         "DSPY008217",
-        "DSPY011017",
         "DSPY015817",
         "DSPY018017",
         "DSPY023017",
@@ -11024,7 +10973,6 @@
       "44": [
         "DSPY003418",
         "DSPY007137",
-        "DSPY012337",
         "DSPY014937"
       ],
       "45": [
@@ -11054,7 +11002,8 @@
         "DSPY010924",
         "DSPY021124",
         "DSPY022924",
-        "DSPY023324"
+        "DSPY023324",
+        "DSPY026824"
       ],
       "49": [
         "DSPY002824",
@@ -11097,9 +11046,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-09-17T15:21:21.636Z",
-    "total": 191,
-    "matched": 165,
-    "unmatched": 26
+    "generatedAt": "2026-09-18T14:41:19.918Z",
+    "total": 188,
+    "matched": 163,
+    "unmatched": 25
   }
 }
