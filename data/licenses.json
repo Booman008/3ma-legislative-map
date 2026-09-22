@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-09-21T16:41:11.205Z",
-  "total": 364,
+  "generatedAt": "2026-09-22T15:12:59.518Z",
+  "total": 363,
   "typeTotals": {
     "Cultivator Facility": 113,
     "Processing Facility": 42,
     "Transportation Entity": 14,
     "Testing Facility": 2,
-    "Dispensary": 188,
+    "Dispensary": 187,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -1665,28 +1665,6 @@
       "isDispensary": false
     },
     {
-      "id": "DSPY011836",
-      "businessName": "SB Oxford",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Lafayette",
-      "expiration": "09-21-2026",
-      "issueDate": "09-18-2025",
-      "ownerName": "Jessica Turner, Bridgett Green, Krista Beck, J9 Holdings, LLC, SAT, LLC, SB OXFORD, LLC",
-      "physicalAddress": "1319 N LAMAR BLVD OXFORD, MS 38655",
-      "mailingAddress": "1319 N LAMAR BLVD A OXFORD, MS 38655",
-      "phone": "(662) 457-0088",
-      "email": "doug@starbuds.us",
-      "recordId": "2292",
-      "isDispensary": true,
-      "geocodeStatus": "matched",
-      "lat": 34.380066615236,
-      "lng": -89.510614536856,
-      "geocodeLabel": "1319 N LAMAR BLVD, OXFORD, MS, 38655",
-      "houseDistrict": "10",
-      "senateDistrict": "9"
-    },
-    {
       "id": "MCUL002524",
       "businessName": "Moose Meadows LLC",
       "type": "Cultivator Facility",
@@ -2035,8 +2013,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Jackson",
-      "expiration": "10-17-2026",
-      "issueDate": "10-02-2025",
+      "expiration": "10-17-2027",
+      "issueDate": "09-21-2026",
       "ownerName": "Billy Wilson, Barbara Wilson",
       "physicalAddress": "14313 STENUM ST BILOXI, MS 39532",
       "mailingAddress": "20467 HIGHWAY 49 SAUCIER, MS 39574",
@@ -7169,8 +7147,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Jackson",
-          "expiration": "10-17-2026",
-          "issueDate": "10-02-2025",
+          "expiration": "10-17-2027",
+          "issueDate": "09-21-2026",
           "ownerName": "Billy Wilson, Barbara Wilson",
           "physicalAddress": "14313 STENUM ST BILOXI, MS 39532",
           "mailingAddress": "20467 HIGHWAY 49 SAUCIER, MS 39574",
@@ -7904,9 +7882,9 @@
     },
     "Lafayette": {
       "county": "Lafayette",
-      "total": 10,
+      "total": 9,
       "byType": {
-        "Dispensary": 6,
+        "Dispensary": 5,
         "Processing Facility": 1,
         "Disposal Entity": 1,
         "Transportation Entity": 1,
@@ -7943,22 +7921,6 @@
           "phone": "(901) 481-9862",
           "email": "ross@magnolia-cannabis.com",
           "recordId": "1326",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY011836",
-          "businessName": "SB Oxford",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lafayette",
-          "expiration": "09-21-2026",
-          "issueDate": "09-18-2025",
-          "ownerName": "Jessica Turner, Bridgett Green, Krista Beck, J9 Holdings, LLC, SAT, LLC, SB OXFORD, LLC",
-          "physicalAddress": "1319 N LAMAR BLVD OXFORD, MS 38655",
-          "mailingAddress": "1319 N LAMAR BLVD A OXFORD, MS 38655",
-          "phone": "(662) 457-0088",
-          "email": "doug@starbuds.us",
-          "recordId": "2292",
           "isDispensary": true
         },
         {
@@ -10483,7 +10445,6 @@
       ],
       "10": [
         "DSPY006336",
-        "DSPY011836",
         "DSPY014554",
         "DSPY015454",
         "DSPY025436"
@@ -10820,7 +10781,6 @@
       "9": [
         "DSPY006336",
         "DSPY007536",
-        "DSPY011836",
         "DSPY014554",
         "DSPY018964",
         "DSPY025436",
@@ -11046,9 +11006,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-09-21T16:41:11.509Z",
-    "total": 188,
-    "matched": 163,
+    "generatedAt": "2026-09-22T15:12:59.730Z",
+    "total": 187,
+    "matched": 162,
     "unmatched": 25
   }
 }
