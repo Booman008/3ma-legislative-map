@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-09-22T15:12:59.518Z",
+  "generatedAt": "2026-09-23T15:13:06.700Z",
   "total": 363,
   "typeTotals": {
-    "Cultivator Facility": 113,
+    "Cultivator Facility": 112,
     "Processing Facility": 42,
     "Transportation Entity": 14,
     "Testing Facility": 2,
-    "Dispensary": 187,
+    "Dispensary": 188,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -1335,22 +1335,6 @@
       "isDispensary": false
     },
     {
-      "id": "MCUL000834",
-      "businessName": "BLUEBYRD  FARMS LLC",
-      "type": "Cultivator Facility",
-      "typeSlug": "cultivator-facility",
-      "county": "Jones",
-      "expiration": "09-22-2026",
-      "issueDate": "09-18-2025",
-      "ownerName": "Jimmy Buchanan",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(601) 470-6761",
-      "email": "bluebyrdfarms@gmail.com",
-      "recordId": "1559",
-      "isDispensary": false
-    },
-    {
       "id": "CULV002125",
       "businessName": "OddFellow Wellness, LLC",
       "type": "Cultivator Facility",
@@ -1663,6 +1647,28 @@
       "email": "slordmba@aol.com",
       "recordId": "2178",
       "isDispensary": false
+    },
+    {
+      "id": "DSPY011836",
+      "businessName": "SB Oxford",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Lafayette",
+      "expiration": "09-21-2027",
+      "issueDate": "09-22-2026",
+      "ownerName": "Jessica Turner, Bridgett Green, Krista Beck, J9 Holdings, LLC, SAT, LLC, SB OXFORD, LLC",
+      "physicalAddress": "1319 N LAMAR BLVD OXFORD, MS 38655",
+      "mailingAddress": "1319 N LAMAR BLVD A OXFORD, MS 38655",
+      "phone": "(662) 457-0088",
+      "email": "doug@starbuds.us",
+      "recordId": "2292",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 34.380066615236,
+      "lng": -89.510614536856,
+      "geocodeLabel": "1319 N LAMAR BLVD, OXFORD, MS, 38655",
+      "houseDistrict": "10",
+      "senateDistrict": "9"
     },
     {
       "id": "MCUL002524",
@@ -7385,9 +7391,9 @@
     },
     "Jones": {
       "county": "Jones",
-      "total": 6,
+      "total": 5,
       "byType": {
-        "Cultivator Facility": 2,
+        "Cultivator Facility": 1,
         "Dispensary": 3,
         "Processing Facility": 1
       },
@@ -7882,9 +7888,9 @@
     },
     "Lafayette": {
       "county": "Lafayette",
-      "total": 9,
+      "total": 10,
       "byType": {
-        "Dispensary": 5,
+        "Dispensary": 6,
         "Processing Facility": 1,
         "Disposal Entity": 1,
         "Transportation Entity": 1,
@@ -7921,6 +7927,22 @@
           "phone": "(901) 481-9862",
           "email": "ross@magnolia-cannabis.com",
           "recordId": "1326",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY011836",
+          "businessName": "SB Oxford",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lafayette",
+          "expiration": "09-21-2027",
+          "issueDate": "09-22-2026",
+          "ownerName": "Jessica Turner, Bridgett Green, Krista Beck, J9 Holdings, LLC, SAT, LLC, SB OXFORD, LLC",
+          "physicalAddress": "1319 N LAMAR BLVD OXFORD, MS 38655",
+          "mailingAddress": "1319 N LAMAR BLVD A OXFORD, MS 38655",
+          "phone": "(662) 457-0088",
+          "email": "doug@starbuds.us",
+          "recordId": "2292",
           "isDispensary": true
         },
         {
@@ -10445,6 +10467,7 @@
       ],
       "10": [
         "DSPY006336",
+        "DSPY011836",
         "DSPY014554",
         "DSPY015454",
         "DSPY025436"
@@ -10781,6 +10804,7 @@
       "9": [
         "DSPY006336",
         "DSPY007536",
+        "DSPY011836",
         "DSPY014554",
         "DSPY018964",
         "DSPY025436",
@@ -11006,9 +11030,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-09-22T15:12:59.730Z",
-    "total": 187,
-    "matched": 162,
+    "generatedAt": "2026-09-23T15:13:07.064Z",
+    "total": 188,
+    "matched": 163,
     "unmatched": 25
   }
 }
