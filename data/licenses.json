@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-09-23T15:13:06.700Z",
-  "total": 363,
+  "generatedAt": "2026-09-24T15:34:57.658Z",
+  "total": 362,
   "typeTotals": {
-    "Cultivator Facility": 112,
+    "Cultivator Facility": 110,
     "Processing Facility": 42,
     "Transportation Entity": 14,
     "Testing Facility": 2,
-    "Dispensary": 188,
+    "Dispensary": 189,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -250,22 +250,6 @@
       "phone": "(662) 703-0337",
       "email": "franklintodd69@gmail.com",
       "recordId": "1237",
-      "isDispensary": false
-    },
-    {
-      "id": "MCUL000933",
-      "businessName": "Central Mississippi Cannabis LLC",
-      "type": "Cultivator Facility",
-      "typeSlug": "cultivator-facility",
-      "county": "Jefferson Davis",
-      "expiration": "09-23-2026",
-      "issueDate": "09-18-2025",
-      "ownerName": "Jennifer Langley, Terrence Thomas, Marcel Ebner",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(601) 941-8609",
-      "email": "centralmississippicannabis@gmail.com",
-      "recordId": "1244",
       "isDispensary": false
     },
     {
@@ -1335,22 +1319,6 @@
       "isDispensary": false
     },
     {
-      "id": "CULV002125",
-      "businessName": "OddFellow Wellness, LLC",
-      "type": "Cultivator Facility",
-      "typeSlug": "cultivator-facility",
-      "county": "Hinds",
-      "expiration": "09-23-2026",
-      "issueDate": "09-23-2025",
-      "ownerName": "Clyde Chapman, Nicole Duais, Brandon Amacker, Evan Dailey",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(601) 540-6251",
-      "email": "duaisholdings@gmail.com",
-      "recordId": "1567",
-      "isDispensary": false
-    },
-    {
       "id": "MCUL002757",
       "businessName": "Rolling Pines",
       "type": "Cultivator Facility",
@@ -1843,6 +1811,23 @@
       "geocodeLabel": "520 E RAILROAD ST, LONG BEACH, MS, 39560",
       "houseDistrict": "120",
       "senateDistrict": "48"
+    },
+    {
+      "id": "DSPY011534",
+      "businessName": "Toke and Tell Dispensary 2 LLC",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Jones",
+      "expiration": "09-28-2026",
+      "issueDate": "09-22-2025",
+      "ownerName": "Tina Bruce",
+      "physicalAddress": "Ellisville Blvd Laurel, MS 39440",
+      "mailingAddress": "10 DUNBAR RD NATCHEZ, MS 39120",
+      "phone": "(601) 807-3833",
+      "email": "tina-bruce@att.net",
+      "recordId": "2593",
+      "isDispensary": true,
+      "geocodeStatus": "unmatched"
     },
     {
       "id": "PROC000961",
@@ -6827,9 +6812,9 @@
   "countySummaries": {
     "Hinds": {
       "county": "Hinds",
-      "total": 24,
+      "total": 23,
       "byType": {
-        "Cultivator Facility": 6,
+        "Cultivator Facility": 5,
         "Processing Facility": 3,
         "Dispensary": 14,
         "Transportation Entity": 1
@@ -7391,13 +7376,29 @@
     },
     "Jones": {
       "county": "Jones",
-      "total": 5,
+      "total": 6,
       "byType": {
         "Cultivator Facility": 1,
-        "Dispensary": 3,
+        "Dispensary": 4,
         "Processing Facility": 1
       },
       "dispensaries": [
+        {
+          "id": "DSPY011534",
+          "businessName": "Toke and Tell Dispensary 2 LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Jones",
+          "expiration": "09-28-2026",
+          "issueDate": "09-22-2025",
+          "ownerName": "Tina Bruce",
+          "physicalAddress": "Ellisville Blvd Laurel, MS 39440",
+          "mailingAddress": "10 DUNBAR RD NATCHEZ, MS 39120",
+          "phone": "(601) 807-3833",
+          "email": "tina-bruce@att.net",
+          "recordId": "2593",
+          "isDispensary": true
+        },
         {
           "id": "DSPY015334",
           "businessName": "AllsWell Brands, LLC",
@@ -7877,14 +7878,6 @@
           "isDispensary": true
         }
       ]
-    },
-    "Jefferson Davis": {
-      "county": "Jefferson Davis",
-      "total": 3,
-      "byType": {
-        "Cultivator Facility": 3
-      },
-      "dispensaries": []
     },
     "Lafayette": {
       "county": "Lafayette",
@@ -10133,6 +10126,14 @@
       },
       "dispensaries": []
     },
+    "Jefferson Davis": {
+      "county": "Jefferson Davis",
+      "total": 2,
+      "byType": {
+        "Cultivator Facility": 2
+      },
+      "dispensaries": []
+    },
     "Marshall": {
       "county": "Marshall",
       "total": 4,
@@ -11030,9 +11031,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-09-23T15:13:07.064Z",
-    "total": 188,
+    "generatedAt": "2026-09-24T15:34:58.052Z",
+    "total": 189,
     "matched": 163,
-    "unmatched": 25
+    "unmatched": 26
   }
 }
