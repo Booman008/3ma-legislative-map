@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-09-28T18:17:51.901Z",
-  "total": 363,
+  "generatedAt": "2026-09-29T16:41:13.889Z",
+  "total": 362,
   "typeTotals": {
     "Cultivator Facility": 111,
     "Processing Facility": 42,
     "Transportation Entity": 14,
     "Testing Facility": 2,
-    "Dispensary": 189,
+    "Dispensary": 188,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -1827,23 +1827,6 @@
       "geocodeLabel": "520 E RAILROAD ST, LONG BEACH, MS, 39560",
       "houseDistrict": "120",
       "senateDistrict": "48"
-    },
-    {
-      "id": "DSPY011534",
-      "businessName": "Toke and Tell Dispensary 2 LLC",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Jones",
-      "expiration": "09-28-2026",
-      "issueDate": "09-22-2025",
-      "ownerName": "Tina Bruce",
-      "physicalAddress": "Ellisville Blvd Laurel, MS 39440",
-      "mailingAddress": "10 DUNBAR RD NATCHEZ, MS 39120",
-      "phone": "(601) 807-3833",
-      "email": "tina-bruce@att.net",
-      "recordId": "2593",
-      "isDispensary": true,
-      "geocodeStatus": "unmatched"
     },
     {
       "id": "PROC000961",
@@ -6464,7 +6447,7 @@
       "county": "Simpson",
       "expiration": "06-22-2027",
       "issueDate": "06-22-2026",
-      "ownerName": "Jason Jones, Chris Jones, Justin Jones, Michael Jones",
+      "ownerName": "Michael Jones, Jason Jones, Chris Jones, Justin Jones",
       "physicalAddress": "",
       "mailingAddress": "",
       "phone": "(601) 613-7363",
@@ -7392,29 +7375,13 @@
     },
     "Jones": {
       "county": "Jones",
-      "total": 6,
+      "total": 5,
       "byType": {
         "Cultivator Facility": 1,
-        "Dispensary": 4,
+        "Dispensary": 3,
         "Processing Facility": 1
       },
       "dispensaries": [
-        {
-          "id": "DSPY011534",
-          "businessName": "Toke and Tell Dispensary 2 LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Jones",
-          "expiration": "09-28-2026",
-          "issueDate": "09-22-2025",
-          "ownerName": "Tina Bruce",
-          "physicalAddress": "Ellisville Blvd Laurel, MS 39440",
-          "mailingAddress": "10 DUNBAR RD NATCHEZ, MS 39120",
-          "phone": "(601) 807-3833",
-          "email": "tina-bruce@att.net",
-          "recordId": "2593",
-          "isDispensary": true
-        },
         {
           "id": "DSPY015334",
           "businessName": "AllsWell Brands, LLC",
@@ -11047,9 +11014,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-09-28T18:17:52.257Z",
-    "total": 189,
+    "generatedAt": "2026-09-29T16:41:14.265Z",
+    "total": 188,
     "matched": 163,
-    "unmatched": 26
+    "unmatched": 25
   }
 }
