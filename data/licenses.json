@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-09-30T16:32:29.603Z",
-  "total": 362,
+  "generatedAt": "2026-10-01T17:10:51.137Z",
+  "total": 361,
   "typeTotals": {
     "Cultivator Facility": 110,
     "Processing Facility": 42,
     "Transportation Entity": 14,
     "Testing Facility": 2,
-    "Dispensary": 189,
+    "Dispensary": 188,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -1813,23 +1813,6 @@
       "senateDistrict": "48"
     },
     {
-      "id": "DSPY011534",
-      "businessName": "Toke and Tell Dispensary 2 LLC",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Jones",
-      "expiration": "09-30-2026",
-      "issueDate": "09-22-2025",
-      "ownerName": "Tina Bruce",
-      "physicalAddress": "Ellisville Blvd Laurel, MS 39440",
-      "mailingAddress": "10 DUNBAR RD NATCHEZ, MS 39120",
-      "phone": "(601) 807-3833",
-      "email": "tina-bruce@att.net",
-      "recordId": "2593",
-      "isDispensary": true,
-      "geocodeStatus": "unmatched"
-    },
-    {
       "id": "PROC000961",
       "businessName": "Stash House MS, LLC",
       "type": "Processing Facility",
@@ -1932,7 +1915,7 @@
       "ownerName": "BRCC Holdings, LLC",
       "physicalAddress": "3046 INDIANA AVE VICKSBURG, MS 39180",
       "mailingAddress": "5440 HIGHLAND DR JACKSON, MS 39206",
-      "phone": "(336) 215-7130",
+      "phone": "(769) 203-1505",
       "email": "info@greentreewellnessms.com",
       "recordId": "2796",
       "isDispensary": true,
@@ -7067,7 +7050,7 @@
           "ownerName": "BRCC Holdings, LLC",
           "physicalAddress": "3046 INDIANA AVE VICKSBURG, MS 39180",
           "mailingAddress": "5440 HIGHLAND DR JACKSON, MS 39206",
-          "phone": "(336) 215-7130",
+          "phone": "(769) 203-1505",
           "email": "info@greentreewellnessms.com",
           "recordId": "2796",
           "isDispensary": true
@@ -7376,29 +7359,13 @@
     },
     "Jones": {
       "county": "Jones",
-      "total": 6,
+      "total": 5,
       "byType": {
         "Cultivator Facility": 1,
-        "Dispensary": 4,
+        "Dispensary": 3,
         "Processing Facility": 1
       },
       "dispensaries": [
-        {
-          "id": "DSPY011534",
-          "businessName": "Toke and Tell Dispensary 2 LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Jones",
-          "expiration": "09-30-2026",
-          "issueDate": "09-22-2025",
-          "ownerName": "Tina Bruce",
-          "physicalAddress": "Ellisville Blvd Laurel, MS 39440",
-          "mailingAddress": "10 DUNBAR RD NATCHEZ, MS 39120",
-          "phone": "(601) 807-3833",
-          "email": "tina-bruce@att.net",
-          "recordId": "2593",
-          "isDispensary": true
-        },
         {
           "id": "DSPY015334",
           "businessName": "AllsWell Brands, LLC",
@@ -11030,9 +10997,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-09-30T16:32:30.102Z",
-    "total": 189,
+    "generatedAt": "2026-10-01T17:10:51.504Z",
+    "total": 188,
     "matched": 163,
-    "unmatched": 26
+    "unmatched": 25
   }
 }
