@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-10-02T16:24:15.913Z",
+  "generatedAt": "2026-10-03T14:58:54.763Z",
   "total": 361,
   "typeTotals": {
     "Cultivator Facility": 110,
@@ -1492,7 +1492,7 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Itawamba",
-      "expiration": "10-04-2026",
+      "expiration": "10-05-2026",
       "issueDate": "10-02-2025",
       "ownerName": "JBT Farms",
       "physicalAddress": "",
@@ -10997,7 +10997,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-10-02T16:24:16.288Z",
+    "generatedAt": "2026-10-03T14:58:55.134Z",
     "total": 188,
     "matched": 163,
     "unmatched": 25
