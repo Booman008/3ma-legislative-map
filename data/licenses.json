@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-10-03T14:58:54.763Z",
+  "generatedAt": "2026-10-04T15:32:12.248Z",
   "total": 361,
   "typeTotals": {
     "Cultivator Facility": 110,
@@ -6431,7 +6431,7 @@
       "county": "Simpson",
       "expiration": "06-22-2027",
       "issueDate": "06-22-2026",
-      "ownerName": "Michael Jones, Jason Jones, Chris Jones, Justin Jones",
+      "ownerName": "Jason Jones, Chris Jones, Justin Jones, Michael Jones",
       "physicalAddress": "",
       "mailingAddress": "",
       "phone": "(601) 613-7363",
@@ -10997,7 +10997,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-10-03T14:58:55.134Z",
+    "generatedAt": "2026-10-04T15:32:12.602Z",
     "total": 188,
     "matched": 163,
     "unmatched": 25
