@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-10-04T15:32:12.248Z",
+  "generatedAt": "2026-10-05T19:30:40.087Z",
   "total": 361,
   "typeTotals": {
     "Cultivator Facility": 110,
@@ -6080,8 +6080,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Grenada",
-      "expiration": "10-21-2026",
-      "issueDate": "10-20-2025",
+      "expiration": "10-21-2027",
+      "issueDate": "10-05-2026",
       "ownerName": "Rootdown, LLC",
       "physicalAddress": "1329 SUNSET DR STE 311 GRENADA, MS 38901",
       "mailingAddress": "2906 N STATE ST STE 311 JACKSON, MS 39216",
@@ -6431,7 +6431,7 @@
       "county": "Simpson",
       "expiration": "06-22-2027",
       "issueDate": "06-22-2026",
-      "ownerName": "Jason Jones, Chris Jones, Justin Jones, Michael Jones",
+      "ownerName": "Michael Jones, Jason Jones, Chris Jones, Justin Jones",
       "physicalAddress": "",
       "mailingAddress": "",
       "phone": "(601) 613-7363",
@@ -6614,8 +6614,8 @@
       "ownerName": "Ziyao Huang Huang",
       "physicalAddress": "",
       "mailingAddress": "",
-      "phone": "(405) 998-1920",
-      "email": "cleanharvestcultivationllcion@outlook.com",
+      "phone": "(970) 270-6616",
+      "email": "clearharvestcultivationllc@outlook.com",
       "recordId": "506964",
       "isDispensary": false
     },
@@ -8690,8 +8690,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Grenada",
-          "expiration": "10-21-2026",
-          "issueDate": "10-20-2025",
+          "expiration": "10-21-2027",
+          "issueDate": "10-05-2026",
           "ownerName": "Rootdown, LLC",
           "physicalAddress": "1329 SUNSET DR STE 311 GRENADA, MS 38901",
           "mailingAddress": "2906 N STATE ST STE 311 JACKSON, MS 39216",
@@ -10997,7 +10997,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-10-04T15:32:12.602Z",
+    "generatedAt": "2026-10-05T19:30:40.460Z",
     "total": 188,
     "matched": 163,
     "unmatched": 25
