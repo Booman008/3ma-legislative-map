@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-10-07T17:35:31.267Z",
+  "generatedAt": "2026-10-08T17:38:07.399Z",
   "total": 361,
   "typeTotals": {
     "Cultivator Facility": 110,
@@ -4753,8 +4753,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Walthall",
-      "expiration": "10-31-2026",
-      "issueDate": "10-20-2025",
+      "expiration": "10-31-2027",
+      "issueDate": "10-07-2026",
       "ownerName": "CHRISTOPHER TAYLOR",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -10997,7 +10997,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-10-07T17:35:31.653Z",
+    "generatedAt": "2026-10-08T17:38:07.771Z",
     "total": 188,
     "matched": 163,
     "unmatched": 25
