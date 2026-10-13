@@ -1151,8 +1151,17 @@
       "lat": 30.413280290305,
       "lng": -89.191446680588,
       "matchedAddress": "9053 COUNTY FARM RD, LONG BEACH, MS, 39560"
+    },
+    "2546 MS 145 # D SALTILLO, MS 38866": {
+      "status": "unmatched"
+    },
+    "2218 HIGHWAY 82 W STE A STE A GREENWOOD, MS 38930": {
+      "status": "matched",
+      "lat": 33.529130911175,
+      "lng": -90.226822205787,
+      "matchedAddress": "2218 HWY 82 W, GREENWOOD, MS, 38930"
     }
   },
-  "generatedAt": "2026-10-12T20:02:15.172Z",
+  "generatedAt": "2026-10-13T17:50:34.826Z",
   "provider": "U.S. Census Geocoder"
 }
