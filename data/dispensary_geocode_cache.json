@@ -1160,8 +1160,20 @@
       "lat": 33.529130911175,
       "lng": -90.226822205787,
       "matchedAddress": "2218 HWY 82 W, GREENWOOD, MS, 38930"
+    },
+    "234 HIGHWAY 26 E POPLARVILLE, MS 39470": {
+      "status": "matched",
+      "lat": 30.837170066169,
+      "lng": -89.527462594081,
+      "matchedAddress": "234 STATE HWY 26 E, POPLARVILLE, MS, 39470"
+    },
+    "5852 RIDGEWOOD RD APT 7204 JACKSON, MS 39211": {
+      "status": "matched",
+      "lat": 32.387774637609,
+      "lng": -90.141751049173,
+      "matchedAddress": "5852 RIDGEWOOD RD, JACKSON, MS, 39211"
     }
   },
-  "generatedAt": "2026-10-13T17:50:34.826Z",
+  "generatedAt": "2026-10-14T15:36:15.044Z",
   "provider": "U.S. Census Geocoder"
 }
