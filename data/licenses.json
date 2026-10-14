@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-10-13T17:50:34.305Z",
-  "total": 360,
+  "generatedAt": "2026-10-14T15:36:14.471Z",
+  "total": 363,
   "typeTotals": {
     "Cultivator Facility": 110,
     "Processing Facility": 42,
     "Transportation Entity": 14,
     "Testing Facility": 2,
-    "Dispensary": 187,
+    "Dispensary": 190,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -5774,8 +5774,8 @@
       "type": "Processing Facility",
       "typeSlug": "processing-facility",
       "county": "Jackson",
-      "expiration": "10-13-2026",
-      "issueDate": "10-13-2025",
+      "expiration": "10-13-2027",
+      "issueDate": "10-13-2026",
       "ownerName": "Derek Pardoe",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -6768,16 +6768,82 @@
       "geocodeLabel": "607 W CHAMBERS DR, BOONEVILLE, MS, 38829",
       "houseDistrict": "3",
       "senateDistrict": "5"
+    },
+    {
+      "id": "DSPY026924",
+      "businessName": "420 Holiday #7, LLC",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Harrison",
+      "expiration": "10-13-2027",
+      "issueDate": "10-13-2026",
+      "ownerName": "Qaid Farea",
+      "physicalAddress": "2650 Beach Blvd Biloxi, MS 39531",
+      "mailingAddress": "2650 Beach Blvd Ste 3 Biloxi, MS 39531",
+      "phone": "(228) 240-4931",
+      "email": "fareaqaid647@gmail.com",
+      "recordId": "537837",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 30.38891680194,
+      "lng": -88.993322425949,
+      "geocodeLabel": "2650 BEACH BLVD, BILOXI, MS, 39531",
+      "houseDistrict": "117",
+      "senateDistrict": "49"
+    },
+    {
+      "id": "DSPY027125",
+      "businessName": "Sacrd Remdy LLC",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Hinds",
+      "expiration": "10-13-2027",
+      "issueDate": "10-13-2026",
+      "ownerName": "Mohammed Alqadhi",
+      "physicalAddress": "5852 Ridgewood Rd Apt 7204 Jackson, MS 39211",
+      "mailingAddress": "5610 OLD CANTON RD JACKSON, MS 39211",
+      "phone": "(601) 467-3232",
+      "email": "m.alqadhi777@gmail.com",
+      "recordId": "538208",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 32.387774637609,
+      "lng": -90.141751049173,
+      "geocodeLabel": "5852 RIDGEWOOD RD, JACKSON, MS, 39211",
+      "houseDistrict": "65",
+      "senateDistrict": "26"
+    },
+    {
+      "id": "DSPY027055",
+      "businessName": "House of Buds 2",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Pearl River",
+      "expiration": "10-13-2027",
+      "issueDate": "10-13-2026",
+      "ownerName": "Michael Jones, Justin Jones",
+      "physicalAddress": "234 Highway 26 E Poplarville, MS 39470",
+      "mailingAddress": "221 Dogwood Trce Brandon, MS 39042",
+      "phone": "(601) 278-0511",
+      "email": "houseofbudsss@gmail.com",
+      "recordId": "548834",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 30.837170066169,
+      "lng": -89.527462594081,
+      "geocodeLabel": "234 STATE HWY 26 E, POPLARVILLE, MS, 39470",
+      "houseDistrict": "106",
+      "senateDistrict": "40"
     }
   ],
   "countySummaries": {
     "Hinds": {
       "county": "Hinds",
-      "total": 24,
+      "total": 25,
       "byType": {
         "Cultivator Facility": 6,
         "Processing Facility": 3,
-        "Dispensary": 14,
+        "Dispensary": 15,
         "Transportation Entity": 1
       },
       "dispensaries": [
@@ -7003,6 +7069,22 @@
           "phone": "(985) 718-6907",
           "email": "bblessedholdingsms@gmail.com",
           "recordId": "384093",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY027125",
+          "businessName": "Sacrd Remdy LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Hinds",
+          "expiration": "10-13-2027",
+          "issueDate": "10-13-2026",
+          "ownerName": "Mohammed Alqadhi",
+          "physicalAddress": "5852 Ridgewood Rd Apt 7204 Jackson, MS 39211",
+          "mailingAddress": "5610 OLD CANTON RD JACKSON, MS 39211",
+          "phone": "(601) 467-3232",
+          "email": "m.alqadhi777@gmail.com",
+          "recordId": "538208",
           "isDispensary": true
         }
       ]
@@ -8692,9 +8774,9 @@
     },
     "Harrison": {
       "county": "Harrison",
-      "total": 29,
+      "total": 30,
       "byType": {
-        "Dispensary": 22,
+        "Dispensary": 23,
         "Cultivator Facility": 3,
         "Processing Facility": 4
       },
@@ -9049,6 +9131,22 @@
           "phone": "(337) 349-8693",
           "email": "davidsampy@yahoo.com",
           "recordId": "479899",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY026924",
+          "businessName": "420 Holiday #7, LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Harrison",
+          "expiration": "10-13-2027",
+          "issueDate": "10-13-2026",
+          "ownerName": "Qaid Farea",
+          "physicalAddress": "2650 Beach Blvd Biloxi, MS 39531",
+          "mailingAddress": "2650 Beach Blvd Ste 3 Biloxi, MS 39531",
+          "phone": "(228) 240-4931",
+          "email": "fareaqaid647@gmail.com",
+          "recordId": "537837",
           "isDispensary": true
         }
       ]
@@ -10247,9 +10345,9 @@
     },
     "Pearl River": {
       "county": "Pearl River",
-      "total": 1,
+      "total": 2,
       "byType": {
-        "Dispensary": 1
+        "Dispensary": 2
       },
       "dispensaries": [
         {
@@ -10266,6 +10364,22 @@
           "phone": "(601) 594-2285",
           "email": "blanebritton@gmail.com",
           "recordId": "89935",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY027055",
+          "businessName": "House of Buds 2",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Pearl River",
+          "expiration": "10-13-2027",
+          "issueDate": "10-13-2026",
+          "ownerName": "Michael Jones, Justin Jones",
+          "physicalAddress": "234 Highway 26 E Poplarville, MS 39470",
+          "mailingAddress": "221 Dogwood Trce Brandon, MS 39042",
+          "phone": "(601) 278-0511",
+          "email": "houseofbudsss@gmail.com",
+          "recordId": "548834",
           "isDispensary": true
         }
       ]
@@ -10523,7 +10637,8 @@
       "65": [
         "DSPY005725",
         "DSPY009925",
-        "DSPY016525"
+        "DSPY016525",
+        "DSPY027125"
       ],
       "67": [
         "DSPY010525"
@@ -10614,7 +10729,8 @@
         "DSPY024218"
       ],
       "106": [
-        "DSPY020655"
+        "DSPY020655",
+        "DSPY027055"
       ],
       "107": [
         "DSPY011664",
@@ -10662,7 +10778,8 @@
         "DSPY009124",
         "DSPY009224",
         "DSPY022424",
-        "DSPY025124"
+        "DSPY025124",
+        "DSPY026924"
       ],
       "118": [
         "DSPY021024"
@@ -10804,7 +10921,8 @@
         "DSPY022325"
       ],
       "26": [
-        "DSPY005725"
+        "DSPY005725",
+        "DSPY027125"
       ],
       "28": [
         "DSPY016725"
@@ -10866,7 +10984,8 @@
       ],
       "40": [
         "DSPY020655",
-        "DSPY022566"
+        "DSPY022566",
+        "DSPY027055"
       ],
       "41": [
         "DSPY008974"
@@ -10924,7 +11043,8 @@
         "DSPY019224",
         "DSPY021024",
         "DSPY024824",
-        "DSPY025124"
+        "DSPY025124",
+        "DSPY026924"
       ],
       "50": [
         "DSPY009724",
@@ -10955,9 +11075,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-10-13T17:50:34.826Z",
-    "total": 187,
-    "matched": 162,
+    "generatedAt": "2026-10-14T15:36:15.044Z",
+    "total": 190,
+    "matched": 165,
     "unmatched": 25
   }
 }
