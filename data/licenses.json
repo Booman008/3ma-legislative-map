@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-10-20T15:25:48.648Z",
+  "generatedAt": "2026-10-21T15:43:01.789Z",
   "total": 363,
   "typeTotals": {
     "Cultivator Facility": 110,
@@ -11075,7 +11075,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-10-20T15:25:49.017Z",
+    "generatedAt": "2026-10-21T15:43:02.191Z",
     "total": 190,
     "matched": 165,
     "unmatched": 25
