@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-10-22T15:42:43.785Z",
-  "total": 362,
+  "generatedAt": "2026-10-23T15:31:02.217Z",
+  "total": 364,
   "typeTotals": {
     "Cultivator Facility": 110,
     "Processing Facility": 42,
     "Transportation Entity": 14,
     "Testing Facility": 2,
-    "Dispensary": 189,
+    "Dispensary": 191,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -588,6 +588,28 @@
       "geocodeLabel": "106 RIDGEMONT CIR, BOONEVILLE, MS, 38829",
       "houseDistrict": "3",
       "senateDistrict": "5"
+    },
+    {
+      "id": "DSPY013744",
+      "businessName": "Holistika LLC",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Lowndes",
+      "expiration": "10-26-2026",
+      "issueDate": "10-16-2025",
+      "ownerName": "Holistika",
+      "physicalAddress": "2009 MILITARY RD COLUMBUS, MS 39701",
+      "mailingAddress": "94 E BRIAR LAKE DR STARKVILLE, MS 39759",
+      "phone": "(662) 497-0795",
+      "email": "glenn@holistikallc.com",
+      "recordId": "1317",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 33.516619554159,
+      "lng": -88.415937437817,
+      "geocodeLabel": "2009 MILITARY RD, COLUMBUS, MS, 39701",
+      "houseDistrict": "39",
+      "senateDistrict": "17"
     },
     {
       "id": "DSPY001561",
@@ -1691,6 +1713,28 @@
       "geocodeLabel": "1282 BEAVER DAM RD, LUCEDALE, MS, 39452",
       "houseDistrict": "107",
       "senateDistrict": "43"
+    },
+    {
+      "id": "DSPY012806",
+      "businessName": "James B. Abraham LLC",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Bolivar",
+      "expiration": "10-23-2026",
+      "issueDate": "10-10-2025",
+      "ownerName": "James Abraham",
+      "physicalAddress": "618 GAINES HWY BOYLE, MS 38730",
+      "mailingAddress": "618 GAINES HWY BOYLE, MS 38730",
+      "phone": "(662) 719-6635",
+      "email": "bartabraham@gmail.com",
+      "recordId": "2444",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 33.712051886343,
+      "lng": -90.718275974879,
+      "geocodeLabel": "618 GAINES HWY, BOYLE, MS, 38730",
+      "houseDistrict": "31",
+      "senateDistrict": "13"
     },
     {
       "id": "DSPY014554",
@@ -8330,9 +8374,9 @@
     },
     "Lowndes": {
       "county": "Lowndes",
-      "total": 10,
+      "total": 11,
       "byType": {
-        "Dispensary": 5,
+        "Dispensary": 6,
         "Cultivator Facility": 4,
         "Processing Facility": 1
       },
@@ -8351,6 +8395,22 @@
           "phone": "(662) 574-8033",
           "email": "apothecariumgreen@gmail.com",
           "recordId": "1299",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY013744",
+          "businessName": "Holistika LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lowndes",
+          "expiration": "10-26-2026",
+          "issueDate": "10-16-2025",
+          "ownerName": "Holistika",
+          "physicalAddress": "2009 MILITARY RD COLUMBUS, MS 39701",
+          "mailingAddress": "94 E BRIAR LAKE DR STARKVILLE, MS 39759",
+          "phone": "(662) 497-0795",
+          "email": "glenn@holistikallc.com",
+          "recordId": "1317",
           "isDispensary": true
         },
         {
@@ -8627,9 +8687,9 @@
     },
     "Bolivar": {
       "county": "Bolivar",
-      "total": 2,
+      "total": 3,
       "byType": {
-        "Dispensary": 2
+        "Dispensary": 3
       },
       "dispensaries": [
         {
@@ -8662,6 +8722,22 @@
           "phone": "(662) 545-9333",
           "email": "medcanms@gmail.com",
           "recordId": "1379",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY012806",
+          "businessName": "James B. Abraham LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Bolivar",
+          "expiration": "10-23-2026",
+          "issueDate": "10-10-2025",
+          "ownerName": "James Abraham",
+          "physicalAddress": "618 GAINES HWY BOYLE, MS 38730",
+          "mailingAddress": "618 GAINES HWY BOYLE, MS 38730",
+          "phone": "(662) 719-6635",
+          "email": "bartabraham@gmail.com",
+          "recordId": "2444",
           "isDispensary": true
         }
       ]
@@ -10521,6 +10597,9 @@
       "30": [
         "DSPY013522"
       ],
+      "31": [
+        "DSPY012806"
+      ],
       "32": [
         "DSPY019642"
       ],
@@ -10539,6 +10618,7 @@
         "DSPY022013"
       ],
       "39": [
+        "DSPY013744",
         "DSPY014644",
         "DSPY018844",
         "DSPY024644"
@@ -10823,7 +10903,8 @@
         "DSPY021424"
       ],
       "13": [
-        "DSPY002206"
+        "DSPY002206",
+        "DSPY012806"
       ],
       "14": [
         "DSPY005522",
@@ -10840,6 +10921,7 @@
       ],
       "17": [
         "DSPY010744",
+        "DSPY013744",
         "DSPY014644",
         "DSPY018844",
         "DSPY024644"
@@ -11035,9 +11117,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-10-22T15:42:44.168Z",
-    "total": 189,
-    "matched": 164,
+    "generatedAt": "2026-10-23T15:31:02.631Z",
+    "total": 191,
+    "matched": 166,
     "unmatched": 25
   }
 }
