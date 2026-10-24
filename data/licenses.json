@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-10-23T15:31:02.217Z",
-  "total": 364,
+  "generatedAt": "2026-10-24T14:09:44.416Z",
+  "total": 363,
   "typeTotals": {
     "Cultivator Facility": 110,
     "Processing Facility": 42,
     "Transportation Entity": 14,
     "Testing Facility": 2,
-    "Dispensary": 191,
+    "Dispensary": 190,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -1644,8 +1644,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Harrison",
-      "expiration": "10-28-2026",
-      "issueDate": "10-28-2025",
+      "expiration": "10-28-2027",
+      "issueDate": "10-23-2026",
       "ownerName": "Justin Strayham, Miles Quave",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -1676,8 +1676,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Adams",
-      "expiration": "10-24-2026",
-      "issueDate": "10-30-2025",
+      "expiration": "10-24-2027",
+      "issueDate": "10-23-2026",
       "ownerName": "Tina Bruce",
       "physicalAddress": "55 S SERGEANT PRENTISS DR NATCHEZ, MS 39120",
       "mailingAddress": "55 SERGEANT PRENTISS DR STE 102 NATCHEZ, MS 39120",
@@ -1715,35 +1715,13 @@
       "senateDistrict": "43"
     },
     {
-      "id": "DSPY012806",
-      "businessName": "James B. Abraham LLC",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Bolivar",
-      "expiration": "10-23-2026",
-      "issueDate": "10-10-2025",
-      "ownerName": "James Abraham",
-      "physicalAddress": "618 GAINES HWY BOYLE, MS 38730",
-      "mailingAddress": "618 GAINES HWY BOYLE, MS 38730",
-      "phone": "(662) 719-6635",
-      "email": "bartabraham@gmail.com",
-      "recordId": "2444",
-      "isDispensary": true,
-      "geocodeStatus": "matched",
-      "lat": 33.712051886343,
-      "lng": -90.718275974879,
-      "geocodeLabel": "618 GAINES HWY, BOYLE, MS, 38730",
-      "houseDistrict": "31",
-      "senateDistrict": "13"
-    },
-    {
       "id": "DSPY014554",
       "businessName": "Good Day Dispensary",
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Panola",
-      "expiration": "11-15-2026",
-      "issueDate": "10-23-2025",
+      "expiration": "11-15-2027",
+      "issueDate": "10-23-2026",
       "ownerName": "Amy Phillips",
       "physicalAddress": "450/450A Hwy 51 Batesville, MS 38606",
       "mailingAddress": "14721 HIGHWAY 35 S BATESVILLE, MS 38606",
@@ -3661,8 +3639,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Clarke",
-      "expiration": "10-24-2026",
-      "issueDate": "10-24-2025",
+      "expiration": "10-24-2027",
+      "issueDate": "10-23-2026",
       "ownerName": "James Riley, Scott Riley",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -3807,13 +3785,13 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Lowndes",
-      "expiration": "10-24-2026",
-      "issueDate": "10-24-2025",
+      "expiration": "10-24-2027",
+      "issueDate": "10-23-2026",
       "ownerName": "Tuan Tran, Jeffrey Lipsey",
       "physicalAddress": "",
       "mailingAddress": "",
-      "phone": "(407) 361-3049",
-      "email": "tmtran74@yahoo.com",
+      "phone": "(360) 773-8398",
+      "email": "compliance@maxharvestms.com",
       "recordId": "52566",
       "isDispensary": false
     },
@@ -3839,8 +3817,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Hinds",
-      "expiration": "10-26-2026",
-      "issueDate": "10-21-2023",
+      "expiration": "10-26-2027",
+      "issueDate": "10-23-2026",
       "ownerName": "Kain Groue",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -7900,8 +7878,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Panola",
-          "expiration": "11-15-2026",
-          "issueDate": "10-23-2025",
+          "expiration": "11-15-2027",
+          "issueDate": "10-23-2026",
           "ownerName": "Amy Phillips",
           "physicalAddress": "450/450A Hwy 51 Batesville, MS 38606",
           "mailingAddress": "14721 HIGHWAY 35 S BATESVILLE, MS 38606",
@@ -8687,9 +8665,9 @@
     },
     "Bolivar": {
       "county": "Bolivar",
-      "total": 3,
+      "total": 2,
       "byType": {
-        "Dispensary": 3
+        "Dispensary": 2
       },
       "dispensaries": [
         {
@@ -8722,22 +8700,6 @@
           "phone": "(662) 545-9333",
           "email": "medcanms@gmail.com",
           "recordId": "1379",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY012806",
-          "businessName": "James B. Abraham LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Bolivar",
-          "expiration": "10-23-2026",
-          "issueDate": "10-10-2025",
-          "ownerName": "James Abraham",
-          "physicalAddress": "618 GAINES HWY BOYLE, MS 38730",
-          "mailingAddress": "618 GAINES HWY BOYLE, MS 38730",
-          "phone": "(662) 719-6635",
-          "email": "bartabraham@gmail.com",
-          "recordId": "2444",
           "isDispensary": true
         }
       ]
@@ -9793,8 +9755,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Adams",
-          "expiration": "10-24-2026",
-          "issueDate": "10-30-2025",
+          "expiration": "10-24-2027",
+          "issueDate": "10-23-2026",
           "ownerName": "Tina Bruce",
           "physicalAddress": "55 S SERGEANT PRENTISS DR NATCHEZ, MS 39120",
           "mailingAddress": "55 SERGEANT PRENTISS DR STE 102 NATCHEZ, MS 39120",
@@ -10597,9 +10559,6 @@
       "30": [
         "DSPY013522"
       ],
-      "31": [
-        "DSPY012806"
-      ],
       "32": [
         "DSPY019642"
       ],
@@ -10903,8 +10862,7 @@
         "DSPY021424"
       ],
       "13": [
-        "DSPY002206",
-        "DSPY012806"
+        "DSPY002206"
       ],
       "14": [
         "DSPY005522",
@@ -11117,9 +11075,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-10-23T15:31:02.631Z",
-    "total": 191,
-    "matched": 166,
+    "generatedAt": "2026-10-24T14:09:44.800Z",
+    "total": 190,
+    "matched": 165,
     "unmatched": 25
   }
 }
