@@ -1,10 +1,10 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-10-25T14:39:11.079Z",
-  "total": 363,
+  "generatedAt": "2026-10-26T17:03:08.664Z",
+  "total": 362,
   "typeTotals": {
     "Cultivator Facility": 110,
-    "Processing Facility": 42,
+    "Processing Facility": 41,
     "Transportation Entity": 14,
     "Testing Facility": 2,
     "Dispensary": 190,
@@ -595,7 +595,7 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Lowndes",
-      "expiration": "10-26-2026",
+      "expiration": "10-21-2026",
       "issueDate": "10-16-2025",
       "ownerName": "Holistika",
       "physicalAddress": "2009 MILITARY RD COLUMBUS, MS 39701",
@@ -3562,22 +3562,6 @@
       "geocodeLabel": "228 N WOODLAND DR, FOREST, MS, 39074",
       "houseDistrict": "27",
       "senateDistrict": "31"
-    },
-    {
-      "id": "MPRC000437",
-      "businessName": "Aeroma Processing Company",
-      "type": "Processing Facility",
-      "typeSlug": "processing-facility",
-      "county": "Lamar",
-      "expiration": "10-25-2026",
-      "issueDate": "10-20-2025",
-      "ownerName": "William Klaus",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(601) 906-7385",
-      "email": "info@aeromacannabis.com",
-      "recordId": "40235",
-      "isDispensary": false
     },
     {
       "id": "DSPY018630",
@@ -8381,7 +8365,7 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Lowndes",
-          "expiration": "10-26-2026",
+          "expiration": "10-21-2026",
           "issueDate": "10-16-2025",
           "ownerName": "Holistika",
           "physicalAddress": "2009 MILITARY RD COLUMBUS, MS 39701",
@@ -9236,11 +9220,11 @@
     },
     "Lamar": {
       "county": "Lamar",
-      "total": 10,
+      "total": 9,
       "byType": {
         "Dispensary": 5,
         "Cultivator Facility": 2,
-        "Processing Facility": 3
+        "Processing Facility": 2
       },
       "dispensaries": [
         {
@@ -11075,7 +11059,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-10-25T14:39:11.405Z",
+    "generatedAt": "2026-10-26T17:03:09.069Z",
     "total": 190,
     "matched": 165,
     "unmatched": 25
