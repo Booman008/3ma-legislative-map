@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-10-26T17:03:08.664Z",
-  "total": 362,
+  "generatedAt": "2026-10-27T16:07:17.221Z",
+  "total": 361,
   "typeTotals": {
     "Cultivator Facility": 110,
     "Processing Facility": 41,
     "Transportation Entity": 14,
     "Testing Facility": 2,
-    "Dispensary": 190,
+    "Dispensary": 189,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -588,28 +588,6 @@
       "geocodeLabel": "106 RIDGEMONT CIR, BOONEVILLE, MS, 38829",
       "houseDistrict": "3",
       "senateDistrict": "5"
-    },
-    {
-      "id": "DSPY013744",
-      "businessName": "Holistika LLC",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Lowndes",
-      "expiration": "10-21-2026",
-      "issueDate": "10-16-2025",
-      "ownerName": "Holistika",
-      "physicalAddress": "2009 MILITARY RD COLUMBUS, MS 39701",
-      "mailingAddress": "94 E BRIAR LAKE DR STARKVILLE, MS 39759",
-      "phone": "(662) 497-0795",
-      "email": "glenn@holistikallc.com",
-      "recordId": "1317",
-      "isDispensary": true,
-      "geocodeStatus": "matched",
-      "lat": 33.516619554159,
-      "lng": -88.415937437817,
-      "geocodeLabel": "2009 MILITARY RD, COLUMBUS, MS, 39701",
-      "houseDistrict": "39",
-      "senateDistrict": "17"
     },
     {
       "id": "DSPY001561",
@@ -4938,8 +4916,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Hancock",
-      "expiration": "10-28-2026",
-      "issueDate": "10-29-2025",
+      "expiration": "10-28-2027",
+      "issueDate": "10-26-2026",
       "ownerName": "Karen Daniel, Joseph Pepe, Gina Pepe",
       "physicalAddress": "16329 MS-603 Kiln, MS 39556",
       "mailingAddress": "16329 MS-603 #4 Kiln, MS 39556",
@@ -8092,8 +8070,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Hancock",
-          "expiration": "10-28-2026",
-          "issueDate": "10-29-2025",
+          "expiration": "10-28-2027",
+          "issueDate": "10-26-2026",
           "ownerName": "Karen Daniel, Joseph Pepe, Gina Pepe",
           "physicalAddress": "16329 MS-603 Kiln, MS 39556",
           "mailingAddress": "16329 MS-603 #4 Kiln, MS 39556",
@@ -8336,9 +8314,9 @@
     },
     "Lowndes": {
       "county": "Lowndes",
-      "total": 11,
+      "total": 10,
       "byType": {
-        "Dispensary": 6,
+        "Dispensary": 5,
         "Cultivator Facility": 4,
         "Processing Facility": 1
       },
@@ -8357,22 +8335,6 @@
           "phone": "(662) 574-8033",
           "email": "apothecariumgreen@gmail.com",
           "recordId": "1299",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY013744",
-          "businessName": "Holistika LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Lowndes",
-          "expiration": "10-21-2026",
-          "issueDate": "10-16-2025",
-          "ownerName": "Holistika",
-          "physicalAddress": "2009 MILITARY RD COLUMBUS, MS 39701",
-          "mailingAddress": "94 E BRIAR LAKE DR STARKVILLE, MS 39759",
-          "phone": "(662) 497-0795",
-          "email": "glenn@holistikallc.com",
-          "recordId": "1317",
           "isDispensary": true
         },
         {
@@ -10561,7 +10523,6 @@
         "DSPY022013"
       ],
       "39": [
-        "DSPY013744",
         "DSPY014644",
         "DSPY018844",
         "DSPY024644"
@@ -10863,7 +10824,6 @@
       ],
       "17": [
         "DSPY010744",
-        "DSPY013744",
         "DSPY014644",
         "DSPY018844",
         "DSPY024644"
@@ -11059,9 +11019,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-10-26T17:03:09.069Z",
-    "total": 190,
-    "matched": 165,
+    "generatedAt": "2026-10-27T16:07:17.613Z",
+    "total": 189,
+    "matched": 164,
     "unmatched": 25
   }
 }
