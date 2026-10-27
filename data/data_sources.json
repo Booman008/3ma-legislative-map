@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T17:03:08.667Z",
+  "generatedAt": "2026-10-27T16:07:17.225Z",
   "sources": {
     "countyMetrics": {
       "url": "https://data.mmcp.ms.gov/resource/7msu-vp6z.json",
@@ -8,36 +8,38 @@
       "rowCount": 82,
       "fetchedAt": "2026-10-26T17:02:41.726Z",
       "input": "CSV Imports/mmcp_county_metrics_latest.csv",
-      "generatedAt": "2026-10-26T17:03:08.667Z",
-      "status": "fetched"
+      "generatedAt": "2026-10-27T16:07:17.225Z",
+      "status": "fallback",
+      "error": "This operation was aborted",
+      "fallbackInput": "CSV Imports/mmcp_county_metrics_latest.csv"
     },
     "licenses": {
       "url": "https://www.mmcp.ms.gov/search_business",
-      "rowCount": 362,
-      "reportedTotal": 362,
-      "fetchedAt": "2026-10-26T17:02:41.726Z",
+      "rowCount": 361,
+      "reportedTotal": 361,
+      "fetchedAt": "2026-10-27T16:05:39.640Z",
       "input": "CSV Imports/mmcp_business_licenses_latest.csv",
-      "generatedAt": "2026-10-26T17:03:08.667Z",
+      "generatedAt": "2026-10-27T16:07:17.225Z",
       "status": "fetched"
     },
     "legislators": {
       "input": "CSV Imports/3MA Mississippi Legislature Tracksheet - Scorecard_Public (1).csv",
-      "generatedAt": "2026-10-26T17:03:08.667Z"
+      "generatedAt": "2026-10-27T16:07:17.225Z"
     }
   },
   "generatedFiles": {
     "legislators": {
       "path": "data/legislators.json",
-      "generatedAt": "2026-10-26T17:03:08.667Z"
+      "generatedAt": "2026-10-27T16:07:17.225Z"
     },
     "licenses": {
       "path": "data/licenses.json",
-      "generatedAt": "2026-10-26T17:03:08.667Z",
-      "rowCount": 362
+      "generatedAt": "2026-10-27T16:07:17.225Z",
+      "rowCount": 361
     },
     "countyMetrics": {
       "path": "data/county_metrics.json",
-      "generatedAt": "2026-10-26T17:03:08.667Z",
+      "generatedAt": "2026-10-27T16:07:17.225Z",
       "rowCount": 82
     }
   }
