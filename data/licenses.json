@@ -1,10 +1,10 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-10-28T16:53:41.672Z",
-  "total": 362,
+  "generatedAt": "2026-10-29T17:10:20.042Z",
+  "total": 361,
   "typeTotals": {
     "Cultivator Facility": 110,
-    "Processing Facility": 42,
+    "Processing Facility": 41,
     "Transportation Entity": 14,
     "Testing Facility": 2,
     "Dispensary": 189,
@@ -1063,8 +1063,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Coahoma",
-      "expiration": "11-01-2026",
-      "issueDate": "11-08-2025",
+      "expiration": "11-01-2027",
+      "issueDate": "10-29-2026",
       "ownerName": "William Talbot",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -1186,22 +1186,6 @@
       "phone": "(720) 576-6041",
       "email": "bryan@borneobud.com",
       "recordId": "1412",
-      "isDispensary": false
-    },
-    {
-      "id": "MPRC000114",
-      "businessName": "MS. Jane Company",
-      "type": "Processing Facility",
-      "typeSlug": "processing-facility",
-      "county": "Coahoma",
-      "expiration": "10-28-2026",
-      "issueDate": "10-28-2025",
-      "ownerName": "William Talbot",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(901) 831-2319",
-      "email": "bill@shackupinn.com",
-      "recordId": "1438",
       "isDispensary": false
     },
     {
@@ -1584,8 +1568,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Harrison",
-      "expiration": "10-28-2026",
-      "issueDate": "10-28-2025",
+      "expiration": "10-28-2027",
+      "issueDate": "10-29-2026",
       "ownerName": "Anthony Pratt",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -9638,10 +9622,9 @@
     },
     "Coahoma": {
       "county": "Coahoma",
-      "total": 3,
+      "total": 2,
       "byType": {
-        "Cultivator Facility": 2,
-        "Processing Facility": 1
+        "Cultivator Facility": 2
       },
       "dispensaries": []
     },
@@ -11035,7 +11018,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-10-28T16:53:42.079Z",
+    "generatedAt": "2026-10-29T17:10:20.307Z",
     "total": 189,
     "matched": 164,
     "unmatched": 25
