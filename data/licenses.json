@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-10-29T17:10:20.042Z",
-  "total": 361,
+  "generatedAt": "2026-10-30T16:50:59.005Z",
+  "total": 360,
   "typeTotals": {
     "Cultivator Facility": 110,
     "Processing Facility": 41,
     "Transportation Entity": 14,
     "Testing Facility": 2,
-    "Dispensary": 189,
+    "Dispensary": 188,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -4895,28 +4895,6 @@
       "senateDistrict": "4"
     },
     {
-      "id": "DSPY023623",
-      "businessName": "Diamondleaf",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Hancock",
-      "expiration": "10-28-2027",
-      "issueDate": "10-26-2026",
-      "ownerName": "Karen Daniel, Joseph Pepe, Gina Pepe",
-      "physicalAddress": "16329 MS-603 Kiln, MS 39556",
-      "mailingAddress": "16329 MS-603 #4 Kiln, MS 39556",
-      "phone": "(985) 718-6909",
-      "email": "ginampepe@aol.com",
-      "recordId": "214420",
-      "isDispensary": true,
-      "geocodeStatus": "matched",
-      "lat": 30.40628001861,
-      "lng": -89.443082543086,
-      "geocodeLabel": "16329 STATE HWY 603, KILN, MS, 39556",
-      "houseDistrict": "122",
-      "senateDistrict": "46"
-    },
-    {
       "id": "DSPY023717",
       "businessName": "Canablume, LLC",
       "type": "Dispensary",
@@ -7979,9 +7957,9 @@
     },
     "Hancock": {
       "county": "Hancock",
-      "total": 10,
+      "total": 9,
       "byType": {
-        "Dispensary": 10
+        "Dispensary": 9
       },
       "dispensaries": [
         {
@@ -8062,22 +8040,6 @@
           "phone": "(985) 718-6907",
           "email": "ginampepe@aol.com",
           "recordId": "208272",
-          "isDispensary": true
-        },
-        {
-          "id": "DSPY023623",
-          "businessName": "Diamondleaf",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Hancock",
-          "expiration": "10-28-2027",
-          "issueDate": "10-26-2026",
-          "ownerName": "Karen Daniel, Joseph Pepe, Gina Pepe",
-          "physicalAddress": "16329 MS-603 Kiln, MS 39556",
-          "mailingAddress": "16329 MS-603 #4 Kiln, MS 39556",
-          "phone": "(985) 718-6909",
-          "email": "ginampepe@aol.com",
-          "recordId": "214420",
           "isDispensary": true
         },
         {
@@ -10747,7 +10709,6 @@
         "DSPY006623",
         "DSPY011223",
         "DSPY021823",
-        "DSPY023623",
         "DSPY024923"
       ]
     },
@@ -10957,7 +10918,6 @@
         "DSPY015123",
         "DSPY021823",
         "DSPY023524",
-        "DSPY023623",
         "DSPY024124",
         "DSPY024723",
         "DSPY024923",
@@ -11018,9 +10978,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-10-29T17:10:20.307Z",
-    "total": 189,
-    "matched": 164,
+    "generatedAt": "2026-10-30T16:50:59.392Z",
+    "total": 188,
+    "matched": 163,
     "unmatched": 25
   }
 }
