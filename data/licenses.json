@@ -1,9 +1,9 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-10-31T15:54:22.409Z",
-  "total": 360,
+  "generatedAt": "2026-11-01T16:56:23.606Z",
+  "total": 359,
   "typeTotals": {
-    "Cultivator Facility": 110,
+    "Cultivator Facility": 109,
     "Processing Facility": 41,
     "Transportation Entity": 14,
     "Testing Facility": 2,
@@ -1712,22 +1712,6 @@
       "phone": "(601) 918-1851",
       "email": "william.chism@riverremedyms.com",
       "recordId": "2514",
-      "isDispensary": false
-    },
-    {
-      "id": "MCUL002481",
-      "businessName": "DTS Pharms, LLC",
-      "type": "Cultivator Facility",
-      "typeSlug": "cultivator-facility",
-      "county": "Yalobusha",
-      "expiration": "10-31-2026",
-      "issueDate": "10-31-2025",
-      "ownerName": "Alisa Liggins",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(662) 380-1181",
-      "email": "mustardgreens26@gmail.com",
-      "recordId": "2527",
       "isDispensary": false
     },
     {
@@ -7779,9 +7763,9 @@
     },
     "Yalobusha": {
       "county": "Yalobusha",
-      "total": 4,
+      "total": 3,
       "byType": {
-        "Cultivator Facility": 3,
+        "Cultivator Facility": 2,
         "Dispensary": 1
       },
       "dispensaries": [
@@ -10978,7 +10962,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-10-31T15:54:22.727Z",
+    "generatedAt": "2026-11-01T16:56:24.001Z",
     "total": 188,
     "matched": 163,
     "unmatched": 25
