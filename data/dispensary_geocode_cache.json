@@ -1172,8 +1172,14 @@
       "lat": 32.387774637609,
       "lng": -90.141751049173,
       "matchedAddress": "5852 RIDGEWOOD RD, JACKSON, MS, 39211"
+    },
+    "520 E RAILROAD ST LONG BEACH, MS 39560": {
+      "status": "matched",
+      "lat": 30.354363063214,
+      "lng": -89.140898023674,
+      "matchedAddress": "520 E RAILROAD ST, LONG BEACH, MS, 39560"
     }
   },
-  "generatedAt": "2026-11-03T18:07:55.923Z",
+  "generatedAt": "2026-11-04T18:19:32.136Z",
   "provider": "U.S. Census Geocoder"
 }
