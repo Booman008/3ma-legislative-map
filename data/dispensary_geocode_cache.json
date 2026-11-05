@@ -1178,8 +1178,11 @@
       "lat": 30.354363063214,
       "lng": -89.140898023674,
       "matchedAddress": "520 E RAILROAD ST, LONG BEACH, MS, 39560"
+    },
+    "15160 MS-67 BILOXI, MS 39532": {
+      "status": "unmatched"
     }
   },
-  "generatedAt": "2026-11-04T18:19:32.136Z",
+  "generatedAt": "2026-11-05T18:22:17.600Z",
   "provider": "U.S. Census Geocoder"
 }
