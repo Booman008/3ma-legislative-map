@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-11-05T18:22:17.068Z",
-  "total": 360,
+  "generatedAt": "2026-11-06T17:44:06.340Z",
+  "total": 362,
   "typeTotals": {
     "Cultivator Facility": 110,
     "Processing Facility": 41,
     "Transportation Entity": 14,
     "Testing Facility": 2,
-    "Dispensary": 188,
+    "Dispensary": 190,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -1259,7 +1259,7 @@
       "ownerName": "Kanwaljit Singh, Jasbir Singh",
       "physicalAddress": "",
       "mailingAddress": "",
-      "phone": "(769) 798-1440",
+      "phone": "(601) 473-1978",
       "email": "magnoliahighgrowers24@gmail.com",
       "recordId": "1480",
       "isDispensary": false
@@ -1563,6 +1563,28 @@
       "senateDistrict": "46"
     },
     {
+      "id": "DSPY010867",
+      "businessName": "Arcane Enterprises",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Sunflower",
+      "expiration": "11-06-2026",
+      "issueDate": "08-18-2025",
+      "ownerName": "Katricia Smith",
+      "physicalAddress": "4241 HIGHWAY 49 DREW, MS 38737",
+      "mailingAddress": "4241 HIGHWAY 49 STE A DREW, MS 38737",
+      "phone": "(662) 701-7696",
+      "email": "klsmith@arcanemd.com",
+      "recordId": "2158",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 33.823519935397,
+      "lng": -90.521205892754,
+      "geocodeLabel": "4241 US HWY 49 W, DREW, MS, 38737",
+      "houseDistrict": "30",
+      "senateDistrict": "13"
+    },
+    {
       "id": "MCUL002324",
       "businessName": "Cat 5 LLC",
       "type": "Cultivator Facility",
@@ -1622,7 +1644,7 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Tunica",
-      "expiration": "11-06-2026",
+      "expiration": "11-13-2026",
       "issueDate": "10-28-2025",
       "ownerName": "Ron Jones, Clayton Allen, Stanley Rojeski",
       "physicalAddress": "",
@@ -3537,8 +3559,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Stone",
-      "expiration": "11-06-2026",
-      "issueDate": "11-06-2025",
+      "expiration": "11-06-2027",
+      "issueDate": "11-05-2026",
       "ownerName": "Duran Jackson, Courtney Walker, Jonathan Segarra",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -3558,8 +3580,8 @@
       "ownerName": "Magnolia High Transport, LLC",
       "physicalAddress": "",
       "mailingAddress": "",
-      "phone": "(769) 798-1440",
-      "email": "e10881e@gmail.com",
+      "phone": "(601) 473-1978",
+      "email": "magnoliahighgrowers24@gmail.com",
       "recordId": "40673",
       "isDispensary": false
     },
@@ -3736,8 +3758,8 @@
       "ownerName": "Kanwaljit Singh, Jasbir Singh",
       "physicalAddress": "",
       "mailingAddress": "",
-      "phone": "(769) 798-1440",
-      "email": "e10881e@gmail.com",
+      "phone": "(601) 473-1978",
+      "email": "magnoliahighgrowers24@gmail.com",
       "recordId": "52845",
       "isDispensary": false
     },
@@ -4877,6 +4899,28 @@
       "geocodeLabel": "2007 US HWY 72, CORINTH, MS, 38834",
       "houseDistrict": "2",
       "senateDistrict": "4"
+    },
+    {
+      "id": "DSPY023623",
+      "businessName": "Diamondleaf",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Hancock",
+      "expiration": "10-28-2027",
+      "issueDate": "10-26-2026",
+      "ownerName": "Karen Daniel, Joseph Pepe, Gina Pepe",
+      "physicalAddress": "16329 MS-603 Kiln, MS 39556",
+      "mailingAddress": "16329 MS-603 #4 Kiln, MS 39556",
+      "phone": "(985) 718-6909",
+      "email": "ginampepe@aol.com",
+      "recordId": "214420",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 30.40628001861,
+      "lng": -89.443082543086,
+      "geocodeLabel": "16329 STATE HWY 603, KILN, MS, 39556",
+      "houseDistrict": "122",
+      "senateDistrict": "46"
     },
     {
       "id": "DSPY023717",
@@ -7957,9 +8001,9 @@
     },
     "Hancock": {
       "county": "Hancock",
-      "total": 9,
+      "total": 10,
       "byType": {
-        "Dispensary": 9
+        "Dispensary": 10
       },
       "dispensaries": [
         {
@@ -8040,6 +8084,22 @@
           "phone": "(985) 718-6907",
           "email": "ginampepe@aol.com",
           "recordId": "208272",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY023623",
+          "businessName": "Diamondleaf",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Hancock",
+          "expiration": "10-28-2027",
+          "issueDate": "10-26-2026",
+          "ownerName": "Karen Daniel, Joseph Pepe, Gina Pepe",
+          "physicalAddress": "16329 MS-603 Kiln, MS 39556",
+          "mailingAddress": "16329 MS-603 #4 Kiln, MS 39556",
+          "phone": "(985) 718-6909",
+          "email": "ginampepe@aol.com",
+          "recordId": "214420",
           "isDispensary": true
         },
         {
@@ -9813,6 +9873,32 @@
       },
       "dispensaries": []
     },
+    "Sunflower": {
+      "county": "Sunflower",
+      "total": 3,
+      "byType": {
+        "Dispensary": 1,
+        "Cultivator Facility": 2
+      },
+      "dispensaries": [
+        {
+          "id": "DSPY010867",
+          "businessName": "Arcane Enterprises",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Sunflower",
+          "expiration": "11-06-2026",
+          "issueDate": "08-18-2025",
+          "ownerName": "Katricia Smith",
+          "physicalAddress": "4241 HIGHWAY 49 DREW, MS 38737",
+          "mailingAddress": "4241 HIGHWAY 49 STE A DREW, MS 38737",
+          "phone": "(662) 701-7696",
+          "email": "klsmith@arcanemd.com",
+          "recordId": "2158",
+          "isDispensary": true
+        }
+      ]
+    },
     "Tunica": {
       "county": "Tunica",
       "total": 4,
@@ -10324,14 +10410,6 @@
       },
       "dispensaries": []
     },
-    "Sunflower": {
-      "county": "Sunflower",
-      "total": 2,
-      "byType": {
-        "Cultivator Facility": 2
-      },
-      "dispensaries": []
-    },
     "Covington": {
       "county": "Covington",
       "total": 1,
@@ -10464,6 +10542,7 @@
         "DSPY002206"
       ],
       "30": [
+        "DSPY010867",
         "DSPY013522"
       ],
       "32": [
@@ -10709,6 +10788,7 @@
         "DSPY006623",
         "DSPY011223",
         "DSPY021823",
+        "DSPY023623",
         "DSPY024923"
       ]
     },
@@ -10767,7 +10847,8 @@
         "DSPY021424"
       ],
       "13": [
-        "DSPY002206"
+        "DSPY002206",
+        "DSPY010867"
       ],
       "14": [
         "DSPY005522",
@@ -10918,6 +10999,7 @@
         "DSPY015123",
         "DSPY021823",
         "DSPY023524",
+        "DSPY023623",
         "DSPY024124",
         "DSPY024723",
         "DSPY024923",
@@ -10978,9 +11060,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-11-05T18:22:17.600Z",
-    "total": 188,
-    "matched": 163,
+    "generatedAt": "2026-11-06T17:44:06.732Z",
+    "total": 190,
+    "matched": 165,
     "unmatched": 25
   }
 }
