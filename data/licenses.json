@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-11-06T17:44:06.340Z",
-  "total": 362,
+  "generatedAt": "2026-11-07T16:40:18.544Z",
+  "total": 361,
   "typeTotals": {
     "Cultivator Facility": 110,
     "Processing Facility": 41,
     "Transportation Entity": 14,
     "Testing Facility": 2,
-    "Dispensary": 190,
+    "Dispensary": 189,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -1561,28 +1561,6 @@
       "geocodeLabel": "200 HWY 90, WAVELAND, MS, 39576",
       "houseDistrict": "122",
       "senateDistrict": "46"
-    },
-    {
-      "id": "DSPY010867",
-      "businessName": "Arcane Enterprises",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Sunflower",
-      "expiration": "11-06-2026",
-      "issueDate": "08-18-2025",
-      "ownerName": "Katricia Smith",
-      "physicalAddress": "4241 HIGHWAY 49 DREW, MS 38737",
-      "mailingAddress": "4241 HIGHWAY 49 STE A DREW, MS 38737",
-      "phone": "(662) 701-7696",
-      "email": "klsmith@arcanemd.com",
-      "recordId": "2158",
-      "isDispensary": true,
-      "geocodeStatus": "matched",
-      "lat": 33.823519935397,
-      "lng": -90.521205892754,
-      "geocodeLabel": "4241 US HWY 49 W, DREW, MS, 38737",
-      "houseDistrict": "30",
-      "senateDistrict": "13"
     },
     {
       "id": "MCUL002324",
@@ -9873,32 +9851,6 @@
       },
       "dispensaries": []
     },
-    "Sunflower": {
-      "county": "Sunflower",
-      "total": 3,
-      "byType": {
-        "Dispensary": 1,
-        "Cultivator Facility": 2
-      },
-      "dispensaries": [
-        {
-          "id": "DSPY010867",
-          "businessName": "Arcane Enterprises",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Sunflower",
-          "expiration": "11-06-2026",
-          "issueDate": "08-18-2025",
-          "ownerName": "Katricia Smith",
-          "physicalAddress": "4241 HIGHWAY 49 DREW, MS 38737",
-          "mailingAddress": "4241 HIGHWAY 49 STE A DREW, MS 38737",
-          "phone": "(662) 701-7696",
-          "email": "klsmith@arcanemd.com",
-          "recordId": "2158",
-          "isDispensary": true
-        }
-      ]
-    },
     "Tunica": {
       "county": "Tunica",
       "total": 4,
@@ -10410,6 +10362,14 @@
       },
       "dispensaries": []
     },
+    "Sunflower": {
+      "county": "Sunflower",
+      "total": 2,
+      "byType": {
+        "Cultivator Facility": 2
+      },
+      "dispensaries": []
+    },
     "Covington": {
       "county": "Covington",
       "total": 1,
@@ -10542,7 +10502,6 @@
         "DSPY002206"
       ],
       "30": [
-        "DSPY010867",
         "DSPY013522"
       ],
       "32": [
@@ -10847,8 +10806,7 @@
         "DSPY021424"
       ],
       "13": [
-        "DSPY002206",
-        "DSPY010867"
+        "DSPY002206"
       ],
       "14": [
         "DSPY005522",
@@ -11060,9 +11018,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-11-06T17:44:06.732Z",
-    "total": 190,
-    "matched": 165,
+    "generatedAt": "2026-11-07T16:40:18.853Z",
+    "total": 189,
+    "matched": 164,
     "unmatched": 25
   }
 }
