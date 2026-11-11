@@ -1181,8 +1181,14 @@
     },
     "15160 MS-67 BILOXI, MS 39532": {
       "status": "unmatched"
+    },
+    "5025 CHURCH RD OLIVE BRANCH, MS 38654": {
+      "status": "matched",
+      "lat": 34.933053407384,
+      "lng": -89.90020805709,
+      "matchedAddress": "5025 CHURCH RD, OLIVE BRANCH, MS, 38654"
     }
   },
-  "generatedAt": "2026-11-10T18:20:56.013Z",
+  "generatedAt": "2026-11-11T18:10:44.280Z",
   "provider": "U.S. Census Geocoder"
 }
