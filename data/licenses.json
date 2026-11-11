@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-11-10T18:20:55.785Z",
-  "total": 361,
+  "generatedAt": "2026-11-11T18:10:43.823Z",
+  "total": 362,
   "typeTotals": {
     "Cultivator Facility": 110,
     "Processing Facility": 41,
     "Transportation Entity": 14,
     "Testing Facility": 2,
-    "Dispensary": 189,
+    "Dispensary": 190,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -6782,6 +6782,28 @@
       "senateDistrict": "40"
     },
     {
+      "id": "DSPY027217",
+      "businessName": "DABBS 2 LLC",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "DeSoto",
+      "expiration": "11-10-2027",
+      "issueDate": "11-10-2026",
+      "ownerName": "Bennie Knighten, Tony Wallace, Bobby Britton",
+      "physicalAddress": "5025 Church Rd Olive Branch, MS 38654",
+      "mailingAddress": "5025 Church Rd Ste 125 Olive Branch, MS 38654",
+      "phone": "(601) 594-2285",
+      "email": "blanebritton@gmail.com",
+      "recordId": "551185",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 34.933053407384,
+      "lng": -89.90020805709,
+      "geocodeLabel": "5025 CHURCH RD, OLIVE BRANCH, MS, 38654",
+      "houseDistrict": "24",
+      "senateDistrict": "19"
+    },
+    {
       "id": "PROC002625",
       "businessName": "Delta Dawn Herbals LLC",
       "type": "Processing Facility",
@@ -9412,9 +9434,9 @@
     },
     "DeSoto": {
       "county": "DeSoto",
-      "total": 13,
+      "total": 14,
       "byType": {
-        "Dispensary": 12,
+        "Dispensary": 13,
         "Processing Facility": 1
       },
       "dispensaries": [
@@ -9608,6 +9630,22 @@
           "phone": "(929) 278-7792",
           "email": "danzoomedinc@gmail.com",
           "recordId": "468336",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY027217",
+          "businessName": "DABBS 2 LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "DeSoto",
+          "expiration": "11-10-2027",
+          "issueDate": "11-10-2026",
+          "ownerName": "Bennie Knighten, Tony Wallace, Bobby Britton",
+          "physicalAddress": "5025 Church Rd Olive Branch, MS 38654",
+          "mailingAddress": "5025 Church Rd Ste 125 Olive Branch, MS 38654",
+          "phone": "(601) 594-2285",
+          "email": "blanebritton@gmail.com",
+          "recordId": "551185",
           "isDispensary": true
         }
       ]
@@ -10488,6 +10526,9 @@
       "21": [
         "DSPY012229"
       ],
+      "24": [
+        "DSPY027217"
+      ],
       "27": [
         "DSPY018462"
       ],
@@ -10835,7 +10876,8 @@
         "DSPY015817",
         "DSPY018017",
         "DSPY023017",
-        "DSPY023717"
+        "DSPY023717",
+        "DSPY027217"
       ],
       "20": [
         "DSPY001561",
@@ -11018,9 +11060,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-11-10T18:20:56.013Z",
-    "total": 189,
-    "matched": 164,
+    "generatedAt": "2026-11-11T18:10:44.280Z",
+    "total": 190,
+    "matched": 165,
     "unmatched": 25
   }
 }
