@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-11-14T16:46:39.620Z",
+  "generatedAt": "2026-11-15T17:29:08.830Z",
   "total": 361,
   "typeTotals": {
     "Cultivator Facility": 109,
@@ -1917,8 +1917,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Yazoo",
-      "expiration": "11-18-2026",
-      "issueDate": "11-18-2025",
+      "expiration": "11-18-2027",
+      "issueDate": "11-14-2026",
       "ownerName": "Investors Investors, Alney McLean",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -11044,7 +11044,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-11-14T16:46:39.945Z",
+    "generatedAt": "2026-11-15T17:29:09.145Z",
     "total": 190,
     "matched": 165,
     "unmatched": 25
