@@ -1,9 +1,9 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-11-15T17:29:08.830Z",
-  "total": 361,
+  "generatedAt": "2026-11-16T20:43:37.772Z",
+  "total": 359,
   "typeTotals": {
-    "Cultivator Facility": 109,
+    "Cultivator Facility": 107,
     "Processing Facility": 41,
     "Transportation Entity": 14,
     "Testing Facility": 2,
@@ -3364,22 +3364,6 @@
       "senateDistrict": "42"
     },
     {
-      "id": "MCUL006556",
-      "businessName": "botane Group LLC",
-      "type": "Cultivator Facility",
-      "typeSlug": "cultivator-facility",
-      "county": "Perry",
-      "expiration": "11-15-2026",
-      "issueDate": "11-15-2025",
-      "ownerName": "Herbert McDonald",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(601) 689-1146",
-      "email": "herbertcmcdonald@gmail.com",
-      "recordId": "28922",
-      "isDispensary": false
-    },
-    {
       "id": "CULV005524",
       "businessName": "Sweet Life Canna Company, LLC",
       "type": "Cultivator Facility",
@@ -3784,22 +3768,6 @@
       "geocodeLabel": "2218 HWY 82 W, GREENWOOD, MS, 38930",
       "houseDistrict": "32",
       "senateDistrict": "24"
-    },
-    {
-      "id": "CULV006762",
-      "businessName": "GLC ONE LLC",
-      "type": "Cultivator Facility",
-      "typeSlug": "cultivator-facility",
-      "county": "Scott",
-      "expiration": "11-15-2026",
-      "issueDate": "11-15-2025",
-      "ownerName": "Michael Lyles, Whitney Gilbert, Willie Gilbert, Paula Gilbert, Patricia Campbell, Chantal Lyles-Logan",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(818) 679-9931",
-      "email": "glc.llc3528@gmail.com",
-      "recordId": "62949",
-      "isDispensary": false
     },
     {
       "id": "DSPY019741",
@@ -10160,14 +10128,6 @@
         }
       ]
     },
-    "Perry": {
-      "county": "Perry",
-      "total": 1,
-      "byType": {
-        "Cultivator Facility": 1
-      },
-      "dispensaries": []
-    },
     "Attala": {
       "county": "Attala",
       "total": 1,
@@ -10195,10 +10155,10 @@
     },
     "Scott": {
       "county": "Scott",
-      "total": 5,
+      "total": 4,
       "byType": {
         "Dispensary": 2,
-        "Cultivator Facility": 3
+        "Cultivator Facility": 2
       },
       "dispensaries": [
         {
@@ -11044,7 +11004,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-11-15T17:29:09.145Z",
+    "generatedAt": "2026-11-16T20:43:38.086Z",
     "total": 190,
     "matched": 165,
     "unmatched": 25
