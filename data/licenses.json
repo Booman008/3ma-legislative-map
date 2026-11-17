@@ -1,10 +1,10 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-11-16T20:43:37.772Z",
-  "total": 359,
+  "generatedAt": "2026-11-17T19:28:07.110Z",
+  "total": 357,
   "typeTotals": {
-    "Cultivator Facility": 107,
-    "Processing Facility": 41,
+    "Cultivator Facility": 106,
+    "Processing Facility": 40,
     "Transportation Entity": 14,
     "Testing Facility": 2,
     "Dispensary": 190,
@@ -2431,9 +2431,9 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Panola",
-      "expiration": "12-09-2026",
-      "issueDate": "12-08-2025",
-      "ownerName": "Evergreen Dispensary LLC.",
+      "expiration": "12-09-2027",
+      "issueDate": "11-16-2026",
+      "ownerName": "Enos Gee",
       "physicalAddress": "13170 HIGHWAY 6 W BATESVILLE, MS 38606",
       "mailingAddress": "13170 HIGHWAY 6 W BATESVILLE, MS 38606",
       "phone": "(865) 254-8697",
@@ -3326,22 +3326,6 @@
       "isDispensary": false
     },
     {
-      "id": "MCUL006725",
-      "businessName": "Grind Game Grow LLC",
-      "type": "Cultivator Facility",
-      "typeSlug": "cultivator-facility",
-      "county": "Hinds",
-      "expiration": "11-16-2026",
-      "issueDate": "11-16-2025",
-      "ownerName": "Overton Spann",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(769) 279-1649",
-      "email": "grindgamegrowza@gmail.com",
-      "recordId": "26525",
-      "isDispensary": false
-    },
-    {
       "id": "DSPY018318",
       "businessName": "Tortuga Cannabis Company inc",
       "type": "Dispensary",
@@ -3825,22 +3809,6 @@
       "senateDistrict": "49"
     },
     {
-      "id": "MPRC000754",
-      "businessName": "Magnolia Farmacy, LLC",
-      "type": "Processing Facility",
-      "typeSlug": "processing-facility",
-      "county": "Panola",
-      "expiration": "11-16-2026",
-      "issueDate": "11-16-2025",
-      "ownerName": "Brentley Harris, Mark Rotenberry, James Childress",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(662) 610-4381",
-      "email": "gijim04@gmail.com",
-      "recordId": "71330",
-      "isDispensary": false
-    },
-    {
       "id": "CULV006918",
       "businessName": "Signature Flower LLC",
       "type": "Cultivator Facility",
@@ -3954,8 +3922,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Lee",
-      "expiration": "12-11-2026",
-      "issueDate": "11-20-2025",
+      "expiration": "12-11-2027",
+      "issueDate": "11-16-2026",
       "ownerName": "Daren Schiffman, George Wilkes, Daniel Jones, Anthony Lanzito, Chandra Menconi, Pietro Cefalu, Madison Blackmon, Antonio Cefalu, Meteorite Holdings LLC",
       "physicalAddress": "3128 OLD BELDEN CIRCLE TUPELO, MS 38801",
       "mailingAddress": "956 S BARTLETT RD # 307 PMB 307 BARTLETT, IL 60103",
@@ -6775,9 +6743,9 @@
   "countySummaries": {
     "Hinds": {
       "county": "Hinds",
-      "total": 26,
+      "total": 25,
       "byType": {
-        "Cultivator Facility": 6,
+        "Cultivator Facility": 5,
         "Processing Facility": 4,
         "Dispensary": 15,
         "Transportation Entity": 1
@@ -7801,11 +7769,11 @@
     },
     "Panola": {
       "county": "Panola",
-      "total": 10,
+      "total": 9,
       "byType": {
         "Cultivator Facility": 6,
         "Dispensary": 2,
-        "Processing Facility": 2
+        "Processing Facility": 1
       },
       "dispensaries": [
         {
@@ -7830,9 +7798,9 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Panola",
-          "expiration": "12-09-2026",
-          "issueDate": "12-08-2025",
-          "ownerName": "Evergreen Dispensary LLC.",
+          "expiration": "12-09-2027",
+          "issueDate": "11-16-2026",
+          "ownerName": "Enos Gee",
           "physicalAddress": "13170 HIGHWAY 6 W BATESVILLE, MS 38606",
           "mailingAddress": "13170 HIGHWAY 6 W BATESVILLE, MS 38606",
           "phone": "(865) 254-8697",
@@ -9324,8 +9292,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Lee",
-          "expiration": "12-11-2026",
-          "issueDate": "11-20-2025",
+          "expiration": "12-11-2027",
+          "issueDate": "11-16-2026",
           "ownerName": "Daren Schiffman, George Wilkes, Daniel Jones, Anthony Lanzito, Chandra Menconi, Pietro Cefalu, Madison Blackmon, Antonio Cefalu, Meteorite Holdings LLC",
           "physicalAddress": "3128 OLD BELDEN CIRCLE TUPELO, MS 38801",
           "mailingAddress": "956 S BARTLETT RD # 307 PMB 307 BARTLETT, IL 60103",
@@ -11004,7 +10972,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-11-16T20:43:38.086Z",
+    "generatedAt": "2026-11-17T19:28:07.372Z",
     "total": 190,
     "matched": 165,
     "unmatched": 25
