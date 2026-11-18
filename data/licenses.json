@@ -1,10 +1,10 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-11-17T19:28:07.110Z",
-  "total": 357,
+  "generatedAt": "2026-11-18T19:10:12.079Z",
+  "total": 358,
   "typeTotals": {
-    "Cultivator Facility": 106,
-    "Processing Facility": 40,
+    "Cultivator Facility": 108,
+    "Processing Facility": 39,
     "Transportation Entity": 14,
     "Testing Facility": 2,
     "Dispensary": 190,
@@ -1742,12 +1742,12 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Monroe",
-      "expiration": "12-05-2026",
-      "issueDate": "12-05-2025",
+      "expiration": "12-05-2027",
+      "issueDate": "11-17-2026",
       "ownerName": "Edwin Cheshire",
       "physicalAddress": "",
       "mailingAddress": "",
-      "phone": "(601) 605-9100",
+      "phone": "(601) 624-2781",
       "email": "plantwerksllc@gmail.com",
       "recordId": "2601",
       "isDispensary": false
@@ -3326,6 +3326,22 @@
       "isDispensary": false
     },
     {
+      "id": "MCUL006725",
+      "businessName": "Grind Game Grow LLC",
+      "type": "Cultivator Facility",
+      "typeSlug": "cultivator-facility",
+      "county": "Hinds",
+      "expiration": "11-16-2027",
+      "issueDate": "11-17-2026",
+      "ownerName": "Overton Spann",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(769) 279-1649",
+      "email": "grindgamegrowza@gmail.com",
+      "recordId": "26525",
+      "isDispensary": false
+    },
+    {
       "id": "DSPY018318",
       "businessName": "Tortuga Cannabis Company inc",
       "type": "Dispensary",
@@ -3346,6 +3362,22 @@
       "geocodeLabel": "867 US HWY 11, PETAL, MS, 39465",
       "houseDistrict": "103",
       "senateDistrict": "42"
+    },
+    {
+      "id": "MCUL006556",
+      "businessName": "botane Group LLC",
+      "type": "Cultivator Facility",
+      "typeSlug": "cultivator-facility",
+      "county": "Perry",
+      "expiration": "11-15-2027",
+      "issueDate": "11-17-2026",
+      "ownerName": "Herbert McDonald",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(601) 689-1146",
+      "email": "herbertcmcdonald@gmail.com",
+      "recordId": "28922",
+      "isDispensary": false
     },
     {
       "id": "CULV005524",
@@ -3822,22 +3854,6 @@
       "phone": "(228) 243-9211",
       "email": "adamlancon@yahoo.com",
       "recordId": "71729",
-      "isDispensary": false
-    },
-    {
-      "id": "MPRC000524",
-      "businessName": "Swamp Grass LLC",
-      "type": "Processing Facility",
-      "typeSlug": "processing-facility",
-      "county": "Harrison",
-      "expiration": "11-17-2026",
-      "issueDate": "11-17-2025",
-      "ownerName": "Summer Lord-Bosarge",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(228) 297-5671",
-      "email": "slordmba@aol.com",
-      "recordId": "73124",
       "isDispensary": false
     },
     {
@@ -4728,8 +4744,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Lauderdale",
-      "expiration": "11-22-2026",
-      "issueDate": "11-22-2025",
+      "expiration": "11-22-2027",
+      "issueDate": "11-17-2026",
       "ownerName": "Amye Faulkner",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -6743,9 +6759,9 @@
   "countySummaries": {
     "Hinds": {
       "county": "Hinds",
-      "total": 25,
+      "total": 26,
       "byType": {
-        "Cultivator Facility": 5,
+        "Cultivator Facility": 6,
         "Processing Facility": 4,
         "Dispensary": 15,
         "Transportation Entity": 1
@@ -8662,11 +8678,11 @@
     },
     "Harrison": {
       "county": "Harrison",
-      "total": 30,
+      "total": 29,
       "byType": {
         "Dispensary": 23,
         "Cultivator Facility": 3,
-        "Processing Facility": 4
+        "Processing Facility": 3
       },
       "dispensaries": [
         {
@@ -10096,6 +10112,14 @@
         }
       ]
     },
+    "Perry": {
+      "county": "Perry",
+      "total": 1,
+      "byType": {
+        "Cultivator Facility": 1
+      },
+      "dispensaries": []
+    },
     "Attala": {
       "county": "Attala",
       "total": 1,
@@ -10972,7 +10996,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-11-17T19:28:07.372Z",
+    "generatedAt": "2026-11-18T19:10:12.310Z",
     "total": 190,
     "matched": 165,
     "unmatched": 25
