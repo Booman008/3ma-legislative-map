@@ -1,9 +1,9 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-11-18T19:10:12.079Z",
-  "total": 358,
+  "generatedAt": "2026-11-19T19:13:49.692Z",
+  "total": 356,
   "typeTotals": {
-    "Cultivator Facility": 108,
+    "Cultivator Facility": 106,
     "Processing Facility": 39,
     "Transportation Entity": 14,
     "Testing Facility": 2,
@@ -1950,22 +1950,6 @@
       "senateDistrict": "38"
     },
     {
-      "id": "MCUL003113",
-      "businessName": "Black Prairie Cultivation LLC",
-      "type": "Cultivator Facility",
-      "typeSlug": "cultivator-facility",
-      "county": "Clay",
-      "expiration": "11-18-2026",
-      "issueDate": "11-18-2025",
-      "ownerName": "John Keys, Darren Henson",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(310) 418-1917",
-      "email": "darren@blackprairiecult.com",
-      "recordId": "3138",
-      "isDispensary": false
-    },
-    {
       "id": "MCUL003241",
       "businessName": "Five Points Farms",
       "type": "Cultivator Facility",
@@ -2082,22 +2066,6 @@
       "phone": "(601) 987-4910",
       "email": "stan@southernskybrands.com",
       "recordId": "3848",
-      "isDispensary": false
-    },
-    {
-      "id": "MCUL003071",
-      "businessName": "DayHill Farms, LLC",
-      "type": "Cultivator Facility",
-      "typeSlug": "cultivator-facility",
-      "county": "Tishomingo",
-      "expiration": "11-18-2026",
-      "issueDate": "11-18-2025",
-      "ownerName": "Thomas Day, Cherylyn Day",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(662) 423-5151",
-      "email": "dayhillfarms@yahoo.com",
-      "recordId": "3898",
       "isDispensary": false
     },
     {
@@ -6275,7 +6243,7 @@
       "county": "Simpson",
       "expiration": "06-22-2027",
       "issueDate": "06-22-2026",
-      "ownerName": "Justin Jones, Michael Jones, Jason Jones, Chris Jones",
+      "ownerName": "Chris Jones, Justin Jones, Michael Jones, Jason Jones",
       "physicalAddress": "",
       "mailingAddress": "",
       "phone": "(601) 613-7363",
@@ -9940,32 +9908,6 @@
         }
       ]
     },
-    "Clay": {
-      "county": "Clay",
-      "total": 2,
-      "byType": {
-        "Cultivator Facility": 1,
-        "Dispensary": 1
-      },
-      "dispensaries": [
-        {
-          "id": "DSPY022013",
-          "businessName": "Mississippi Magnolia Canna West Point",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Clay",
-          "expiration": "02-28-2027",
-          "issueDate": "02-23-2026",
-          "ownerName": "Airport Rd LLC, Mississippi Magnolia Canna LLC",
-          "physicalAddress": "17 AIRPORT RD WEST POINT, MS 39773",
-          "mailingAddress": "17 AIRPORT RD WEST POINT, MS 39773",
-          "phone": "(662) 364-0007",
-          "email": "mississippimagnoliacanna@gmail.com",
-          "recordId": "110294",
-          "isDispensary": true
-        }
-      ]
-    },
     "Clarke": {
       "county": "Clarke",
       "total": 5,
@@ -9988,32 +9930,6 @@
           "phone": "(601) 410-2995",
           "email": "pamelachapman30@yahoo.com",
           "recordId": "10790",
-          "isDispensary": true
-        }
-      ]
-    },
-    "Tishomingo": {
-      "county": "Tishomingo",
-      "total": 2,
-      "byType": {
-        "Cultivator Facility": 1,
-        "Dispensary": 1
-      },
-      "dispensaries": [
-        {
-          "id": "DSPY020171",
-          "businessName": "Green Akers Cannabis Inc",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Tishomingo",
-          "expiration": "12-11-2026",
-          "issueDate": "12-03-2025",
-          "ownerName": "Green Akers Cannabis Inc",
-          "physicalAddress": "1409 BATTLEGROUND DR IUKA, MS 38852",
-          "mailingAddress": "PO BOX 295 IUKA, MS 38852",
-          "phone": "(662) 423-8239",
-          "email": "greenakersinc@yahoo.com",
-          "recordId": "84386",
           "isDispensary": true
         }
       ]
@@ -10262,6 +10178,31 @@
         }
       ]
     },
+    "Tishomingo": {
+      "county": "Tishomingo",
+      "total": 1,
+      "byType": {
+        "Dispensary": 1
+      },
+      "dispensaries": [
+        {
+          "id": "DSPY020171",
+          "businessName": "Green Akers Cannabis Inc",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Tishomingo",
+          "expiration": "12-11-2026",
+          "issueDate": "12-03-2025",
+          "ownerName": "Green Akers Cannabis Inc",
+          "physicalAddress": "1409 BATTLEGROUND DR IUKA, MS 38852",
+          "mailingAddress": "PO BOX 295 IUKA, MS 38852",
+          "phone": "(662) 423-8239",
+          "email": "greenakersinc@yahoo.com",
+          "recordId": "84386",
+          "isDispensary": true
+        }
+      ]
+    },
     "Pearl River": {
       "county": "Pearl River",
       "total": 2,
@@ -10335,6 +10276,31 @@
         "Cultivator Facility": 1
       },
       "dispensaries": []
+    },
+    "Clay": {
+      "county": "Clay",
+      "total": 1,
+      "byType": {
+        "Dispensary": 1
+      },
+      "dispensaries": [
+        {
+          "id": "DSPY022013",
+          "businessName": "Mississippi Magnolia Canna West Point",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Clay",
+          "expiration": "02-28-2027",
+          "issueDate": "02-23-2026",
+          "ownerName": "Airport Rd LLC, Mississippi Magnolia Canna LLC",
+          "physicalAddress": "17 AIRPORT RD WEST POINT, MS 39773",
+          "mailingAddress": "17 AIRPORT RD WEST POINT, MS 39773",
+          "phone": "(662) 364-0007",
+          "email": "mississippimagnoliacanna@gmail.com",
+          "recordId": "110294",
+          "isDispensary": true
+        }
+      ]
     },
     "Sunflower": {
       "county": "Sunflower",
@@ -10996,7 +10962,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-11-18T19:10:12.310Z",
+    "generatedAt": "2026-11-19T19:13:49.951Z",
     "total": 190,
     "matched": 165,
     "unmatched": 25
