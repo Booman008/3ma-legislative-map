@@ -1,9 +1,9 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-11-19T19:13:49.692Z",
-  "total": 356,
+  "generatedAt": "2026-11-20T18:53:50.073Z",
+  "total": 357,
   "typeTotals": {
-    "Cultivator Facility": 106,
+    "Cultivator Facility": 107,
     "Processing Facility": 39,
     "Transportation Entity": 14,
     "Testing Facility": 2,
@@ -514,7 +514,7 @@
       "county": "Monroe",
       "expiration": "07-26-2027",
       "issueDate": "07-15-2026",
-      "ownerName": "Nicole Huff",
+      "ownerName": "Zachariah Sutton, Nicole Huff",
       "physicalAddress": "41314 Crane Dr Aberdeen, MS 39730",
       "mailingAddress": "41314 CRANE DR ABERDEEN, MS 39730",
       "phone": "(662) 549-3892",
@@ -1948,6 +1948,22 @@
       "geocodeLabel": "1117 HWY 51 N, SUMMIT, MS, 39666",
       "houseDistrict": "97",
       "senateDistrict": "38"
+    },
+    {
+      "id": "MCUL003113",
+      "businessName": "Black Prairie Cultivation LLC",
+      "type": "Cultivator Facility",
+      "typeSlug": "cultivator-facility",
+      "county": "Clay",
+      "expiration": "11-18-2027",
+      "issueDate": "11-19-2026",
+      "ownerName": "John Keys, Darren Henson",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(310) 418-1917",
+      "email": "darren@blackprairiecult.com",
+      "recordId": "3138",
+      "isDispensary": false
     },
     {
       "id": "MCUL003241",
@@ -6243,7 +6259,7 @@
       "county": "Simpson",
       "expiration": "06-22-2027",
       "issueDate": "06-22-2026",
-      "ownerName": "Chris Jones, Justin Jones, Michael Jones, Jason Jones",
+      "ownerName": "Justin Jones, Michael Jones, Jason Jones, Chris Jones",
       "physicalAddress": "",
       "mailingAddress": "",
       "phone": "(601) 613-7363",
@@ -8228,7 +8244,7 @@
           "county": "Monroe",
           "expiration": "07-26-2027",
           "issueDate": "07-15-2026",
-          "ownerName": "Nicole Huff",
+          "ownerName": "Zachariah Sutton, Nicole Huff",
           "physicalAddress": "41314 Crane Dr Aberdeen, MS 39730",
           "mailingAddress": "41314 CRANE DR ABERDEEN, MS 39730",
           "phone": "(662) 549-3892",
@@ -9908,6 +9924,32 @@
         }
       ]
     },
+    "Clay": {
+      "county": "Clay",
+      "total": 2,
+      "byType": {
+        "Cultivator Facility": 1,
+        "Dispensary": 1
+      },
+      "dispensaries": [
+        {
+          "id": "DSPY022013",
+          "businessName": "Mississippi Magnolia Canna West Point",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Clay",
+          "expiration": "02-28-2027",
+          "issueDate": "02-23-2026",
+          "ownerName": "Airport Rd LLC, Mississippi Magnolia Canna LLC",
+          "physicalAddress": "17 AIRPORT RD WEST POINT, MS 39773",
+          "mailingAddress": "17 AIRPORT RD WEST POINT, MS 39773",
+          "phone": "(662) 364-0007",
+          "email": "mississippimagnoliacanna@gmail.com",
+          "recordId": "110294",
+          "isDispensary": true
+        }
+      ]
+    },
     "Clarke": {
       "county": "Clarke",
       "total": 5,
@@ -10276,31 +10318,6 @@
         "Cultivator Facility": 1
       },
       "dispensaries": []
-    },
-    "Clay": {
-      "county": "Clay",
-      "total": 1,
-      "byType": {
-        "Dispensary": 1
-      },
-      "dispensaries": [
-        {
-          "id": "DSPY022013",
-          "businessName": "Mississippi Magnolia Canna West Point",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Clay",
-          "expiration": "02-28-2027",
-          "issueDate": "02-23-2026",
-          "ownerName": "Airport Rd LLC, Mississippi Magnolia Canna LLC",
-          "physicalAddress": "17 AIRPORT RD WEST POINT, MS 39773",
-          "mailingAddress": "17 AIRPORT RD WEST POINT, MS 39773",
-          "phone": "(662) 364-0007",
-          "email": "mississippimagnoliacanna@gmail.com",
-          "recordId": "110294",
-          "isDispensary": true
-        }
-      ]
     },
     "Sunflower": {
       "county": "Sunflower",
@@ -10962,7 +10979,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-11-19T19:13:49.951Z",
+    "generatedAt": "2026-11-20T18:53:50.428Z",
     "total": 190,
     "matched": 165,
     "unmatched": 25
