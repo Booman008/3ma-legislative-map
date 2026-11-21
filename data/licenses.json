@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-11-20T18:53:50.073Z",
+  "generatedAt": "2026-11-21T17:49:26.690Z",
   "total": 357,
   "typeTotals": {
     "Cultivator Facility": 107,
@@ -3939,8 +3939,8 @@
       "type": "Dispensary",
       "typeSlug": "dispensary",
       "county": "Tishomingo",
-      "expiration": "12-11-2026",
-      "issueDate": "12-03-2025",
+      "expiration": "12-11-2027",
+      "issueDate": "11-20-2026",
       "ownerName": "Green Akers Cannabis Inc",
       "physicalAddress": "1409 BATTLEGROUND DR IUKA, MS 38852",
       "mailingAddress": "PO BOX 295 IUKA, MS 38852",
@@ -10233,8 +10233,8 @@
           "type": "Dispensary",
           "typeSlug": "dispensary",
           "county": "Tishomingo",
-          "expiration": "12-11-2026",
-          "issueDate": "12-03-2025",
+          "expiration": "12-11-2027",
+          "issueDate": "11-20-2026",
           "ownerName": "Green Akers Cannabis Inc",
           "physicalAddress": "1409 BATTLEGROUND DR IUKA, MS 38852",
           "mailingAddress": "PO BOX 295 IUKA, MS 38852",
@@ -10979,7 +10979,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-11-20T18:53:50.428Z",
+    "generatedAt": "2026-11-21T17:49:26.914Z",
     "total": 190,
     "matched": 165,
     "unmatched": 25
