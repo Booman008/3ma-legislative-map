@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_county_metrics_latest.csv",
-  "generatedAt": "2026-11-22T18:07:09.041Z",
+  "generatedAt": "2026-11-23T22:17:32.459Z",
   "counties": 82,
   "countyMetrics": {
     "Adams": {
@@ -9,11 +9,11 @@
       "workers": 49,
       "practitioners": 5,
       "practitionerDensity": 0,
-      "activeCardholders": 1123,
-      "patientDensity": 39.53111799493101,
+      "activeCardholders": 1124,
+      "patientDensity": 39.566319346662915,
       "dispensaryBusinesses": 3,
       "relatedBusinesses": 79,
-      "totalProgramRecords": 2308
+      "totalProgramRecords": 2309
     },
     "Alcorn": {
       "county": "Alcorn",
@@ -93,11 +93,11 @@
       "workers": 16,
       "practitioners": 0,
       "practitionerDensity": 0,
-      "activeCardholders": 142,
-      "patientDensity": 14.592539307368204,
+      "activeCardholders": 141,
+      "patientDensity": 14.48977494604871,
       "dispensaryBusinesses": 0,
       "relatedBusinesses": 16,
-      "totalProgramRecords": 394
+      "totalProgramRecords": 393
     },
     "Chickasaw": {
       "county": "Chickasaw",
@@ -201,11 +201,11 @@
       "workers": 195,
       "practitioners": 19,
       "practitionerDensity": 0,
-      "activeCardholders": 4397,
-      "patientDensity": 22.934128925585348,
+      "activeCardholders": 4399,
+      "patientDensity": 22.944560642176473,
       "dispensaryBusinesses": 13,
       "relatedBusinesses": 289,
-      "totalProgramRecords": 13709
+      "totalProgramRecords": 13714
     },
     "Forrest": {
       "county": "Forrest",
@@ -217,7 +217,7 @@
       "patientDensity": 23.876584304186405,
       "dispensaryBusinesses": 6,
       "relatedBusinesses": 231,
-      "totalProgramRecords": 5954
+      "totalProgramRecords": 5955
     },
     "Franklin": {
       "county": "Franklin",
@@ -261,11 +261,11 @@
       "workers": 35,
       "practitioners": 2,
       "practitionerDensity": 0,
-      "activeCardholders": 447,
-      "patientDensity": 21.19688922610015,
+      "activeCardholders": 446,
+      "patientDensity": 21.149468892261,
       "dispensaryBusinesses": 2,
       "relatedBusinesses": 63,
-      "totalProgramRecords": 1251
+      "totalProgramRecords": 1250
     },
     "Hancock": {
       "county": "Hancock",
@@ -273,11 +273,11 @@
       "workers": 97,
       "practitioners": 4,
       "practitionerDensity": 0,
-      "activeCardholders": 1884,
-      "patientDensity": 40.87299865492255,
+      "activeCardholders": 1885,
+      "patientDensity": 40.89469345251009,
       "dispensaryBusinesses": 10,
       "relatedBusinesses": 177,
-      "totalProgramRecords": 5302
+      "totalProgramRecords": 5303
     },
     "Harrison": {
       "county": "Harrison",
@@ -285,11 +285,11 @@
       "workers": 528,
       "practitioners": 19,
       "practitionerDensity": 0,
-      "activeCardholders": 7988,
-      "patientDensity": 37.84992702943462,
+      "activeCardholders": 7987,
+      "patientDensity": 37.84518868103334,
       "dispensaryBusinesses": 23,
       "relatedBusinesses": 727,
-      "totalProgramRecords": 21831
+      "totalProgramRecords": 21830
     },
     "Hinds": {
       "county": "Hinds",
@@ -357,11 +357,11 @@
       "workers": 455,
       "practitioners": 19,
       "practitionerDensity": 0,
-      "activeCardholders": 5771,
-      "patientDensity": 39.80686325228488,
+      "activeCardholders": 5776,
+      "patientDensity": 39.841351957234004,
       "dispensaryBusinesses": 17,
       "relatedBusinesses": 705,
-      "totalProgramRecords": 15599
+      "totalProgramRecords": 15604
     },
     "Jasper": {
       "county": "Jasper",
@@ -420,8 +420,8 @@
       "activeCardholders": 129,
       "patientDensity": 14.906401663970419,
       "dispensaryBusinesses": 0,
-      "relatedBusinesses": 52,
-      "totalProgramRecords": 472
+      "relatedBusinesses": 51,
+      "totalProgramRecords": 471
     },
     "Lafayette": {
       "county": "Lafayette",
@@ -429,11 +429,11 @@
       "workers": 252,
       "practitioners": 8,
       "practitionerDensity": 0,
-      "activeCardholders": 1959,
-      "patientDensity": 34.001562093204896,
+      "activeCardholders": 1958,
+      "patientDensity": 33.9842055020394,
       "dispensaryBusinesses": 6,
       "relatedBusinesses": 321,
-      "totalProgramRecords": 7085
+      "totalProgramRecords": 7084
     },
     "Lamar": {
       "county": "Lamar",
@@ -453,11 +453,11 @@
       "workers": 210,
       "practitioners": 8,
       "practitionerDensity": 0,
-      "activeCardholders": 1323,
-      "patientDensity": 18.659031930497573,
+      "activeCardholders": 1322,
+      "patientDensity": 18.644928353830533,
       "dispensaryBusinesses": 8,
       "relatedBusinesses": 366,
-      "totalProgramRecords": 4706
+      "totalProgramRecords": 4705
     },
     "Lawrence": {
       "county": "Lawrence",
@@ -481,7 +481,7 @@
       "patientDensity": 14.147149278448072,
       "dispensaryBusinesses": 1,
       "relatedBusinesses": 79,
-      "totalProgramRecords": 837
+      "totalProgramRecords": 838
     },
     "Lee": {
       "county": "Lee",
@@ -489,11 +489,11 @@
       "workers": 212,
       "practitioners": 19,
       "practitionerDensity": 0,
-      "activeCardholders": 2767,
-      "patientDensity": 33.35382538362324,
+      "activeCardholders": 2768,
+      "patientDensity": 33.36587953085259,
       "dispensaryBusinesses": 8,
       "relatedBusinesses": 374,
-      "totalProgramRecords": 9747
+      "totalProgramRecords": 9749
     },
     "Leflore": {
       "county": "Leflore",
@@ -501,11 +501,11 @@
       "workers": 26,
       "practitioners": 2,
       "practitionerDensity": 0,
-      "activeCardholders": 298,
-      "patientDensity": 11.215656755739555,
+      "activeCardholders": 297,
+      "patientDensity": 11.178020323673316,
       "dispensaryBusinesses": 1,
       "relatedBusinesses": 31,
-      "totalProgramRecords": 722
+      "totalProgramRecords": 721
     },
     "Lincoln": {
       "county": "Lincoln",
@@ -517,7 +517,7 @@
       "patientDensity": 17.801077282023215,
       "dispensaryBusinesses": 2,
       "relatedBusinesses": 129,
-      "totalProgramRecords": 1630
+      "totalProgramRecords": 1631
     },
     "Lowndes": {
       "county": "Lowndes",
@@ -525,11 +525,11 @@
       "workers": 182,
       "practitioners": 5,
       "practitionerDensity": 0,
-      "activeCardholders": 1474,
-      "patientDensity": 25.588945020224642,
+      "activeCardholders": 1473,
+      "patientDensity": 25.571584813290976,
       "dispensaryBusinesses": 5,
       "relatedBusinesses": 280,
-      "totalProgramRecords": 5251
+      "totalProgramRecords": 5250
     },
     "Madison": {
       "county": "Madison",
@@ -561,11 +561,11 @@
       "workers": 40,
       "practitioners": 2,
       "practitionerDensity": 0,
-      "activeCardholders": 729,
-      "patientDensity": 21.37203166226913,
+      "activeCardholders": 732,
+      "patientDensity": 21.459982409850483,
       "dispensaryBusinesses": 3,
       "relatedBusinesses": 65,
-      "totalProgramRecords": 2021
+      "totalProgramRecords": 2024
     },
     "Monroe": {
       "county": "Monroe",
@@ -585,11 +585,11 @@
       "workers": 7,
       "practitioners": 0,
       "practitionerDensity": 0,
-      "activeCardholders": 160,
-      "patientDensity": 16.7890870933893,
+      "activeCardholders": 159,
+      "patientDensity": 16.684155299055615,
       "dispensaryBusinesses": 0,
       "relatedBusinesses": 7,
-      "totalProgramRecords": 412
+      "totalProgramRecords": 411
     },
     "Neshoba": {
       "county": "Neshoba",
@@ -633,11 +633,11 @@
       "workers": 66,
       "practitioners": 3,
       "practitionerDensity": 0,
-      "activeCardholders": 983,
-      "patientDensity": 19.11447294222879,
+      "activeCardholders": 982,
+      "patientDensity": 19.09502790363039,
       "dispensaryBusinesses": 3,
       "relatedBusinesses": 96,
-      "totalProgramRecords": 3455
+      "totalProgramRecords": 3454
     },
     "Panola": {
       "county": "Panola",
@@ -657,11 +657,11 @@
       "workers": 60,
       "practitioners": 3,
       "practitionerDensity": 0,
-      "activeCardholders": 1682,
-      "patientDensity": 29.374268699463858,
+      "activeCardholders": 1681,
+      "patientDensity": 29.356804806063465,
       "dispensaryBusinesses": 2,
       "relatedBusinesses": 66,
-      "totalProgramRecords": 4632
+      "totalProgramRecords": 4631
     },
     "Perry": {
       "county": "Perry",
@@ -729,11 +729,11 @@
       "workers": 607,
       "practitioners": 24,
       "practitionerDensity": 0.1509633347800653,
-      "activeCardholders": 5510,
-      "patientDensity": 34.658665609923325,
+      "activeCardholders": 5514,
+      "patientDensity": 34.68382616572,
       "dispensaryBusinesses": 11,
       "relatedBusinesses": 737,
-      "totalProgramRecords": 16363
+      "totalProgramRecords": 16368
     },
     "Scott": {
       "county": "Scott",
@@ -765,11 +765,11 @@
       "workers": 51,
       "practitioners": 3,
       "practitionerDensity": 0,
-      "activeCardholders": 598,
-      "patientDensity": 23.371243209442294,
+      "activeCardholders": 595,
+      "patientDensity": 23.253996169930044,
       "dispensaryBusinesses": 2,
       "relatedBusinesses": 77,
-      "totalProgramRecords": 1747
+      "totalProgramRecords": 1744
     },
     "Smith": {
       "county": "Smith",
@@ -825,11 +825,11 @@
       "workers": 47,
       "practitioners": 2,
       "practitionerDensity": 0,
-      "activeCardholders": 793,
-      "patientDensity": 28.0251625671473,
+      "activeCardholders": 791,
+      "patientDensity": 27.954481198756007,
       "dispensaryBusinesses": 2,
       "relatedBusinesses": 62,
-      "totalProgramRecords": 2153
+      "totalProgramRecords": 2151
     },
     "Tippah": {
       "county": "Tippah",
@@ -873,11 +873,11 @@
       "workers": 34,
       "practitioners": 0,
       "practitionerDensity": 0,
-      "activeCardholders": 663,
-      "patientDensity": 23.573333333333334,
+      "activeCardholders": 662,
+      "patientDensity": 23.537777777777777,
       "dispensaryBusinesses": 0,
       "relatedBusinesses": 34,
-      "totalProgramRecords": 2346
+      "totalProgramRecords": 2345
     },
     "Walthall": {
       "county": "Walthall",
@@ -897,11 +897,11 @@
       "workers": 204,
       "practitioners": 3,
       "practitionerDensity": 0,
-      "activeCardholders": 907,
-      "patientDensity": 21.266618209102205,
+      "activeCardholders": 906,
+      "patientDensity": 21.243171000492392,
       "dispensaryBusinesses": 2,
       "relatedBusinesses": 286,
-      "totalProgramRecords": 2585
+      "totalProgramRecords": 2584
     },
     "Washington": {
       "county": "Washington",
@@ -909,11 +909,11 @@
       "workers": 31,
       "practitioners": 1,
       "practitionerDensity": 0,
-      "activeCardholders": 408,
-      "patientDensity": 9.596838688432046,
+      "activeCardholders": 404,
+      "patientDensity": 9.502752034623889,
       "dispensaryBusinesses": 1,
       "relatedBusinesses": 46,
-      "totalProgramRecords": 869
+      "totalProgramRecords": 865
     },
     "Wayne": {
       "county": "Wayne",
@@ -921,11 +921,11 @@
       "workers": 17,
       "practitioners": 0,
       "practitionerDensity": 0,
-      "activeCardholders": 197,
-      "patientDensity": 10.0096539809969,
+      "activeCardholders": 198,
+      "patientDensity": 10.060464407296378,
       "dispensaryBusinesses": 0,
       "relatedBusinesses": 17,
-      "totalProgramRecords": 583
+      "totalProgramRecords": 584
     },
     "Webster": {
       "county": "Webster",
@@ -933,11 +933,11 @@
       "workers": 9,
       "practitioners": 0,
       "practitionerDensity": 0,
-      "activeCardholders": 197,
-      "patientDensity": 19.713799659761833,
+      "activeCardholders": 199,
+      "patientDensity": 19.91393975783048,
       "dispensaryBusinesses": 0,
       "relatedBusinesses": 9,
-      "totalProgramRecords": 651
+      "totalProgramRecords": 653
     },
     "Wilkinson": {
       "county": "Wilkinson",
@@ -957,11 +957,11 @@
       "workers": 8,
       "practitioners": 0,
       "practitionerDensity": 0,
-      "activeCardholders": 241,
-      "patientDensity": 13.737673145984154,
+      "activeCardholders": 242,
+      "patientDensity": 13.794675939121017,
       "dispensaryBusinesses": 0,
       "relatedBusinesses": 8,
-      "totalProgramRecords": 759
+      "totalProgramRecords": 760
     },
     "Yalobusha": {
       "county": "Yalobusha",
