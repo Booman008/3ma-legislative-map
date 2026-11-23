@@ -1,9 +1,9 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-11-22T18:07:09.038Z",
-  "total": 357,
+  "generatedAt": "2026-11-23T22:17:32.456Z",
+  "total": 356,
   "typeTotals": {
-    "Cultivator Facility": 107,
+    "Cultivator Facility": 106,
     "Processing Facility": 39,
     "Transportation Entity": 14,
     "Testing Facility": 2,
@@ -4487,22 +4487,6 @@
       "phone": "(662) 897-4542",
       "email": "mississippimary0@gmail.com",
       "recordId": "153146",
-      "isDispensary": false
-    },
-    {
-      "id": "CULV007235",
-      "businessName": "Delta Fine, LLC",
-      "type": "Cultivator Facility",
-      "typeSlug": "cultivator-facility",
-      "county": "Kemper",
-      "expiration": "11-22-2026",
-      "issueDate": "11-22-2025",
-      "ownerName": "Delta Fine, LLC",
-      "physicalAddress": "",
-      "mailingAddress": "",
-      "phone": "(629) 395-8891",
-      "email": "deltafinecultivation@gmail.com",
-      "recordId": "153179",
       "isDispensary": false
     },
     {
@@ -9986,10 +9970,9 @@
     },
     "Kemper": {
       "county": "Kemper",
-      "total": 4,
+      "total": 3,
       "byType": {
         "Testing Facility": 1,
-        "Cultivator Facility": 1,
         "Transportation Entity": 1,
         "Processing Facility": 1
       },
@@ -10979,7 +10962,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-11-22T18:07:09.350Z",
+    "generatedAt": "2026-11-23T22:17:32.774Z",
     "total": 190,
     "matched": 165,
     "unmatched": 25
