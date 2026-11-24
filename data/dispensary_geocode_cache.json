@@ -1187,8 +1187,14 @@
       "lat": 34.933053407384,
       "lng": -89.90020805709,
       "matchedAddress": "5025 CHURCH RD, OLIVE BRANCH, MS, 38654"
+    },
+    "1801 JACKSON AVE W OXFORD, MS 38655": {
+      "status": "matched",
+      "lat": 34.365477974392,
+      "lng": -89.553295725838,
+      "matchedAddress": "1801 JACKSON AVE W, OXFORD, MS, 38655"
     }
   },
-  "generatedAt": "2026-11-23T22:17:32.774Z",
+  "generatedAt": "2026-11-24T20:55:25.727Z",
   "provider": "U.S. Census Geocoder"
 }
