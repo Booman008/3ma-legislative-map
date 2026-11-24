@@ -1,13 +1,13 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-11-23T22:17:32.456Z",
-  "total": 356,
+  "generatedAt": "2026-11-24T20:55:24.963Z",
+  "total": 358,
   "typeTotals": {
-    "Cultivator Facility": 106,
+    "Cultivator Facility": 107,
     "Processing Facility": 39,
     "Transportation Entity": 14,
     "Testing Facility": 2,
-    "Dispensary": 190,
+    "Dispensary": 191,
     "Disposal Entity": 4,
     "Research Facility": 1
   },
@@ -439,28 +439,6 @@
       "recordId": "1277",
       "isDispensary": true,
       "geocodeStatus": "unmatched"
-    },
-    {
-      "id": "DSPY001345",
-      "businessName": "Green Magnolia of Canton, LLC",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Madison",
-      "expiration": "07-25-2027",
-      "issueDate": "07-20-2026",
-      "ownerName": "Jeff Webb, Green Magnolia of Canton, LLC",
-      "physicalAddress": "3142 S LIBERTY ST CANTON, MS 39046",
-      "mailingAddress": "PO BOX 452 CARTHAGE, MS 39051",
-      "phone": "(601) 267-9762",
-      "email": "jeff.webblaw@gmail.com",
-      "recordId": "1279",
-      "isDispensary": true,
-      "geocodeStatus": "matched",
-      "lat": 32.590487284763,
-      "lng": -90.041509269334,
-      "geocodeLabel": "3142 S LIBERTY ST, CANTON, MS, 39046",
-      "houseDistrict": "57",
-      "senateDistrict": "21"
     },
     {
       "id": "DSPY003745",
@@ -2627,28 +2605,6 @@
       "geocodeStatus": "unmatched"
     },
     {
-      "id": "DSPY016324",
-      "businessName": "Dixon Dispensary LLC",
-      "type": "Dispensary",
-      "typeSlug": "dispensary",
-      "county": "Harrison",
-      "expiration": "01-23-2027",
-      "issueDate": "01-20-2026",
-      "ownerName": "John Dixon",
-      "physicalAddress": "11370 HIGHWAY 49 GULFPORT, MS 39503",
-      "mailingAddress": "11370 HIGHWAY 49 STE G GULFPORT, MS 39503",
-      "phone": "(228) 380-1323",
-      "email": "dixondispensaries@gmail.com",
-      "recordId": "7933",
-      "isDispensary": true,
-      "geocodeStatus": "matched",
-      "lat": 30.452198670767,
-      "lng": -89.099606381443,
-      "geocodeLabel": "11370 US HWY 49, GULFPORT, MS, 39503",
-      "houseDistrict": "33",
-      "senateDistrict": "49"
-    },
-    {
       "id": "MPRC000241",
       "businessName": "Five Points Farms",
       "type": "Processing Facility",
@@ -4073,7 +4029,7 @@
       "county": "Hancock",
       "expiration": "02-28-2027",
       "issueDate": "02-27-2026",
-      "ownerName": "Gina Pepe, Jennifer Landry, Wise Solutions",
+      "ownerName": "Gina Pepe, Jennifer Landry",
       "physicalAddress": "295 HIGHWAY 90 BAY ST LOUIS, MS 39520",
       "mailingAddress": "735 WILDWOOD CT PASS CHRIS, MS 39571",
       "phone": "(985) 718-6907",
@@ -4487,6 +4443,22 @@
       "phone": "(662) 897-4542",
       "email": "mississippimary0@gmail.com",
       "recordId": "153146",
+      "isDispensary": false
+    },
+    {
+      "id": "CULV007235",
+      "businessName": "Delta Fine, LLC",
+      "type": "Cultivator Facility",
+      "typeSlug": "cultivator-facility",
+      "county": "Kemper",
+      "expiration": "11-22-2027",
+      "issueDate": "11-23-2026",
+      "ownerName": "Delta Fine, LLC",
+      "physicalAddress": "",
+      "mailingAddress": "",
+      "phone": "(629) 395-8891",
+      "email": "deltafinecultivation@gmail.com",
+      "recordId": "153179",
       "isDispensary": false
     },
     {
@@ -6243,7 +6215,7 @@
       "county": "Simpson",
       "expiration": "06-22-2027",
       "issueDate": "06-22-2026",
-      "ownerName": "Justin Jones, Michael Jones, Jason Jones, Chris Jones",
+      "ownerName": "Jason Jones, Chris Jones, Justin Jones, Michael Jones",
       "physicalAddress": "",
       "mailingAddress": "",
       "phone": "(601) 613-7363",
@@ -6604,6 +6576,28 @@
       "senateDistrict": "5"
     },
     {
+      "id": "DSPY027336",
+      "businessName": "SRT-MS UOX, LLC",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Lafayette",
+      "expiration": "11-23-2027",
+      "issueDate": "11-23-2026",
+      "ownerName": "Ronald Brown",
+      "physicalAddress": "1801 Jackson Ave W Oxford, MS 38655",
+      "mailingAddress": "4300 N State St Jackson, MS 39206",
+      "phone": "(504) 250-1998",
+      "email": "davidbrown@srt-ms.com",
+      "recordId": "529485",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 34.365477974392,
+      "lng": -89.553295725838,
+      "geocodeLabel": "1801 JACKSON AVE W, OXFORD, MS, 38655",
+      "houseDistrict": "12",
+      "senateDistrict": "9"
+    },
+    {
       "id": "DSPY026924",
       "businessName": "420 Holiday #7, LLC",
       "type": "Dispensary",
@@ -6722,6 +6716,50 @@
       "email": "davidbrown@srt-ms.com",
       "recordId": "562133",
       "isDispensary": false
+    },
+    {
+      "id": "DSPY001345",
+      "businessName": "SB Canton",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Madison",
+      "expiration": "07-25-2027",
+      "issueDate": "07-20-2026",
+      "ownerName": "Shane Roney, Griffin Tanner, Kristina Rutledge, Cameron Chapman, Sarah Threadgill, Stephen Threadgill, Cooper Crawley, Bridgett Green, Caryn Kovatch, Mike Alderson, Wayne Summers, Scott Skibo, Kristen Andersen, Erin Price, Greg Price, Kate Victor, Neil Victor, Dan Morgan, Josh Riggs, Louis Stout, Krista Beck, Jeff Webb, SB Canton",
+      "physicalAddress": "3142 S LIBERTY ST CANTON, MS 39046",
+      "mailingAddress": "PO BOX 452 CARTHAGE, MS 39051",
+      "phone": "(662) 457-0088",
+      "email": "doug@starbuds.us",
+      "recordId": "583143",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 32.590487284763,
+      "lng": -90.041509269334,
+      "geocodeLabel": "3142 S LIBERTY ST, CANTON, MS, 39046",
+      "houseDistrict": "57",
+      "senateDistrict": "21"
+    },
+    {
+      "id": "DSPY016324",
+      "businessName": "Minton Dispensary, LLC",
+      "type": "Dispensary",
+      "typeSlug": "dispensary",
+      "county": "Harrison",
+      "expiration": "01-23-2027",
+      "issueDate": "01-20-2026",
+      "ownerName": "Bryan Minton",
+      "physicalAddress": "11370 HIGHWAY 49 GULFPORT, MS 39503",
+      "mailingAddress": "11370 HIGHWAY 49 STE G GULFPORT, MS 39503",
+      "phone": "(601) 720-1473",
+      "email": "baminton515@gmail.com",
+      "recordId": "583187",
+      "isDispensary": true,
+      "geocodeStatus": "matched",
+      "lat": 30.452198670767,
+      "lng": -89.099606381443,
+      "geocodeLabel": "11370 US HWY 49, GULFPORT, MS, 39503",
+      "houseDistrict": "33",
+      "senateDistrict": "49"
     }
   ],
   "countySummaries": {
@@ -7392,22 +7430,6 @@
           "isDispensary": true
         },
         {
-          "id": "DSPY001345",
-          "businessName": "Green Magnolia of Canton, LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Madison",
-          "expiration": "07-25-2027",
-          "issueDate": "07-20-2026",
-          "ownerName": "Jeff Webb, Green Magnolia of Canton, LLC",
-          "physicalAddress": "3142 S LIBERTY ST CANTON, MS 39046",
-          "mailingAddress": "PO BOX 452 CARTHAGE, MS 39051",
-          "phone": "(601) 267-9762",
-          "email": "jeff.webblaw@gmail.com",
-          "recordId": "1279",
-          "isDispensary": true
-        },
-        {
           "id": "DSPY003745",
           "businessName": "MS Mudd 3, LLC",
           "type": "Dispensary",
@@ -7453,6 +7475,22 @@
           "phone": "(601) 594-2285",
           "email": "blanebritton@gmail.com",
           "recordId": "311785",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY001345",
+          "businessName": "SB Canton",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Madison",
+          "expiration": "07-25-2027",
+          "issueDate": "07-20-2026",
+          "ownerName": "Shane Roney, Griffin Tanner, Kristina Rutledge, Cameron Chapman, Sarah Threadgill, Stephen Threadgill, Cooper Crawley, Bridgett Green, Caryn Kovatch, Mike Alderson, Wayne Summers, Scott Skibo, Kristen Andersen, Erin Price, Greg Price, Kate Victor, Neil Victor, Dan Morgan, Josh Riggs, Louis Stout, Krista Beck, Jeff Webb, SB Canton",
+          "physicalAddress": "3142 S LIBERTY ST CANTON, MS 39046",
+          "mailingAddress": "PO BOX 452 CARTHAGE, MS 39051",
+          "phone": "(662) 457-0088",
+          "email": "doug@starbuds.us",
+          "recordId": "583143",
           "isDispensary": true
         }
       ]
@@ -7796,9 +7834,9 @@
     },
     "Lafayette": {
       "county": "Lafayette",
-      "total": 10,
+      "total": 11,
       "byType": {
-        "Dispensary": 6,
+        "Dispensary": 7,
         "Processing Facility": 1,
         "Disposal Entity": 1,
         "Transportation Entity": 1,
@@ -7900,6 +7938,22 @@
           "email": "michael@noblelabsms.com",
           "recordId": "386275",
           "isDispensary": true
+        },
+        {
+          "id": "DSPY027336",
+          "businessName": "SRT-MS UOX, LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Lafayette",
+          "expiration": "11-23-2027",
+          "issueDate": "11-23-2026",
+          "ownerName": "Ronald Brown",
+          "physicalAddress": "1801 Jackson Ave W Oxford, MS 38655",
+          "mailingAddress": "4300 N State St Jackson, MS 39206",
+          "phone": "(504) 250-1998",
+          "email": "davidbrown@srt-ms.com",
+          "recordId": "529485",
+          "isDispensary": true
         }
       ]
     },
@@ -7966,7 +8020,7 @@
           "county": "Hancock",
           "expiration": "02-28-2027",
           "issueDate": "02-27-2026",
-          "ownerName": "Gina Pepe, Jennifer Landry, Wise Solutions",
+          "ownerName": "Gina Pepe, Jennifer Landry",
           "physicalAddress": "295 HIGHWAY 90 BAY ST LOUIS, MS 39520",
           "mailingAddress": "735 WILDWOOD CT PASS CHRIS, MS 39571",
           "phone": "(985) 718-6907",
@@ -8750,22 +8804,6 @@
           "isDispensary": true
         },
         {
-          "id": "DSPY016324",
-          "businessName": "Dixon Dispensary LLC",
-          "type": "Dispensary",
-          "typeSlug": "dispensary",
-          "county": "Harrison",
-          "expiration": "01-23-2027",
-          "issueDate": "01-20-2026",
-          "ownerName": "John Dixon",
-          "physicalAddress": "11370 HIGHWAY 49 GULFPORT, MS 39503",
-          "mailingAddress": "11370 HIGHWAY 49 STE G GULFPORT, MS 39503",
-          "phone": "(228) 380-1323",
-          "email": "dixondispensaries@gmail.com",
-          "recordId": "7933",
-          "isDispensary": true
-        },
-        {
           "id": "DSPY019224",
           "businessName": "RymedyRx, LLC",
           "type": "Dispensary",
@@ -9019,6 +9057,22 @@
           "phone": "(228) 240-4931",
           "email": "fareaqaid647@gmail.com",
           "recordId": "537837",
+          "isDispensary": true
+        },
+        {
+          "id": "DSPY016324",
+          "businessName": "Minton Dispensary, LLC",
+          "type": "Dispensary",
+          "typeSlug": "dispensary",
+          "county": "Harrison",
+          "expiration": "01-23-2027",
+          "issueDate": "01-20-2026",
+          "ownerName": "Bryan Minton",
+          "physicalAddress": "11370 HIGHWAY 49 GULFPORT, MS 39503",
+          "mailingAddress": "11370 HIGHWAY 49 STE G GULFPORT, MS 39503",
+          "phone": "(601) 720-1473",
+          "email": "baminton515@gmail.com",
+          "recordId": "583187",
           "isDispensary": true
         }
       ]
@@ -9970,9 +10024,10 @@
     },
     "Kemper": {
       "county": "Kemper",
-      "total": 3,
+      "total": 4,
       "byType": {
         "Testing Facility": 1,
+        "Cultivator Facility": 1,
         "Transportation Entity": 1,
         "Processing Facility": 1
       },
@@ -10406,7 +10461,8 @@
       "12": [
         "DSPY007536",
         "DSPY018964",
-        "DSPY025736"
+        "DSPY025736",
+        "DSPY027336"
       ],
       "16": [
         "DSPY001441"
@@ -10738,7 +10794,8 @@
         "DSPY014554",
         "DSPY018964",
         "DSPY025436",
-        "DSPY025736"
+        "DSPY025736",
+        "DSPY027336"
       ],
       "10": [
         "DSPY007423",
@@ -10962,9 +11019,9 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-11-23T22:17:32.774Z",
-    "total": 190,
-    "matched": 165,
+    "generatedAt": "2026-11-24T20:55:25.727Z",
+    "total": 191,
+    "matched": 166,
     "unmatched": 25
   }
 }
