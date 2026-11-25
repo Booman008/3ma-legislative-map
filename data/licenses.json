@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-11-24T20:55:24.963Z",
+  "generatedAt": "2026-11-25T20:17:15.864Z",
   "total": 358,
   "typeTotals": {
     "Cultivator Facility": 107,
@@ -1949,8 +1949,8 @@
       "type": "Cultivator Facility",
       "typeSlug": "cultivator-facility",
       "county": "Lee",
-      "expiration": "12-05-2026",
-      "issueDate": "12-11-2025",
+      "expiration": "12-05-2027",
+      "issueDate": "11-24-2026",
       "ownerName": "Barry Bedford, Jason Price",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -11019,7 +11019,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-11-24T20:55:25.727Z",
+    "generatedAt": "2026-11-25T20:17:16.252Z",
     "total": 191,
     "matched": 166,
     "unmatched": 25
