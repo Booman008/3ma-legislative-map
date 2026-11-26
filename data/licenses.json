@@ -1,6 +1,6 @@
 {
   "source": "CSV Imports/mmcp_business_licenses_latest.csv",
-  "generatedAt": "2026-11-25T20:17:15.864Z",
+  "generatedAt": "2026-11-26T19:54:34.606Z",
   "total": 358,
   "typeTotals": {
     "Cultivator Facility": 107,
@@ -4722,8 +4722,8 @@
       "type": "Processing Facility",
       "typeSlug": "processing-facility",
       "county": "Jackson",
-      "expiration": "11-26-2026",
-      "issueDate": "11-26-2025",
+      "expiration": "11-26-2027",
+      "issueDate": "11-25-2026",
       "ownerName": "Scott Armstrong",
       "physicalAddress": "",
       "mailingAddress": "",
@@ -11019,7 +11019,7 @@
   },
   "dispensaryGeocoding": {
     "provider": "U.S. Census Geocoder",
-    "generatedAt": "2026-11-25T20:17:16.252Z",
+    "generatedAt": "2026-11-26T19:54:35.020Z",
     "total": 191,
     "matched": 166,
     "unmatched": 25
